@@ -205,7 +205,6 @@
     <string name="title_invitation">Send invitation</string>
     <string name="invitation_cta">Install!</string>
     <string name="invitation_message">I\'d like to recommend this app for you</string>
-    <string name="invitation_deep_link">http://smrtprjcts.com/mijiabt/invite</string>
     <string name="invite">Invite and reward</string>
     <string name="communication">Communication</string>
     <string name="invitation_sent">Invitation(s) sent</string>
@@ -217,6 +216,7 @@
     <string name="title_pref_truetime">Network time</string>
     <string name="summary_pref_truetime">Higher accuracy network time instead of local time</string>
     <string name="time">Time</string>
+    <string name="translate">Translate</string>
 
     <!--string name="thingspeak_help2">
     1. <a href="https://thingspeak.com/users/sign_up">Sign up for ThingSpeak</a>if you don\'t have account yet<br/>
