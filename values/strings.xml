@@ -79,7 +79,6 @@
     <string name="summary_pref_appearance">App appearance depending settings</string>
     <string name="summary_pref_background">App background working depending settings</string>
     <string name="summary_pref_database">Database related settings</string>
-    <string name="thingspeak">ThingSpeak</string>
     <string name="thingspeak_channel">Channel ID</string>
     <string name="thingspeak_key">Channel Write Key</string>
     <string name="create">Create</string>
@@ -105,7 +104,7 @@
     <string name="exit">Exit</string>
     <string name="expired_please_refresh">Please refresh the application</string>
     <string name="share">Share</string>
-    <string name="feedback">Feedback</string>
+    <string name="feedback">Feedback &amp; bug report</string>
     <string name="help">Help</string>
     <string name="purchase">Store</string>
     <string name="send">Send…</string>
@@ -132,7 +131,7 @@
     <string name="background_color">Background color</string>
     <string name="new_version_on_play">New version at Play</string>
     <string name="refresh">Please refresh!</string>
-    <string name="notif_thingspeak">ThingSpeak trial period expired</string>
+    <string name="notif_period_expired">trial period expired</string>
     <string name="unknown_error">Error</string>
     <string name="title_theme">Theme</string>
     <string name="title_pref_color_temperatue">Temperature line color</string>
@@ -189,14 +188,14 @@
     <string name="summary_db_reset_for_device">Stored values of this device will be deleted</string>
     <string name="title_pref_devicesettings_sms_receiver">Receiver SMS number</string>
     <string name="sms">SMS</string>
-    <string name="thingspeak_help"><![CDATA[
+    <string name="help_thingspeak"><![CDATA[
     &#149; <a href=\"https://thingspeak.com/users/sign_up\">Sign up for ThingSpeak</a> if you don\'t have account yet<br>
     &#149; <a href=\"https://thingspeak.com/login\">Sign in to ThingSpeak</a><br>
     &#149; Create a new Channel by selecting Channels, My Channels, and then New Channel<br>
     &#149; Fill Channel ID and the write key (from the API Keys menu of the channel) in the device settings menu<br>
     &#149; Set the field numbers in the app you would like (eg. 1 for temperature, 2 for humidity, 3 for battery values)<br>
     &#149; Enable the fields reporting and the main ThingSpeak reporting<br>
-    &#149; You\'re finished can access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)
+    &#149; You\'re finished and able to access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)
     ]]></string>
     <string name="title_pref_alert_threshold">Alert interval</string>
     <string name="summary_pref_database_for_device">Database related settings for this device</string>
@@ -217,6 +216,47 @@
     <string name="summary_pref_truetime">Higher accuracy network time instead of local time</string>
     <string name="time">Time</string>
     <string name="translate">Translate</string>
+    <string name="title_pref_other">Other</string>
+    <string name="summary_pref_other">Other (experimental) functions</string>
+    <string name="title_pref_lywsd02">LYWSD02 support</string>
+    <string name="title_pref_flower_care">Mijia flora support</string>
+    <string name="title_pref_flower_mate">Mijia flora mate support</string>
+    <string name="summary_pref_lywsd02">Enable detection of the new 2019 Mijia watch, temp &amp; humidity sensor</string>
+    <string name="summary_pref_flower_care">Enable detection of the Mijia Flower Care sensor</string>
+    <string name="summary_pref_flower_mate">Enable detection of the Mijia Flower Mate sensor</string>
+    <!--string name="title_pref_other_info">Info</string-->
+    <string name="msg_other_settings">I don\'t have these devices so I haven\'t tested them yet but you can try them. Maybe these devices could also work with this app.\nIf you have info about any result of the working please contact me and we can try to fix it together if it\'s needed or if it\'s working properly I\'d be only happy to know that :) \nBut it would be good to know it.\nYou also can contact me if you have another type of bluetooth device and want to add it to experimental support.\nThanks</string>
+    <string name="title_dontkill">Don\'t kill my app!</string>
+    <string name="warn_pro">Only with Pro version</string>
+    <string name="title_pref_devicesettings_api_token">API Token</string>
+    <string name="title_pref_devicesettings_user_group_key">User/Group Key</string>
+
+    <string name="help_pushover"><![CDATA[
+    &#149; <a href=\"https://pushover.net/login\">Sign up for Pushover</a> if you don\'t have account yet<br>
+    &#149; <a href=\"https://pushover.com/login\">Sign in to Pushover</a><br>
+    &#149; Create an Application/API Token to get API Token<br>
+    &#149; Create an Delivery group (you can subscribe to that) to get Group Key<br>
+    &#149; Fill API Token and Group key in the device settings menu<br>
+    &#149; Enable the fields reporting and the main Pushover reporting<br>
+    &#149; You\'re finished and going be notified in your <a href=\"https://pushover.net/clients\">official clients</a> anywhere in the world
+    ]]></string>
+
+    <string name="title_pref_devicesettings_pushbullet_channel">Channel tag</string>
+    <string name="title_pref_devicesettings_apikey">API Key</string>
+    <string name="help_email">You can send an email from a choosen address to another given email address about the temperature/humidity/battery changes</string>
+    <string name="help_sms">You can send an SMS from this SIM of this device to a given phone number about the temperature/humidity/battery changes</string>
+    <string name="help_notif">You can notify on this device about the temperature/humidity/battery changes (on the statubar)</string>
+    <string name="help_pushbullet"><![CDATA[
+    &#149; <a href=\"https://pushbullet.com/\">Sign up for Pushbullet</a> if you don\'t have account yet<br>
+    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Sign in to Pushbullet</a><br>
+    &#149; Create API key in <a href=\"https://www.pushbullet.com/#settings\">settings</a> menu<br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Create a new channel</a><br>
+    &#149; Fill API key and channel tag in the device settings menu<br>
+    &#149; Enable the fields reporting and the main Pushbullet reporting<br>
+    &#149; You\'re finished and going be notified in your <a href=\"https://www.pushbullet.com/apps\">official clients</a> anywhere in the world
+    ]]></string>
+    <string name="error_device_not_found">Device not found in database</string>
+
 
     <!--string name="thingspeak_help2">
     1. <a href="https://thingspeak.com/users/sign_up">Sign up for ThingSpeak</a>if you don\'t have account yet<br/>
