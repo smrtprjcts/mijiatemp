@@ -243,7 +243,7 @@
 
     <string name="title_pref_devicesettings_pushbullet_channel">Channel tag</string>
     <string name="title_pref_devicesettings_apikey">API Key</string>
-    <string name="help_email">You can send an email from a choosen address to another given email address about the temperature/humidity/battery changes</string>
+    <string name="help_email">You can send an email from a chosen address to another given email address about the temperature/humidity/battery changes</string>
     <string name="help_sms">You can send an SMS from this SIM of this device to a given phone number about the temperature/humidity/battery changes</string>
     <string name="help_notif">You can notify on this device about the temperature/humidity/battery changes (on the statubar)</string>
     <string name="help_pushbullet"><![CDATA[
@@ -256,6 +256,7 @@
     &#149; You\'re finished and going be notified in your <a href=\"https://www.pushbullet.com/apps\">official clients</a> anywhere in the world
     ]]></string>
     <string name="error_device_not_found">Device not found in database</string>
+    <string name="title_language">Language</string>
 
 
     <!--string name="thingspeak_help2">
