@@ -218,14 +218,13 @@
     <string name="translate">Translate</string>
     <string name="title_pref_other">Other</string>
     <string name="summary_pref_other">Other (experimental) functions</string>
-    <string name="title_pref_lywsd02">LYWSD02 support</string>
+    <!---string name="title_pref_lywsd02">LYWSD02 support</string>
     <string name="title_pref_flower_care">Mijia flora support</string>
     <string name="title_pref_flower_mate">Mijia flora mate support</string>
     <string name="summary_pref_lywsd02">Enable detection of the new 2019 Mijia watch, temp &amp; humidity sensor</string>
     <string name="summary_pref_flower_care">Enable detection of the Mijia Flower Care sensor</string>
-    <string name="summary_pref_flower_mate">Enable detection of the Mijia Flower Mate sensor</string>
+    <string name="summary_pref_flower_mate">Enable detection of the Mijia Flower Mate sensor</string-->
     <!--string name="title_pref_other_info">Info</string-->
-    <string name="msg_other_settings">I don\'t have these devices so I haven\'t tested them yet but you can try them. Maybe these devices could also work with this app.\nIf you have info about any result of the working please contact me and we can try to fix it together if it\'s needed or if it\'s working properly I\'d be only happy to know that :) \nBut it would be good to know it.\nYou also can contact me if you have another type of bluetooth device and want to add it to experimental support.\nThanks</string>
     <string name="title_dontkill">Don\'t kill my app!</string>
     <string name="warn_pro">Only with Pro version</string>
     <string name="title_pref_devicesettings_api_token">API Token</string>
@@ -257,6 +256,11 @@
     ]]></string>
     <string name="error_device_not_found">Device not found in database</string>
     <string name="title_language">Language</string>
+    <string name="title_pref_filter">Filtering</string>
+    <string name="summary_pref_filter">Only known devices (in case of problems, crash, etc)</string>
+    <string name="moisture">Moisture</string>
+    <string name="illuminance">Light intensity</string>
+    <string name="conductivity">Fertility</string>
 
 
     <!--string name="thingspeak_help2">
