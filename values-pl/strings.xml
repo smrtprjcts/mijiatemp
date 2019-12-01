@@ -231,8 +231,8 @@
     <string name="title_pref_devicesettings_user_group_key">Klucz użytkownika/grupy</string>
 
     <string name="help_pushover"><![CDATA[
-    &#149; <a href=\"https://pushover.net/login\">Sign up for Pushover</a> if you don\'t have account yet<br>
-    &#149; <a href=\"https://pushover.com/login\">Sign in to Pushover</a><br>
+    &#149; <a href=\"https://pushover.net/login\">Zapisz się do Pushover</a> jeśli nie masz jeszcze konta<br>
+    &#149; <a href=\"https://pushover.com/login\">Zaloguj się do Pushover</a><br>
     &#149; Create an Application/API Token to get API Token<br>
     &#149; Create an Delivery group (you can subscribe to that) to get Group Key<br>
     &#149; Fill API Token and Group key in the device settings menu<br>
@@ -246,10 +246,10 @@
     <string name="help_sms">Możesz powiadamiać SMSem z karty SIM tego urządzenia na podany numer telefonu o zmianach temperatury/wilgotności/baterii</string>
     <string name="help_notif">Możesz powiadamiać na tym urządzeniu o zmianach temperatury/wilgotności/baterii (na pasku powiadomień)</string>
     <string name="help_pushbullet"><![CDATA[
-    &#149; <a href=\"https://pushbullet.com/\">Sign up for Pushbullet</a> if you don\'t have account yet<br>
-    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Sign in to Pushbullet</a><br>
-    &#149; Create API key in <a href=\"https://www.pushbullet.com/#settings\">settings</a> menu<br>
-    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Create a new channel</a><br>
+    &#149; <a href=\"https://pushbullet.com/\">Zapisz się do Pushbullet</a> jeśli nie masz jeszcze konta<br>
+    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Zaloguj się do Pushbullet</a><br>
+    &#149; Create API key in <a href=\"https://www.pushbullet.com/#settings\">menu</a> ustawień<br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Stwórz nowy kanał</a><br>
     &#149; Fill API key and channel tag in the device settings menu<br>
     &#149; Enable the fields reporting and the main Pushbullet reporting<br>
     &#149; You\'re finished and going be notified in your <a href=\"https://www.pushbullet.com/apps\">official clients</a> anywhere in the world
