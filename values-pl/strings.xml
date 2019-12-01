@@ -189,25 +189,25 @@
     <string name="title_pref_devicesettings_sms_receiver">Numer odbiorcy SMS</string>
     <string name="sms">SMS</string>
     <string name="help_thingspeak"><![CDATA[
-    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Sign up for ThingSpeak</a> if you don\'t have account yet<br>
-    &#149; <a href=\"https://thingspeak.com/login\">Sign in to ThingSpeak</a><br>
-    &#149; Create a new Channel by selecting Channels, My Channels, and then New Channel<br>
-    &#149; Fill Channel ID and the write key (from the API Keys menu of the channel) in the device settings menu<br>
-    &#149; Set the field numbers in the app you would like (eg. 1 for temperature, 2 for humidity, 3 for battery values)<br>
-    &#149; Enable the fields reporting and the main ThingSpeak reporting<br>
-    &#149; You\'re finished and able to access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)
+    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Zarejestruj się w ThingSpeak</a> jeśli jeszcze nie masz konta<br>
+    &#149; <a href=\"https://thingspeak.com/login\">Zaloguj się do ThingSpeak</a><br>
+    &#149; Utwórz nowy Kanał wybierając Kanały, Moje Kanały, następnie Nowy Kanał<br>
+    &#149; Wypełnij ID Kanału i Klucz (z menu Klucze API Kanału) w ustawieniach urządzenia<br>
+    &#149; Ustaw numery pól w aplikacji jak chcesz (np. 1 dla temperatrury, 2 dla wilgotności, 3 dla poziomu baterii)<br>
+    &#149; Odblokuj pola raportowania oraz głównego raportowania ThingSpeak<br>
+    &#149; Skończyłeś i masz dostęp do danych gdziekolwiek na świecie (na stronie głównej ThingSpeak oraz aplikacjach ThingSpeak)
     ]]></string>
     <string name="title_pref_alert_threshold">Odstęp czasu alertu</string>
     <string name="summary_pref_database_for_device">Ustawienia urządzenia związane z bazą danych</string>
-    <string name="title_pref_autostart">Zezwolenie autostartu</string>
+    <string name="title_pref_autostart">Zezwolenie na autostart</string>
     <string name="summary_pref_autostart">Ustawienia związane z producentem</string>
     <string name="title_invitation">Wyślij zaproszenie</string>
     <string name="invitation_cta">Instaluj!</string>
-    <string name="invitation_message">Chciałbym polecić Ci tę aplikację</string>
+    <string name="invitation_message">Chciałbym Ci polecić tę aplikację</string>
     <string name="invite">Zaproś i otrzymaj nagrodę</string>
     <string name="communication">Komunikacja</string>
     <string name="invitation_sent">Wysłane zaproszenia</string>
-    <string name="thingspeak_devices">Android 5.0+ device with this App</string>
+    <string name="thingspeak_devices">Urządzenia Android 5.0+ z tą aplikacją</string>
     <string name="any_devices">Przeglądarki, aplikacje Android, aplikacje iOS itp.</string>
     <string name="msg_sure">Jesteś pewny?</string>
     <string name="title_device_delete">Usuń urządzenie</string>
@@ -231,13 +231,13 @@
     <string name="title_pref_devicesettings_user_group_key">Klucz użytkownika/grupy</string>
 
     <string name="help_pushover"><![CDATA[
-    &#149; <a href=\"https://pushover.net/login\">Zapisz się do Pushover</a> jeśli nie masz jeszcze konta<br>
+    &#149; <a href=\"https://pushover.net/login\">Zarejestruj się w Pushover</a> jeśli jeszcze nie masz konta<br>
     &#149; <a href=\"https://pushover.com/login\">Zaloguj się do Pushover</a><br>
-    &#149; Create an Application/API Token to get API Token<br>
-    &#149; Create an Delivery group (you can subscribe to that) to get Group Key<br>
-    &#149; Fill API Token and Group key in the device settings menu<br>
-    &#149; Enable the fields reporting and the main Pushover reporting<br>
-    &#149; You\'re finished and going be notified in your <a href=\"https://pushover.net/clients\">official clients</a> anywhere in the world
+    &#149; Utwórz token Aplikacji/API by uzyskać token API<br>
+    &#149; Utwórz grupę dostawców (możesz ją subskrybować), aby uzyskać klucz grupy<br>
+    &#149; Uzupełnij token API oraz klucz grupy w menu ustawień urządzenia<br>
+    &#149; Odblokuj pola raportowania oraz głównego raportowania Pushover<br>
+    &#149; Skończyłeś i otrzymasz powiadomienie w swoim <a href=\"https://pushover.net/clients\">oficjalnym kliencie</a> gdziekolwiek na świecie
     ]]></string>
 
     <string name="title_pref_devicesettings_pushbullet_channel">Tag kanału</string>
@@ -246,13 +246,13 @@
     <string name="help_sms">Możesz powiadamiać SMSem z karty SIM tego urządzenia na podany numer telefonu o zmianach temperatury/wilgotności/baterii</string>
     <string name="help_notif">Możesz powiadamiać na tym urządzeniu o zmianach temperatury/wilgotności/baterii (na pasku powiadomień)</string>
     <string name="help_pushbullet"><![CDATA[
-    &#149; <a href=\"https://pushbullet.com/\">Zapisz się do Pushbullet</a> jeśli nie masz jeszcze konta<br>
+    &#149; <a href=\"https://pushbullet.com/\">Zarejestruj się w Pushbullet</a> jeśli jeszcze nie masz konta<br>
     &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Zaloguj się do Pushbullet</a><br>
-    &#149; Create API key in <a href=\"https://www.pushbullet.com/#settings\">menu</a> ustawień<br>
-    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Stwórz nowy kanał</a><br>
-    &#149; Fill API key and channel tag in the device settings menu<br>
-    &#149; Enable the fields reporting and the main Pushbullet reporting<br>
-    &#149; You\'re finished and going be notified in your <a href=\"https://www.pushbullet.com/apps\">official clients</a> anywhere in the world
+    &#149; Utwórz klucz API w <a href=\"https://www.pushbullet.com/#settings\">ustawieniach</a><br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Utwórz nowy kanał</a><br>
+    &#149; Uzupełnij klucz API oraz kanał tagu w menu ustawień urządzenia<br>
+    &#149; Odblokuj pola raportowania oraz głównego raportowania Pushbullet<br>
+    &#149; Skończyłeś i otrzymasz powiadomienie w swoim <a href=\"https://www.pushbullet.com/apps\">oficjalnym kliencie</a> gdziekolwiek na świecie
     ]]></string>
     <string name="error_device_not_found">Urządzneie nie znalezione w bazie danych</string>
     <string name="title_language">Język</string>
