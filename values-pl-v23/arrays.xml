@@ -2,7 +2,7 @@
 <resources>
 
     <string-array name="pref_bt_scan_mode_entries">
-        <item>Opportunistic</item>
+        <item>Powolny</item>
         <item>Oszczędny</item>
         <item>Optymalny</item>
         <item>Szybki</item>
