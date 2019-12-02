@@ -1,4 +1,4 @@
-# MijiaTemp strings for translate
+# MijiaTemp string resources
 
 If you would like to translate to the [MijiaTemp app](https://play.google.com/store/apps/details?id=com.smrtprjcts.mijiabt) for your language you can clone this repository or download the necessary XMLs (eg. the default English) and translate them (from values and values-v23 directory). 
 The right way if you create directories (values-\<lang\>, values-\<lang\>-v23) for the translated language eg. values-hu and values-hu-v23 for Hungarian, values-de and values-de-v23 for German, etc.
