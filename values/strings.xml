@@ -261,6 +261,15 @@
     <string name="moisture">Moisture</string>
     <string name="illuminance">Light intensity</string>
     <string name="conductivity">Fertility</string>
+    <string name="title_pref_devicesettings_devinfo">Device information</string>
+    <string name="loading">Loading. Please wait…</string>
+    <string name="summary_device_info">Info about this device</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Hardware revision</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Software revision</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Firmware revision</string>
+    <string name="title_pref_devicesettings_devinfo_serial">Serial number</string>
+    <string name="title_pref_devicesettings_devinfo_model">Model number</string>
+    <string name="title_pref_devicesettings_devinfo_manufacturer">Manufacturer</string>
 
 
     <!--string name="thingspeak_help2">
