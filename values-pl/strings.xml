@@ -266,7 +266,7 @@
     <string name="summary_device_info">Informacje o tym urządzeniu</string>
     <string name="title_pref_devicesettings_devinfo_hwrev">Wersja sprzętu</string>
     <string name="title_pref_devicesettings_devinfo_swrev">Wersja oprogramowania</string>
-    <string name="title_pref_devicesettings_devinfo_fwrev">Oprgoramowanie sprzętowe</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Oprogramowanie sprzętowe</string>
     <string name="title_pref_devicesettings_devinfo_serial">Numer Seryjny</string>
     <string name="title_pref_devicesettings_devinfo_model">Numer modelu</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Producent</string>
