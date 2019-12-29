@@ -260,7 +260,16 @@
     <string name="summary_pref_filter">Tylko znane urządzenia (w przypadku problemów, crashowania itp.)</string>
     <string name="moisture">Wilgoć</string>
     <string name="illuminance">Intensywność światła</string>
-    <string name="conductivity">Fertility</string>
+    <string name="conductivity">Przewodnictwo</string>
+    <string name="title_pref_devicesettings_devinfo">Informacje o urządzeniu</string>
+    <string name="loading">Ładowanie. Proszę czekać…</string>
+    <string name="summary_device_info">Informacje o tym urządzeniu</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Wersja sprzętu</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Wersja oprogramowania</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Oprogramowanie sprzętowe</string>
+    <string name="title_pref_devicesettings_devinfo_serial">Numer Seryjny</string>
+    <string name="title_pref_devicesettings_devinfo_model">Numer modelu</string>
+    <string name="title_pref_devicesettings_devinfo_manufacturer">Producent</string>
 
 
     <!--string name="thingspeak_help2">
