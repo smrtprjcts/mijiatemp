@@ -281,4 +281,9 @@
     6. You're finished and can access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)<br/>
     </string-->
 
+    <string name="opportunistic">Powolny</string>
+    <string name="low_power">Oszczędny</string>
+    <style name="balanced">Optymalny</style>
+    <string name="low_latency">Szybki</string>
+
 </resources>

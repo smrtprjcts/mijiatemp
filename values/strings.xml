@@ -63,8 +63,8 @@
     <string name="reset">Reset</string>
     <string name="title_range">Date range selector</string>
     <string name="no_range_selected">There isn\'t selected date range</string>
-    <string name="title_device_visibility">Device visibility</string>
-    <string name="summary_device_visibility">Device visibility in the list</string>
+    <string name="title_device_visibility">Device visibility &amp; processing</string>
+    <string name="summary_device_visibility">Visibility in the list, processing</string>
     <string name="warn_optimized">Currently the app background usage is optimized by the system. In this state the background working could stop but you can disable the optimization.</string>
     <string name="cancel">Cancel</string>
     <string name="period_all">Interval not set</string>
@@ -270,7 +270,9 @@
     <string name="title_pref_devicesettings_devinfo_serial">Serial number</string>
     <string name="title_pref_devicesettings_devinfo_model">Model number</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Manufacturer</string>
-
+    <string name="info_visible_all">All devices are visible</string>
+    <string name="info_visible_notall">Selected devices are visible</string>
+    <string name="cap_default">Default</string>
 
     <!--string name="thingspeak_help2">
     1. <a href="https://thingspeak.com/users/sign_up">Sign up for ThingSpeak</a>if you don\'t have account yet<br/>
@@ -280,5 +282,10 @@
     5. Set the field number in the app (eg. 1 for temperature, 2 for humidity, 3 for battery values)<br/>
     6. You're finished and can access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)<br/>
     </string-->
+
+    <string name="opportunistic">Opportunistic</string>
+    <string name="low_power">Low power</string>
+    <style name="balanced">Balanced</style>
+    <string name="low_latency">Low latency</string>
 
 </resources>
