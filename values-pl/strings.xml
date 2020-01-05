@@ -283,7 +283,7 @@
 
     <string name="opportunistic">Powolny</string>
     <string name="low_power">Oszczędny</string>
-    <style name="balanced">Optymalny</style>
+    <string name="balanced">Optymalny</string>
     <string name="low_latency">Szybki</string>
 
 </resources>

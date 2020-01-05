@@ -35,7 +35,7 @@
     <string name="title_pref_battery">Batterieoptimierung</string>
     <string name="summary_pref_battery_en">Einschaltet (die App kann im Hintergrund gestoppt werden)</string>
     <string name="summary_pref_battery_dis">Ausgeschaltet (die App sollte im Hintergrund nicht gestoppt werden)</string>
-    <string name="title_pref_background">Läuft im Hintegrund</string>
+    <string name="title_pref_background">Läuft im Hintergrund</string>
 
     <string name="title_pref_service_notif_prio">Benachrichtigungspriorität</string>
     <string name="title_fahr">Fahrenheit</string>
@@ -132,7 +132,7 @@
     <string name="background_color">Hintergrundfarbe</string>
     <string name="new_version_on_play">New Version im Play-Store</string>
     <string name="refresh">Please aktualisieren!</string>
-    <string name="notif_thingspeak">ThingSpeak Testperiode abgelaufen</string>
+    <string name="notif_period_expired">testperiode abgelaufen</string>
     <string name="unknown_error">Fehler</string>
     <string name="title_theme">Thema</string>
     <string name="title_pref_color_temperatue">Farbe Temperaturezeile</string>
@@ -189,7 +189,7 @@
     <string name="summary_db_reset_for_device">Gespeicherte Werte auf diesem Gerät werden gelöscht</string>
     <string name="title_pref_devicesettings_sms_receiver">Empfänger SMS Nummer</string>
     <string name="sms">SMS</string>
-    <string name="thingspeak_help"><![CDATA[
+    <string name="help_thingspeak"><![CDATA[
     &#149; <a href=\"https://thingspeak.com/users/sign_up\">Sign up for ThingSpeak</a> if you don\'t have account yet<br>
     &#149; <a href=\"https://thingspeak.com/login\">Sign in to ThingSpeak</a><br>
     &#149; Create a new Channel by selecting Channels, My Channels, and then New Channel<br>
@@ -217,6 +217,9 @@
     <string name="summary_pref_truetime">Genauere Netzwerkzeit anstelle der lokalen Zeit</string>
     <string name="time">Zeit</string>
     <string name="translate">Übersetzen</string>
+    <string name="moisture">Moisture</string>
+    <string name="illuminance">Light intensity</string>
+    <string name="conductivity">Fertility</string>
 
     <!--string name="thingspeak_help2">
     1. <a href="https://thingspeak.com/users/sign_up">Sign up for ThingSpeak</a>if you don\'t have account yet<br/>

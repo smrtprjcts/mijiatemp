@@ -285,7 +285,7 @@
 
     <string name="opportunistic">Opportunistic</string>
     <string name="low_power">Low power</string>
-    <style name="balanced">Balanced</style>
+    <string name="balanced">Balanced</string>
     <string name="low_latency">Low latency</string>
 
 </resources>
