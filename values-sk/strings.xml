@@ -6,7 +6,7 @@
     <string name="error_ble_not_supported">BLE nie je podporované</string>
     <string name="error_bluetooth_not_supported">Bluetooth nie je podporovaný.</string>
 
-    <string name="request_location_enable">Prístup k udajom o polohe je vypnutý</string
+    <string name="request_location_enable">Prístup k udajom o polohe je vypnutý</string>
     <string name="request_location_permission">Vyžaduje sa povolenie polohy</string>
 
     <string name="running">Spustený</string>
@@ -131,7 +131,7 @@
     <string name="background_color">Farba pozadia</string>
     <string name="new_version_on_play">Nova verzia v obchod Play</string>
     <string name="refresh">Prosím obnovte!</string>
-    <string name="notif_period_expired">Trial verzia vypršala</string>
+    <string name="notif_period_expired">trial verzia vypršala</string>
     <string name="unknown_error">Chyba</string>
     <string name="title_theme">Téma</string>
     <string name="title_pref_color_temperatue">Farba čiary teploty</string>
@@ -218,14 +218,14 @@
     <string name="translate">Preložiť</string>
     <string name="title_pref_other">Iné</string>
     <string name="summary_pref_other">Iné (experimentalne) funkcie</string>
-    <string name="title_pref_lywsd02">LYWSD02 support</string>
+    <!--string name="title_pref_lywsd02">LYWSD02 support</string>
     <string name="title_pref_flower_care">Podpora Mijia flora </string>
     <string name="title_pref_flower_mate">Podpora Mijia flora mate </string>
     <string name="summary_pref_lywsd02">Povoľte detekciu senzora 2019 Mijia hodín, teploty &amp; vlhkosti </string>
     <string name="summary_pref_flower_care">Povoľte detekciu senzora Mijia Flower Care </string>
-    <string name="summary_pref_flower_mate">Povoľte detekciu senzora Mijia Flower Mate </string>
+    <string name="summary_pref_flower_mate">Povoľte detekciu senzora Mijia Flower Mate </string-->
     <!--string name="title_pref_other_info">Info</string-->
-    <string name="msg_other_settings">Tieto zariadenia nemám, takže som ich ešte netestoval, ale môžete ich vyskúšať. Možno by tieto zariadenia mohli pracovať aj s touto aplikáciou. \nAk máte informácie o akomkoľvek výsledku testu, kontaktujte ma a môžeme sa pokúsiť spoločne to opraviť, alebo ak funguje správne, ja \ buďem šťastný, že to viem :) \ nAle bolo by to dobré vedieť. \ nMôžete ma tiež kontaktovať, ak máte iný typ zariadenia Bluetooth a chcete ho pridať k experimentálnej podpore. \ nĎakujem</string>
+    <!--string name="msg_other_settings">Tieto zariadenia nemám, takže som ich ešte netestoval, ale môžete ich vyskúšať. Možno by tieto zariadenia mohli pracovať aj s touto aplikáciou. \nAk máte informácie o akomkoľvek výsledku testu, kontaktujte ma a môžeme sa pokúsiť spoločne to opraviť, alebo ak funguje správne, ja \ buďem šťastný, že to viem :) \ nAle bolo by to dobré vedieť. \ nMôžete ma tiež kontaktovať, ak máte iný typ zariadenia Bluetooth a chcete ho pridať k experimentálnej podpore. \ nĎakujem</string==>
     <string name="title_dontkill">Don\'t kill my app!</string>
     <string name="warn_pro">Iba v pro vezii</string>
     <string name="title_pref_devicesettings_api_token">API Token</string>
@@ -256,9 +256,12 @@
     &#149; You\'re finished and going be notified in your <a href=\"https://www.pushbullet.com/apps\">official clients</a> anywhere in the world
     ]]></string>
     <string name="error_device_not_found">Zariadenie sa nenašlo v databáze</string>
+    <string name="moisture">Moisture</string>
+    <string name="illuminance">Light intensity</string>
+    <string name="conductivity">Fertility</string>
 
 
-    <!--string name="thingspeak_help2">
+    <!-string name="thingspeak_help2">
     1. <a href="https://thingspeak.com/users/sign_up">Sign up for ThingSpeak</a>if you don\'t have account yet<br/>
     2. <a href="https://thingspeak.com/login">Sign in to ThingSpeak</a><br/>
     3. Create a new Channel by selecting Channels, My Channels, and then New Channel<br/>

@@ -32,15 +32,8 @@
         <item>1 hour</item>
     </string-array>
 
-
-    <string-array name="pref_bt_scan_mode_entries">
-        <item>@string/low_power</item>
-        <item>@style/balanced</item>
-        <item>@string/low_latency</item>
-    </string-array>
-
     <string-array name="periods">
-        <item>Default</item>
+        <item>@string/cap_default</item>
         <item>Hour average</item>
         <item>Day average</item>
         <item>Week average</item>

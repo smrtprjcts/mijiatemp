@@ -32,13 +32,6 @@
         <item>1 godzina</item>
     </string-array>
 
-
-    <string-array name="pref_bt_scan_mode_entries">
-        <item>Oszczędny</item>
-        <item>Optymalny</item>
-        <item>Szybki</item>
-    </string-array>
-
     <string-array name="periods">
         <item>Domyślna</item>
         <item>Godzinna średnia</item>
