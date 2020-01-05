@@ -286,4 +286,8 @@
     <string name="balanced">Optymalny</string>
     <string name="low_latency">Szybki</string>
 
+    <string name="info_visible_all">Wszystkie urządzenia</string>
+    <string name="info_visible_notall">Wybrane urządzenia</string>
+    <string name="cap_default">Domyślny</string>
+
 </resources>

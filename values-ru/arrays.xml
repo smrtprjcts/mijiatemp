@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_db_save_period_entries">
+        <item>1 минута (По умолчанию)</item>
+        <item>2 минуты</item>
+        <item>3 минуты</item>
+        <item>5 минуты</item>
+        <item>10 минуты</item>
+        <item>15 минуты</item>
+        <item>30 минуты</item>
+        <item>1 час</item>
+    </string-array>
+
+    <string-array name="pref_service_notif_prio_entries">
+        <item>Min</item>
+        <item>Low</item>
+        <item>@string/cap_default</item>
+        <item>High</item>
+        <item>Max</item>
+    </string-array>
+
+    <string-array name="pref_widget_refresh_period_entries">
+        <item>Немедленно</item>
+        <item>1 минута (По умолчанию)</item>
+        <item>2 минуты</item>
+        <item>3 минуты</item>
+        <item>5 минуты</item>
+        <item>10 минуты</item>
+        <item>15 минуты</item>
+        <item>30 минуты</item>
+        <item>1 час</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>@string/cap_default</item>
+        <item>Day average</item>
+        <item>Day average</item>
+        <item>Week average</item>
+        <item>Month average</item>
+        <item>Year average</item>
+    </string-array>
+
+    <string-array name="pref_themes_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="pref_alert_threshold_entries">
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>3 минуты</item>
+        <item>5 минуты (По умолчанию)</item>
+        <item>10 минуты</item>
+        <item>15 минуты</item>
+        <item>30 минуты</item>
+        <item>1 час</item>
+    </string-array>
+
+</resources>

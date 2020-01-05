@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="settings">Réglages</string>
-
     <string name="error_ble_not_supported">Incompatible BLE</string>
-  
     <string name="error_bluetooth_not_supported">Incompatible Bluetooth</string>
     <string name="request_location_enable">Service de localisation désactivé, veuillez l\'activer</string>
     <string name="request_location_permission">L\'autorisation de localisation est requise</string>
@@ -30,13 +28,13 @@
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Nouvel appareil détecté</string>
     <string name="temperature">Température</string>
-
     <string name="humidity">Humidité</string>
     <string name="double_press">Veuillez re-cliquer sur BACK pour quitter</string>
     <string name="title_pref_working_background">Fonctionnement en arrière-plan</string>
     <string name="title_pref_widget_refresh_period">Intervalle de rafraîchissement du widget</string>
     <string name="appwidget_configure_instructions">Veuillez sélectionner l\'appareil que vous souhaitez afficher dans le widget</string>
     <string name="saved">Enregistré</string>
+
     <string name="short_batt">batterie=</string>
     <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
@@ -64,45 +62,45 @@
     <string name="title_pref_appearance">Apparence</string>
     <string name="title_pref_database">Base de données</string>
     <string name="summary_pref_appearance">Paramètres de l\'apparence de l\'application</string>
-    <string name="summary_pref_background">Paramètres du fonctionnement en arrière plan de l\'application </string>
+    <string name="summary_pref_background">Paramètres du fonctionnement en arrière plan de l\'application</string>
     <string name="summary_pref_database">Réglages Base de Données</string>
     <string name="thingspeak_channel">Identification du Canal</string>
     <string name="thingspeak_key">Clé D\'écriture du Canal</string>
     <string name="create">Créer</string>
-    <string name="no_internet_for">Connection Internet demandé pour %s</string>
-    <string name="error_thingspeak_key">Erreur de Clé ou IDentification Canal</string>
-    <string name="thingspeak_data_need">Réglage Clé et Identification Canal</string>
-    <string name="thingspeak_temp">Identifiant Canal Temperature</string>
-    <string name="thingspeak_hum">Identifiant Canal Humidité</string>
-    <string name="thingspeak_bat">Identifiant Canal Batterie</string>
+    <string name="no_internet_for">Connection Internet requise pour %s</string>
+    <string name="error_thingspeak_key">Clé ou canal d\'identification en erreur</string>
+    <string name="thingspeak_data_need">Réglage Clé et Canal d\'identification</string>
+    <string name="thingspeak_temp">Identifiant du champ température</string>
+    <string name="thingspeak_hum">Identifiant du champ humidité</string>
+    <string name="thingspeak_bat">Identifiant du champ batterie</string>
     <string name="enable">Activer</string>
     <string name="enabled">Activé</string>
     <string name="disable">Désactiver</string>
     <string name="disabled">Désactivé</string>
     <string name="test">Test</string>
     <string name="this_function">Cette fonction</string>
-    <string name="test_needs_for_save">La sauvegarde des données dans ThingSpeak demandent un test réussi</string>
-    <string name="test_needs_for_enable">Demande de réalisation d\'un test réussi</string>
+    <string name="test_needs_for_save">La sauvegarde des données dans ThingSpeak requiert un test réussi</string>
+    <string name="test_needs_for_enable">Nécessite le passage d\'un test avec succès</string>
     <string name="thingspeak_update_interval_min">Intervalle de MAJ (minutes)</string>
-    <string name="thingspeak_update_interval_min_temp">Intervalle de MAJ TEMPERATURE (minutes) </string>
-    <string name="thingspeak_update_interval_min_hum">Intervalle de MAJ HUMIDITE (minutes) </string>
-    <string name="thingspeak_update_interval_min_bat">Intervalle de MAJ  BATTERIE(minutes) </string>
-    <string name="admob">Vous pouvez aider au futur développement de ce projet en achetant la version PRO </string>
-    <string name="exit">Sortie</string>
-    <string name="expired_please_refresh">Rafraichissez l\'application SVP</string>
+    <string name="thingspeak_update_interval_min_temp">Intervalle de MAJ température (minutes)</string>
+    <string name="thingspeak_update_interval_min_hum">Intervalle de MAJ humidité (minutes)</string>
+    <string name="thingspeak_update_interval_min_bat">Intervalle de MAJ batterie (minutes)</string>
+    <string name="admob">Vous pouvez aider au futur développement en achetant la version Pro</string>
+    <string name="exit">Quitter</string>
+    <string name="expired_please_refresh">Veuillez rafraîchir l\'application</string>
     <string name="share">Partager</string>
     <string name="feedback">Commentaires et rapport de bogues</string>
     <string name="help">Aide</string>
     <string name="purchase">Magasin</string>
     <string name="send">Envoyer…</string>
-    <string name="sku_title_pro">Version PRO</string>
+    <string name="sku_title_pro">Version Pro</string>
     <string name="sku_title_tingspeak">ThingSpeak</string>
-    <string name="desc_sku_pro">Applications sans pubs et fonctions supplémentaires</string>
+    <string name="desc_sku_pro">Appli sans pubs avec fonctions supplémentaires</string>
     <string name="buy">Acheter</string>
     <string name="desc_sku_thingspeak">Intégration ThingSpeak</string>
     <string name="purchased_pre" formatted="false">Vous avez acheté %s</string>
-    <string name="purchased_post" formatted="false">\nSi vous avez un problème, n\'hésitez pas à me contacter.\nMerci</string>
-    <string name="purchased_pro">Version PRO. L\'application est maintenant sans publicité</string>
+    <string name="purchased_post" formatted="false">\nSi vous avez le moindre problème, n\'hésitez pas à me contacter.\nMerci</string>
+    <string name="purchased_pro">Version Pro.\nL\'appli est maintenant sans publicité.</string>
     <string name="purchased_thingspeak">Fonctionnalité ThingSpeak</string>
     <string name="activity_configure">Configurer Widget</string>
     <string name="checkbox_name_visibility">Visibilité du nom de l\'équipement</string>
@@ -161,7 +159,7 @@
     <string name="title_pref_devicesettings_alert_bat_enable">Alerte Batterie</string>
     <string name="title_pref_devicesettings_alert_temp">Gamme normale de température</string>
     <string name="title_pref_devicesettings_alert_hum">Gamme normale d\'humidité</string>
-    <string name="title_pref_devicesettings_alert_bat">Limite d\'alerte batterie</string>
+    <string name="title_pref_devicesettings_alert_bat">Limite d\'alerte Batterie</string>
     <string name="alertif">Alerte si</string>
     <string name="text_and">et</string>
     <string name="notset">(pas encore reglé)</string>
@@ -217,13 +215,13 @@ string name="title_pref_other_info">Info</string -->
     <string name="title_pref_devicesettings_api_token">API Token</string>
     <string name="title_pref_devicesettings_user_group_key">Utlisateur / clé Groupe</string>
     <string name="help_pushover"><![CDATA[
-    &#149; <a href=\"https://pushover.net/login\">Sign up for Pushover</a> if you don\'t have account yet<br>
-    &#149; <a href=\"https://pushover.com/login\">Sign in to Pushover</a><br>
-    &#149; Create an Application/API Token to get API Token<br>
-    &#149; Create an Delivery group (you can subscribe to that) to get Group Key<br>
-    &#149; Fill API Token and Group key in the device settings menu<br>
-    &#149; Enable the fields reporting and the main Pushover reporting<br>
-    &#149; You\'re finished and going be notified in your <a href=\"https://pushover.net/clients\">official clients</a> anywhere in the world
+    &amp;#149 ; <a href=\"https://pushover.net/login\">S\'inscrire Sur Pushover</a> si vous n\'avez pas encore de compte<br>
+    &amp;#149 ; <a href=\"https://pushover.com/login\">Se logguer Sur Pushover</a><br>
+    &amp;#149 ; Créer un Token d\'application/API pour obtenir le Token API<br>
+    &amp;#149 ; Créer un groupe de livraison (vous pouvez vous y inscrire) pour obtenir la clé de groupe<br>
+    &amp;#149 ; Remplir le Token API et la clé de groupe dans le menu des paramètres du périphérique<br>
+    &amp;#149 ; Activer les champs de rapport et le rapport principal de Pushover<br>
+    &amp;#149 ; Vous avez terminé et vous allez être notifié dans votre <a href=\"https://pushover.net/clients\">clients officiels</a> partout dans le monde
     ]]></string>
     <string name="title_pref_devicesettings_pushbullet_channel">Channel Tag</string>
     <string name="title_pref_devicesettings_apikey">API Key</string>
@@ -231,13 +229,13 @@ string name="title_pref_other_info">Info</string -->
     <string name="help_sms">Vous pouvez envoyer un SMS depuis cette carte SIM de cet appareil vers un numéro de téléphone donné à propos des changements de température/humidité/batterie</string>
     <string name="help_notif">Vous pouvez signaler sur cet appareil les changements de température/humidité/batterie (Dans la barre de notification)</string>
     <string name="help_pushbullet"><![CDATA[
-    &#149; <a href=\"https://pushbullet.com/\">Sign up for Pushbullet</a> if you don\'t have account yet<br>
-    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Sign in to Pushbullet</a><br>
-    &#149; Create API key in <a href=\"https://www.pushbullet.com/#settings\">settings</a> menu<br>
-    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Create a new channel</a><br>
-    &#149; Fill API key and channel tag in the device settings menu<br>
-    &#149; Enable the fields reporting and the main Pushbullet reporting<br>
-    &#149; You\'re finished and going be notified in your <a href=\"https://www.pushbullet.com/apps\">official clients</a> anywhere in the world
+    &amp;#149 ; <a href=\"https://pushbullet.com/\">S\'inscrire à Pushbullet</a> si vous n\'avez pas encore de compte<br>
+    &amp;#149 ; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Connexion à Pushbullet</a><br>
+    &amp;#149 ; Créer une clé API dans <a href=\"https://www.pushbullet.com/#settings\">réglages</a> menu<br>
+    &amp;#149 ; <a href=\"https://www.pushbullet.com/my-channel\">Créer un nouveau canal</a><br>
+    &amp;#149 ; Remplir la clé API et l\'étiquette de canal dans le menu des paramètres du dispositif<br>
+    &amp;#149 ; Activer les champs de rapport et le rapport principal de Pushbullet<br>
+    &amp;#149 ; Vous avez terminé et vous allez être notifié dans votre <a href=\"https://www.pushbullet.com/apps\">clients officiels</a> partout dans le monde
     ]]></string>
     <string name="error_device_not_found">Equipement non trouvé dans la base de donnée</string>
     <string name="title_language">Langue</string>
@@ -255,7 +253,11 @@ string name="title_pref_other_info">Info</string -->
     <string name="title_pref_devicesettings_devinfo_serial">Numéro de Série</string>
     <string name="title_pref_devicesettings_devinfo_model">Numéro de Modèle</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Fabricant</string>
-
     <string name="cap_default">Défaut</string>
-
+    <string name="info_visible_all">Tous les équipements sont visibles</string>
+    <string name="info_visible_notall">Les équipements sélectionnés sont visibles</string>
+    <string name="opportunistic">Opportuniste</string>
+    <string name="low_power">Basse consommation</string>
+    <string name="low_latency">faible latence</string>
+    <string name="balanced">Balancé</string>
 </resources>
