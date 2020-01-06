@@ -287,5 +287,7 @@
     <string name="low_power">Low power</string>
     <string name="balanced">Balanced</string>
     <string name="low_latency">Low latency</string>
+    <string name="title_pref_devicesettings_clock">Time synchronization</string>
+    <string name="summary_pref_devicesettings_clock">Time synchronization to the time of the device</string>
 
 </resources>

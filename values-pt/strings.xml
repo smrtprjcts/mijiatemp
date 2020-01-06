@@ -235,7 +235,7 @@ A aplicação agora não tem anúncios</string>
     <string name="title_pref_filter">Filtrar</string>
     <string name="summary_pref_filter">Apenas dispovistos conhecidos (Em caso de problemas, crashes, etc.)</string>
 
-    <string name="moisture">Umidade</string>
+    <string name="moisture">Humidade</string>
     <string name="illuminance">Intensidade da luz</string>
 
     <string name="conductivity">Fertilidade</string>
@@ -253,5 +253,6 @@ A aplicação agora não tem anúncios</string>
     <string name="info_visible_notall">Dispositivos selecionados estão visíveis</string>
     <string name="opportunistic">Oportuno</string>
     <string name="low_power">Baixo comsumo</string>
+    <string name="balanced">Equilibrado</string>
     <string name="low_latency">Baixa latência</string>
 </resources>
