@@ -1,6 +1,7 @@
 # MijiaTemp string resources for translation
 
 ## POEditor method
+Limited possibility. POEditor has 1000 strings limit and now it's increased to 30k until 13th Jan, 2020.
 [Join to translate project](https://poeditor.com/join/project/aBfzBj2DX6
 )
 
