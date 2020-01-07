@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_db_save_period_entries">
+        <item>1 perc (alapértelmezett)</item>
+        <item>2 perc</item>
+        <item>3 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>15 perc</item>
+        <item>30 perc</item>
+        <item>1 óra</item>
+    </string-array>
+
+    <string-array name="pref_service_notif_prio_entries">
+        <item>Minimum</item>
+        <item>Alacsony</item>
+        <item>@string/cap_default</item>
+        <item>Magas</item>
+        <item>Maximum</item>
+    </string-array>
+
+    <string-array name="pref_widget_refresh_period_entries">
+        <item>Azonnal</item>
+        <item>1 perc (alapértelmezett)</item>
+        <item>2 perc</item>
+        <item>3 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>15 perc</item>
+        <item>30 perc</item>
+        <item>1 óra</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>@string/cap_default</item>
+        <item>Órai átlag</item>
+        <item>Napi átlag</item>
+        <item>Heti átlag</item>
+        <item>Havi átlag</item>
+        <item>Éves átlag</item>
+    </string-array>
+
+    <string-array name="pref_themes_entries">
+        <item>Világos</item>
+        <item>Sötét</item>
+        <item>Fekete</item>
+    </string-array>
+
+    <string-array name="pref_alert_threshold_entries">
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>3 perc</item>
+        <item>5 perc (alapértelmezett)</item>
+        <item>10 perc</item>
+        <item>15 perc</item>
+        <item>30 perc</item>
+        <item>1 óra</item>
+    </string-array>
+
+</resources>

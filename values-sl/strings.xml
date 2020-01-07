@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Nastavitve</string>
+    <string name="error_ble_not_supported">BLE ni podprt</string>
+    <string name="error_bluetooth_not_supported">Bluetooth ni podprt</string>
+    <string name="request_location_enable">Lokacija je izklopljena, prosim vklopi jo</string>
+    <string name="request_location_permission">Potrebno je lokacijsko dovoljenje</string>
+    <string name="running">Teče</string>
+    <string name="request_bt_enable">Bluetooth je izklopljen, prosim vklopi ga</string>
+    <string name="default_device_name">Xiaomi Mijia BT Temp enota</string>
+    <string name="action_save">Shrani</string>
+    <string name="title_pref_db_save_period">Interval posodobitve podatkovne baze</string>
+    <string name="title_pref_start_on_boot">Zaženi delovanje v ozadju po resetu</string>
+    <string name="title_pref_keep_service_alive">Obdržati pri življenju</string>
+    <string name="summary_pref_keep_service_alive">Obdrži servis pri življenju</string>
+    <string name="title_pref_store">Temperatura in vlažnost</string>
+    <string name="summary_pref_store">Shrani temperaturo/vlažnost v podatkovno bazo</string>
+    <string name="title_pref_store_batt">Nivo baterije</string>
+    <string name="summary_pref_store_batt">Shrani dnevno nivo baterije v podatkovno bazo</string>
+    <string name="title_db_reset">Čiščenje podatkovne baze</string>
+    <string name="summary_db_reset">Shranjene vrednosti bodo izbrisane</string>
+    <string name="title_pref_battery">Optimizacija baterije</string>
+    <string name="summary_pref_battery_en">Omogočiti (delovanje se lahko ustavi v ozadju)</string>
+    <string name="summary_pref_battery_dis">Onemogočeno (aplikacija ne sme biti ustavljena v ozadju)</string>
+    <string name="title_pref_background">Delo v ozadju</string>
+    <string name="title_pref_service_notif_prio">Prednostna obvestila</string>
+    <string name="title_fahr">Fahrenheit</string>
+    <string name="notif_new_device">Nova naprava zaznana</string>
+    <string name="temperature">Temperatura</string>
+    <string name="humidity">Vlažnost</string>
+    <string name="double_press">Prosim ponovno pritisni NAZAJ za izhod</string>
+    <string name="title_pref_working_background">Delo v ozadju</string>
+    <string name="title_pref_widget_refresh_period">Widget osvežitveni interval</string>
+    <string name="appwidget_configure_instructions">Prosim izberi napravo, ki jo želiš prikazati v widget-u</string>
+    <string name="saved">Shranjeno</string>
+    <string name="short_batt">bat=</string>
+    <string name="short_humidity">%=</string>
+    <string name="short_temperature">temp=</string>
+    <string name="title_pref_bt_scan_mode">Način skeniranja Bluetooth</string>
+    <string name="device">Naprava</string>
+    <string name="devices">Naprave</string>
+    <string name="short_second">Sec</string>
+    <string name="short_minute">Min</string>
+    <string name="now">Zdaj</string>
+    <string name="action_date">Obseg podatkov</string>
+    <string name="reset">Ponastaviti</string>
+    <string name="title_range">Izbirnik obsega podatkov</string>
+    <string name="no_range_selected">Ni izbranega izbirnika obsega podatkov</string>
+    <string name="title_device_visibility">Vidnost in obdelava naprav</string>
+    <string name="summary_device_visibility">Vidnost na seznamu, obdelava</string>
+    <string name="warn_optimized">Trenutno je uporaba ozadja aplikacije optimizirana s strani sistema.  V tem stanju se lahko delovanje ozadja ustavi, vendar lahko onemogočite optimizacijo.</string>
+    <string name="cancel">Prekliči</string>
+    <string name="period_all">Interval ni nastavljen</string>
+    <string name="hint_offset_temp">Temperatura odmik od realne vrednosti</string>
+    <string name="hint_offset_hum">Vlažnost se odmika od realne vrednosti</string>
+    <string name="temp_offset" formatted="false">Odmik temperaturne korekcije (% +. 1f% s)</string>
+    <string name="hum_offset" formatted="false">Odmik vlažnostne korekcije (%+.1f%%)</string>
+    <string name="realtime">V realnem času</string>
+    <string name="history">Zgodovina</string>
+    <string name="title_pref_appearance">Videz</string>
+    <string name="title_pref_database">Baza podatkov</string>
+    <string name="summary_pref_appearance">Videz aplikacije glede na nastavitve</string>
+    <string name="summary_pref_background">Ozadje aplikacije deluje v odvisnosti od nastavitev</string>
+    <string name="summary_pref_database">Nastavitve, povezane z bazo podatkov</string>
+    <string name="thingspeak_channel">ID kanala</string>
+    <string name="thingspeak_key">Tipka za pisanje kanala</string>
+    <string name="no_internet_for">Internetna povezava potrebna za% s</string>
+    <string name="error_thingspeak_key">Napaka ID-ja ključa / kanala</string>
+    <string name="thingspeak_data_need">Nastavite ključ in ID kanala</string>
+    <string name="thingspeak_temp">ID temperaturnega polja</string>
+    <string name="thingspeak_hum">ID vlažnostega polja</string>
+    <string name="thingspeak_bat">ID polja baterije</string>
+    <string name="enable">Omogoči</string>
+    <string name="enabled">Omogočeno</string>
+    <string name="disable">Onemogoči</string>
+    <string name="disabled">Onemogočeno</string>
+    <string name="test">Test</string>
+    <string name="this_function">Ta funkcija</string>
+    <string name="test_needs_for_save">Shranjevanje podatkov ThingSpeak zahteva uspešno preizkušanje</string>
+    <string name="test_needs_for_enable">Morate narediti uspešen test</string>
+    <string name="thingspeak_update_interval_min">Interval posodobitve (minuta)</string>
+    <string name="thingspeak_update_interval_min_temp">Interval posodobitve temperature (minuta)</string>
+    <string name="thingspeak_update_interval_min_hum">Interval posodobitve vlažnosti (minuta)</string>
+    <string name="thingspeak_update_interval_min_bat">Interval posodobitve baterije (minuta)</string>
+    <string name="admob">Nadaljnji razvoj lahko podprete z nakupom različice Pro</string>
+    <string name="exit">Izhod</string>
+    <string name="expired_please_refresh">Prosim osvežite aplikacijo</string>
+    <string name="share">Deliti</string>
+    <string name="feedback">Povratne informacije in poročilo o napakah</string>
+    <string name="help">Pomoč</string>
+    <string name="purchase">Trgovina</string>
+    <string name="send">Pošlji…</string>
+    <string name="sku_title_pro">Pro različica</string>
+    <string name="sku_title_tingspeak">ThingSpeak</string>
+    <string name="desc_sku_pro">Oglašuj brezplačno aplikacijo z dodatnimi funkcijami</string>
+    <string name="buy">Kupiti</string>
+    <string name="desc_sku_thingspeak">Integracija ThingSpeak</string>
+    <string name="purchased_pre" formatted="false">Kupili ste %s</string>
+    <string name="purchased_post" formatted="false">Če imate težave s tem, se obrnite na mene.\nHvala vam.</string>
+    <string name="purchased_pro">Pro različica.\nAplikacija je zdaj brez oglasov.</string>
+    <string name="purchased_thingspeak">Funkcija integracije ThingSpeak</string>
+    <string name="activity_configure">Konfiguracija widget</string>
+    <string name="checkbox_name_visibility">Vidnost imena naprave</string>
+    <string name="checkbox_temp_visibility">Vidljivost temperature</string>
+    <string name="checkbox_hum_visibility">Vidnost vlažnosti</string>
+    <string name="checkbox_bat_visibility">Vidljivost baterije</string>
+    <string name="title_widget_appearance">Nastavitve videza widget</string>
+    <string name="text_size">Velikost besedila</string>
+    <string name="sample_text">Vzorčno besedilo</string>
+    <string name="battery">Baterija</string>
+    <string name="widget_type">Vrsta widget</string>
+    <string name="text_color">Tekstovna barva</string>
+    <string name="background_color">Barva ozadja</string>
+    <string name="new_version_on_play">Nova različica v Play</string>
+    <string name="refresh">Prosim osvežite!</string>
+    <string name="notif_period_expired">preizkusno obdobje se je izteklo</string>
+    <string name="unknown_error">Napaka</string>
+    <string name="title_theme">Tema</string>
+    <string name="title_pref_color_temperatue">Barva črte temperature</string>
+    <string name="title_pref_color_humidity">Barva črte vlažnosti</string>
+    <string name="title_pref_color_battery">Barva črte baterije</string>
+    <string name="chart">Grafikon</string>
+    <string name="post_title_app">\u0020prijava</string>
+    <string name="appintro_welcome_title">Dobrodošli!</string>
+    <string name="appintro_welcome_desc">Neuradna aplikacija za higro-termometer Bluetooth Bluetooth Xiaomi Mijia</string>
+    <string name="appintro_permission_title">Zahteva za dovoljenje</string>
+    <string name="appintro_permission_desc">Za dostop do bluetooth morate dati dovoljenje za lokacijo</string>
+    <string name="appintro_how_it_works_title">Kako deluje</string>
+    <string name="appintro_how_it_works_desc">Samo držite termometer blizu te naprave</string>
+    <string name="appintro_battery_optimazition_title">Optimizacija baterije</string>
+    <string name="appintro_battery_optimazition_desc">Izklopite optimizacijo baterije za pravilno delovanje ozadja</string>
+    <string name="appintro_finished_title">Osnovne nastavitve so nastavljene</string>
+    <string name="appintro_finished_desc">ZAČETI</string>
+    <string name="title_pref_save_button">Gumb za shranjevanje</string>
+    <string name="summary_pref_save_button">Ločen gumb za shranjevanje namesto gumba orodne vrstice</string>
+    <string name="title_pref_backup_restore">Varnostno kopiranje / obnovitev</string>
+    <string name="title_pref_db_backup">Varnostno kopiranje</string>
+    <string name="summary_pref_db_backup">Varnostno kopiranje v bazo podatkov v oblaku</string>
+    <string name="title_pref_db_restore">Obnovitev</string>
+    <string name="summary_pref_db_restore">Obnovitev iz baze podatkov v oblaku</string>
+    <string name="correction">Poročane vrednosti temperature / vlažnosti so popravljene z odmiki</string>
+    <string name="error_iab_init">Obračunavanje v aplikaciji ni na voljo</string>
+    <string name="title_pref_devicesettings_name">Ime naprave</string>
+    <string name="title_pref_devicesettings_offsets">Popravki offset</string>
+    <string name="reporting">Poročanje</string>
+    <string name="summary_device_name">Edinstveno ime te naprave (še ni nastavljeno)</string>
+    <string name="summary_offset">Offset od dejanskih vrednosti (še ni nastavljeno)</string>
+    <string name="field_settings">Nastavitve polja</string>
+    <string name="thingspeak_set">Nastavite tipko api in ID kanala</string>
+    <string name="default_field">Edinstven ID (1–8) (še ni nastavljen)</string>
+    <string name="alert">Opozorilo</string>
+    <string name="notification">Obvestilo</string>
+    <string name="email">E-mail</string>
+    <string name="title_pref_devicesettings_alert_temp_enable">Opozorilo o temperaturi</string>
+    <string name="title_pref_devicesettings_alert_hum_enable">Opozorilo o vlažnosti</string>
+    <string name="title_pref_devicesettings_alert_bat_enable">Opozorilo o bateriji</string>
+    <string name="title_pref_devicesettings_alert_temp">Običajno območje temperature</string>
+    <string name="title_pref_devicesettings_alert_hum">Običajne območje vlažnosti</string>
+    <string name="title_pref_devicesettings_alert_bat">Omejitev opozorila na baterijo</string>
+    <string name="alertif">Opozori, če</string>
+    <string name="text_and">in</string>
+    <string name="notset">(še ni nastavljeno)</string>
+    <string name="title_pref_devicesettings_email_sender">Pošiljateljev e-poštni naslov</string>
+    <string name="title_pref_devicesettings_email_receiver">E-poštni naslov prejemnika</string>
+    <string name="function_disbled">Ta funkcija je v tem trenutku onemogočena (v tej različici)</string>
+    <string name="needed" formatted="false">%s potrebnih</string>
+    <string name="too_much_alert" formatted="false">Preveč %s opozoril</string>
+    <string name="other">Drugo</string>
+    <string name="summary_db_reset_for_device">Shranjene vrednosti te naprave bodo izbrisane</string>
+    <string name="title_pref_devicesettings_sms_receiver">Sprejemna SMS številka</string>
+    <string name="sms">SMS</string>
+    <string name="help_thingspeak"><![CDATA[
+ • <a href=\"https://thingspeak.com/users/sign_up\">Prijavite se za ThingSpeak</a>, če še nimate računa.<br>
+ • <a href=\"https://thingspeak.com/login\">Prijavite se v ThingSpeak</a><br>
+ • Ustvarite nov kanal tako, da izberete Kanali, Moji kanali in nato Nov kanal <br>
+ • Izpolnite ID kanala in  tipko za pisanje (v meniju tipk API-ja kanala) v meniju nastavitev naprave<br>
+ • V aplikaciji nastavite številke polj (npr. 1 za temperaturo, 2 za vlažnost, 3 za vrednosti baterije)<br>
+ • Omogočite poročanje o poljih in glavno poročanje ThingSpeak<br>
+ • Dokončate in lahko dostopate do vrednosti kjer koli po svetu (na domači strani ThingSpeak, v ThingSpeak aplikacijah)]]></string>
+    <string name="title_pref_alert_threshold">Interval opozorila</string>
+    <string name="summary_pref_database_for_device">Nastavitve, povezane z bazo podatkov, za to napravo</string>
+    <string name="title_pref_autostart">Dovoljenje za samodejni zagon</string>
+    <string name="summary_pref_autostart">Nastavitev, povezana s proizvajalcem</string>
+    <string name="title_invitation">Pošlji povabilo</string>
+    <string name="invitation_cta">Namestite!</string>
+    <string name="invitation_message">Rad bi priporočil to aplikacijo za vas</string>
+    <string name="invite">Povabi in nagradi</string>
+    <string name="communication">Komuniciranje</string>
+    <string name="invitation_sent">Povabila poslano(a)</string>
+    <string name="thingspeak_devices">Naprava Android 5.0 ali novejša s to aplikacijo</string>
+    <string name="any_devices">Spletni brskalniki, aplikacije za Android, iOS itd.</string>
+    <string name="msg_sure">Ali si prepričan?</string>
+    <string name="title_device_delete">Izbrisati napravo</string>
+    <string name="summary_device_delete">Naprava in njene shranjene vrednosti bodo izbrisane</string>
+    <string name="title_pref_truetime">Čas omrežja</string>
+    <string name="summary_pref_truetime">Čas omrežja z večjo natančnostjo namesto lokalnega časa</string>
+    <string name="time">Čas</string>
+    <string name="translate">Prevesti</string>
+    <string name="title_pref_other">Drugo</string>
+    <string name="summary_pref_other">Druge (eksperimentalne) funkcije</string>
+    <string name="title_dontkill">Ne ubij moje aplikacije!</string>
+    <string name="warn_pro">Samo s različico Pro</string>
+    <string name="title_pref_devicesettings_api_token">API žeton</string>
+    <string name="title_pref_devicesettings_user_group_key">Uporabniški / skupinski ključ</string>
+    <string name="help_pushover"><![CDATA[
+     • <a href=\"https://pushover.net/login\">Prijavite se za Pushover</a>, če še nimate računa.<br>
+     • <a href=\"https://pushover.com/login\">Prijavite se v Pushover</a><br>
+     • Ustvarite aplikacijski / API žeton in pridobite token API <br>
+     • ustvarite skupino za dostavo (na to se lahko naročite)  pridobite skupinski ključ<br>
+     • V meniju z nastavitvami naprave napolnite žeton API in skupinski ključ<br>
+     • Omogočite poročanje o poljih in glavno poročanje o preusmerjanju<br>
+     • Končali boste in boste obveščeni v <a href=\"https://pushover.net/clients\"> uradne stranke</a> kjer koli na svetu]]></string>
+    <string name="title_pref_devicesettings_pushbullet_channel">Oznaka kanala</string>
+    <string name="title_pref_devicesettings_apikey">Ključ API-ja</string>
+    <string name="help_email">E-pošto z izbranega naslova lahko pošljete na drug dani e-poštni naslov o spremembi temperature / vlažnosti / baterije</string>
+    <string name="help_sms">Lahko pošljete SMS s te SIM te naprave na določeno telefonsko številko o spremembi temperature / vlažnosti / baterije</string>
+    <string name="help_notif">Na tej napravi lahko obvestite o spremembi temperature / vlažnosti / baterije (v vrstici s statusi)</string>
+    <string name="help_pushbullet"><![CDATA[
+     • <a href=\"https://pushbullet.com/\">Prijavite se za potisno ploščo</a>, če še nimate računa.<br>
+     • <a href=\"https://www.pushbullet.com/signin?next=%2F\">Prijavite se v potisno ploščo</a><br>
+     • Ustvari ključ API v <a href=\"https://www.pushbullet.com/#settings\"> nastavitve </a> meni <br>
+     • <a href=\"https://www.pushbullet.com/my-channel\">Ustvari nov kanal</a><br>
+     • Napolni  Ključ API in oznaka kanala v meniju z nastavitvami naprave <br>
+     • Omogočite poročanje o poljih in glavno poročanje o potisni vozički <br>
+     • Končali boste in boste obveščeni v <a href=\"https://www.pushbullet.com/apps\"> uradne stranke </a> kjer koli na svetu]]></string>
+    <string name="error_device_not_found">Naprave ni mogoče najti v bazi podatkov</string>
+    <string name="title_language">Jezik</string>
+    <string name="title_pref_filter">Filtriranje</string>
+    <string name="summary_pref_filter">Samo znane naprave (v primeru težav, zrušitve itd.)</string>
+    <string name="moisture">Vlaga</string>
+    <string name="illuminance">Intenzivnost svetlobe</string>
+    <string name="conductivity">Prevodnost</string>
+    <string name="title_pref_devicesettings_devinfo">Informacije o napravi</string>
+    <string name="loading">Nalagam. Prosim počakaj…</string>
+    <string name="summary_device_info">Informacije o tej napravi</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Revizija strojne opreme</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Revizija programske opreme</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Revizija strojne programske opreme</string>
+    <string name="title_pref_devicesettings_devinfo_serial">Serijska številka</string>
+    <string name="title_pref_devicesettings_devinfo_model">Številka modela</string>
+    <string name="title_pref_devicesettings_devinfo_manufacturer">Proizvajalec</string>
+    <string name="cap_default">Privzeto</string>
+    <string name="info_visible_all">Vse naprave so vidne</string>
+    <string name="info_visible_notall">Izbrane naprave so vidne</string>
+    <string name="opportunistic">Oportunistično</string>
+    <string name="low_power">Nizka moč</string>
+    <string name="low_latency">Nizka latenca</string>
+    <string name="balanced">Uravnoteženo</string>
+    <string name="title_pref_devicesettings_clock">Časovna sinhronizacija</string>
+    <string name="summary_pref_devicesettings_clock">Časovna sinhronizacija s časom naprave</string>
+</resources>

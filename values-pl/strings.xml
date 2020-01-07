@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="settings">Ustawienia</string>
 
     <string name="error_ble_not_supported">BLE nie jest wspierane</string>
@@ -8,11 +7,8 @@
 
     <string name="request_location_enable">Usługa lokalizacji jest wyłączona, proszę ją włączyć</string>
     <string name="request_location_permission">Zezwolenie na lokalizację jest konieczne</string>
-
     <string name="running">Działa</string>
-    <!--string name="stopped">Stopped</string-->
 
-    <string name="turn_on">Włącz</string>
     <string name="request_bt_enable">Bluetooth jest wyłączony, proszę go włączyć</string>
 
     <string name="default_device_name">Xiaomi Mijia BT Temp Device</string>
@@ -49,7 +45,6 @@
     <string name="title_pref_widget_refresh_period">Częstotliwość odświeżania widżetu</string>
     <string name="appwidget_configure_instructions">Wybierz urządzenie, które ma wyświetlać widżet</string>
     <string name="saved">Zapisano</string>
-    <!--string name="hint_device_name">Device name</string-->
     <string name="short_batt">bat=</string>
     <string name="short_humidity">wilg=</string>
     <string name="short_temperature">temp=</string>
@@ -81,7 +76,6 @@
     <string name="summary_pref_database">Ustawienia związane z bazą danych</string>
     <string name="thingspeak_channel">ID kanału</string>
     <string name="thingspeak_key">Klucz zapisu kanału</string>
-    <string name="create">Utwórz</string>
     <string name="no_internet_for">Wymagane połączenie z internetem dla %s</string>
     <string name="error_thingspeak_key">Błąd ID klucza/kanału</string>
     <string name="thingspeak_data_need">Ustaw ID klucza i kanału</string>
@@ -140,7 +134,7 @@
     <string name="chart">Wykres</string>
     <string name="post_title_app">\u0020application</string>
     <string name="appintro_welcome_title">Witaj!</string>
-    <string name="appintro_welcome_desc">Nieoficjalna aplikacja dla czujnika temperatury i wilgotności Xiaomi Mijia</string>
+    <string name="appintro_welcome_desc">Nieoficjalna aplikacja dla czujników temperatury i wilgotności Xiaomi Mijia</string>
     <string name="appintro_permission_title">Żądanie dostępu</string>
     <string name="appintro_permission_desc">Aby uzyskać dostęp do bluetooth, musisz wyrazić zgodę na lokalizację</string>
     <string name="appintro_how_it_works_title">Jak to działa</string>
@@ -218,13 +212,7 @@
     <string name="translate">Przetłumacz</string>
     <string name="title_pref_other">Inne</string>
     <string name="summary_pref_other">Inne (eksperymentalne) funkcje</string>
-    <!---string name="title_pref_lywsd02">LYWSD02 support</string>
-    <string name="title_pref_flower_care">Mijia flora support</string>
-    <string name="title_pref_flower_mate">Mijia flora mate support</string>
-    <string name="summary_pref_lywsd02">Enable detection of the new 2019 Mijia watch, temp &amp; humidity sensor</string>
-    <string name="summary_pref_flower_care">Enable detection of the Mijia Flower Care sensor</string>
-    <string name="summary_pref_flower_mate">Enable detection of the Mijia Flower Mate sensor</string-->
-    <!--string name="title_pref_other_info">Info</string-->
+
     <string name="title_dontkill">Nie zabijaj mojej aplikacji!</string>
     <string name="warn_pro">Tylko z wersją PRO</string>
     <string name="title_pref_devicesettings_api_token">Token API</string>
@@ -270,24 +258,12 @@
     <string name="title_pref_devicesettings_devinfo_serial">Numer Seryjny</string>
     <string name="title_pref_devicesettings_devinfo_model">Numer modelu</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Producent</string>
-
-
-    <!--string name="thingspeak_help2">
-    1. <a href="https://thingspeak.com/users/sign_up">Sign up for ThingSpeak</a>if you don\'t have account yet<br/>
-    2. <a href="https://thingspeak.com/login">Sign in to ThingSpeak</a><br/>
-    3. Create a new Channel by selecting Channels, My Channels, and then New Channel<br/>
-    4. Fill Channel ID and the write key (from the API Keys menu of the channel) in the device settings menu<br/>
-    5. Set the field number in the app (eg. 1 for temperature, 2 for humidity, 3 for battery values)<br/>
-    6. You're finished and can access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)<br/>
-    </string-->
-
-    <string name="opportunistic">Powolny</string>
-    <string name="low_power">Oszczędny</string>
-    <string name="balanced">Optymalny</string>
-    <string name="low_latency">Szybki</string>
-
+    <string name="cap_default">Domyślny</string>
     <string name="info_visible_all">Wszystkie urządzenia</string>
     <string name="info_visible_notall">Wybrane urządzenia</string>
-    <string name="cap_default">Domyślny</string>
+    <string name="opportunistic">Powolny</string>
+    <string name="low_power">Oszczędny</string>
+    <string name="low_latency">Szybki</string>
+    <string name="balanced">Optymalny</string>
 
 </resources>

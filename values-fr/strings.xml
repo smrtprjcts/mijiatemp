@@ -6,7 +6,6 @@
     <string name="request_location_enable">Service de localisation désactivé, veuillez l\'activer</string>
     <string name="request_location_permission">L\'autorisation de localisation est requise</string>
     <string name="running">En cours</string>
-    <string name="turn_on">Activer</string>
     <string name="request_bt_enable">Bluetooth désactivé, veuillez l\'activer</string>
     <string name="default_device_name">Appareil Xiaomi Mijia BT Temp</string>
     <string name="action_save">Sauver</string>
@@ -66,7 +65,6 @@
     <string name="summary_pref_database">Réglages Base de Données</string>
     <string name="thingspeak_channel">Identification du Canal</string>
     <string name="thingspeak_key">Clé D\'écriture du Canal</string>
-    <string name="create">Créer</string>
     <string name="no_internet_for">Connection Internet requise pour %s</string>
     <string name="error_thingspeak_key">Clé ou canal d\'identification en erreur</string>
     <string name="thingspeak_data_need">Réglage Clé et Canal d\'identification</string>
@@ -125,7 +123,7 @@
     <string name="chart">Graphique</string>
     <string name="post_title_app">\u0020application</string>
     <string name="appintro_welcome_title">Bienvenue !</string>
-    <string name="appintro_welcome_desc">Application non officielle de lecture des hygro-thermomètre Bluetooth MIJIA</string>
+    <string name="appintro_welcome_desc">Application non officielle de lecture des hygro-thermomètres Bluetooth MIJIA</string>
     <string name="appintro_permission_title">Demande de Permissions</string>
     <string name="appintro_permission_desc">Afin d\'autoriser l\'accès au Bluetooth, vous devez donner l\'autorisation d\'accès à la position</string>
     <string name="appintro_how_it_works_title">Comment cela fonctionne</string>
@@ -203,13 +201,6 @@
     <string name="title_pref_other">Autre</string>
     <string name="summary_pref_other">Autres fonctions (expérimentales)</string>
 
-    <!-- -string name="title_pref_lywsd02">LYWSD02 support</string>
-    <string name="title_pref_flower_care">Mijia flora support</string>
-    <string name="title_pref_flower_mate">Mijia flora mate support</string>
-    <string name="summary_pref_lywsd02">Enable detection of the new 2019 Mijia watch, temp &amp; humidity sensor</string>
-    <string name="summary_pref_flower_care">Enable detection of the Mijia Flower Care sensor</string>
-    <string name="summary_pref_flower_mate">Enable detection of the Mijia Flower Mate sensor</string
-string name="title_pref_other_info">Info</string -->
     <string name="title_dontkill">Ne tuez pas mon appli !</string>
     <string name="warn_pro">Juste avec la version PRO</string>
     <string name="title_pref_devicesettings_api_token">API Token</string>

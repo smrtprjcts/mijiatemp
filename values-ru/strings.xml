@@ -6,7 +6,6 @@
     <string name="request_location_enable">Cлужба определения местоположения отключена, пожалуйста, включите ее</string>
     <string name="request_location_permission">Необходимо разрешение на определение местоположения</string>
     <string name="running">Работает</string>
-    <string name="turn_on">Включить</string>
     <string name="request_bt_enable">Bluetooth выключен, пожалуйста, включите его</string>
     <string name="default_device_name">Устройство Xiaomi Mijia BT</string>
     <string name="action_save">Сохранить</string>
@@ -49,7 +48,7 @@
     <string name="reset">Сброс</string>
     <string name="title_range">Выбор диапазона дат</string>
     <string name="no_range_selected">Не выбран диапазон дат</string>
-    <string name="title_device_visibility">Отображение устройства и обработка</string>
+    <string name="title_device_visibility">Отображение и обработка</string>
     <string name="summary_device_visibility">Отображение в списке, обработка данных с устройства</string>
     <string name="warn_optimized">В настоящее время работа приложения в фоне оптимизируется системой. В этом состоянии фоновая работа может прекратиться, но вы можете отключить оптимизацию.</string>
     <string name="cancel">Отмена</string>
@@ -67,7 +66,6 @@
     <string name="summary_pref_database">Настройки базы данных</string>
     <string name="thingspeak_channel">ID канала</string>
     <string name="thingspeak_key">Write-ключ канала</string>
-    <string name="create">Создать</string>
     <string name="no_internet_for">Необходим доступ в Интернет для %s</string>
     <string name="error_thingspeak_key">Ошибка ключа/ID канала</string>
     <string name="thingspeak_data_need">Укажите ключ и ID канала</string>
@@ -90,7 +88,7 @@
     <string name="exit">Выход</string>
     <string name="expired_please_refresh">Пожалуйста, обновите приложение</string>
     <string name="share">Поделиться</string>
-    <string name="feedback">Обратная связь, сообщения об ошибках</string>
+    <string name="feedback">Написать разработчику</string>
     <string name="help">Помощь</string>
     <string name="purchase">Покупки</string>
     <string name="send">Отправить…</string>
@@ -101,8 +99,7 @@
     <string name="desc_sku_thingspeak">Интеграция с ThingSpeak</string>
     <string name="purchased_pre" formatted="false">Вы купили %s</string>
     <string name="purchased_post" formatted="false">Если у Вас имеются проблемы при работе с приложением - пожалуйста, обращайтесь ко мне. Спасибо.</string>
-    <string name="purchased_pro">Версия Pro.
-Теперь без рекламы.</string>
+    <string name="purchased_pro">Версия Pro.\nТеперь без рекламы.</string>
     <string name="purchased_thingspeak">Функция интеграции с ThingSpeak.</string>
     <string name="activity_configure">Конфигурация виджета</string>
     <string name="checkbox_name_visibility">Отображение имени устройства</string>
@@ -127,7 +124,7 @@
     <string name="chart">График</string>
     <string name="post_title_app">\u0020application</string>
     <string name="appintro_welcome_title">Добро пожаловать!</string>
-    <string name="appintro_welcome_desc">Неофициальное приложение для Xiaomi Mijia bluetooth гигро-термометра</string>
+    <string name="appintro_welcome_desc">Неофициальное приложение для Xiaomi Mijia bluetooth гигро-гигрометров</string>
     <string name="appintro_permission_title">Запрос на разрешение</string>
     <string name="appintro_permission_desc">Для доступа к bluetooth необходимо предоставить разрешение доступа к местоположению</string>
     <string name="appintro_how_it_works_title">Как это работает</string>
@@ -137,7 +134,6 @@
     <string name="appintro_finished_title">Основные настройки выполнены</string>
     <string name="appintro_finished_desc">НАЧАТЬ РАБОТУ</string>
     <string name="title_pref_save_button">Сохранить</string>
-
     <string name="summary_pref_save_button">Раздельные кнопки сохранения вместо панели</string>
     <string name="title_pref_backup_restore">Резервное копирование/восстановление</string>
     <string name="title_pref_db_backup">Резервное копирование</string>
@@ -148,7 +144,7 @@
     <string name="error_iab_init">Покупки в приложении недоступны!</string>
     <string name="title_pref_devicesettings_name">Имя устройства</string>
     <string name="title_pref_devicesettings_offsets">Сдвиг показаний</string>
-    <string name="reporting">Отправка отчетов</string>
+    <string name="reporting">Отправка показаний</string>
     <string name="summary_device_name">Уникальное имя этого устройства (еще не указано)</string>
     <string name="summary_offset">Сдвиги относительно реальных значений (еще не указаны)</string>
     <string name="field_settings">Настройка полей</string>
@@ -192,7 +188,6 @@
     <string name="invitation_cta">Установить!</string>
     <string name="invitation_message">Хочу порекомендовать вам это приложение</string>
 
-    <!-- Fuzzy -->
     <string name="invite">Пригласи и заработай</string>
     <string name="communication">Коммуникация</string>
     <string name="invitation_sent">Приглашение отправлено</string>
@@ -208,13 +203,6 @@
     <string name="title_pref_other">Прочее</string>
     <string name="summary_pref_other">Прочие (экспериментальные) функции</string>
 
-    <!-- -string name="title_pref_lywsd02">LYWSD02 support</string>
-    <string name="title_pref_flower_care">Mijia flora support</string>
-    <string name="title_pref_flower_mate">Mijia flora mate support</string>
-    <string name="summary_pref_lywsd02">Enable detection of the new 2019 Mijia watch, temp &amp; humidity sensor</string>
-    <string name="summary_pref_flower_care">Enable detection of the Mijia Flower Care sensor</string>
-    <string name="summary_pref_flower_mate">Enable detection of the Mijia Flower Mate sensor</string
-string name="title_pref_other_info">Info</string -->
     <string name="title_dontkill">Не убивай мое приложение!</string>
     <string name="warn_pro">Только в версии Pro</string>
     <string name="title_pref_devicesettings_api_token">токен API</string>

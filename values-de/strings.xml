@@ -7,7 +7,6 @@
     <string name="request_location_permission">Die Erlaubnis zur Lokalisierung ist notwendig</string>
     <string name="running">Läuft</string>
 
-    <string name="turn_on">Einschalten</string>
     <string name="request_bt_enable">Bluetooth ist ausgeschaltet, bitte schalten Sie es ein</string>
     <string name="default_device_name">Xiaomi Mijia BT Temp Gerät</string>
     <string name="action_save">Speichern</string>
@@ -67,7 +66,6 @@
     <string name="summary_pref_database">Einstellungen zur Datenbank</string>
     <string name="thingspeak_channel">Channel ID</string>
     <string name="thingspeak_key">Kanal Key</string>
-    <string name="create">Erstellen</string>
     <string name="no_internet_for">Internetverbindung benötigt für %s</string>
     <string name="error_thingspeak_key">Key/channel ID Fehler</string>
     <string name="thingspeak_data_need">Key und channel ID setzen</string>
@@ -101,8 +99,7 @@
     <string name="desc_sku_thingspeak">ThingSpeak integration</string>
     <string name="purchased_pre" formatted="false">Sie haben %s gekauft</string>
     <string name="purchased_post" formatted="false">\nFalls Sie Probleme mit der App haben, zögern Sie nicht mich zu kontaktieren.\nVielen Dank</string>
-    <string name="purchased_pro">Pro version.
-Die app ist jetzt werbefrei.</string>
+    <string name="purchased_pro">Pro version.\nDie app ist jetzt werbefrei.</string>
     <string name="purchased_thingspeak">ThingSpeak integration funktion.</string>
     <string name="activity_configure">Widgetkonfiguration</string>
     <string name="checkbox_name_visibility">Sichtbarkeit gerätenamen</string>
@@ -116,7 +113,7 @@ Die app ist jetzt werbefrei.</string>
     <string name="widget_type">Widgettyp</string>
     <string name="text_color">Textfarbe</string>
     <string name="background_color">Hintergrundfarbe</string>
-    <string name="new_version_on_play">New version im Play-Store</string>
+    <string name="new_version_on_play">Neue Version im Play-Store</string>
     <string name="refresh">Please aktualisieren!</string>
     <string name="notif_period_expired">Testzeitraum abgelaufen</string>
     <string name="unknown_error">Fehler</string>
@@ -210,15 +207,12 @@ Die app ist jetzt werbefrei.</string>
     <string name="title_pref_devicesettings_api_token">API Token</string>
     <string name="title_pref_devicesettings_user_group_key">Nutzer/Gruppen Schlüssel</string>
 
-    <!--<string name="help_pushover"></string>-->
-
     <string name="title_pref_devicesettings_pushbullet_channel">Kanal Tag</string>
     <string name="title_pref_devicesettings_apikey">API Schlüssel</string>
     <string name="help_email">Du kannst eine Email von einer gewählten Adresse zu einer anderen gewählten Adresse über die Temperatur/Feuchtigkeits/Batterieänderungen senden</string>
     <string name="help_sms">Du kannst eine SMS von diesem Handy zu einer anderen Handynummer mit Temperatur/Feuchtigkeits/Batterieänderungen senden</string>
     <string name="help_notif">Du kannst auf diesem Gerät über Temperatur/Feuchtigkeits/Batterieänderungen informiert werden (in der Statusanzeige)</string>
 
-    <!--<string name="help_pushbullet"></string>-->
     <string name="error_device_not_found">Gerät in der Datenbank nicht gefunden</string>
     <string name="title_language">Sprache</string>
     <string name="title_pref_filter">Filter</string>
@@ -242,4 +236,7 @@ Die app ist jetzt werbefrei.</string>
     <string name="low_power">Niedrige Energie</string>
     <string name="low_latency">Geringe Wartezeit</string>
     <string name="balanced">Ausgewogen</string>
+    <string name="title_pref_devicesettings_clock">Zeitsynchronisation</string>
+    <string name="summary_pref_devicesettings_clock">Zeitsynchronisation zur Gerätezeit</string>
+
 </resources>

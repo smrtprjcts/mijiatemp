@@ -2,11 +2,10 @@
 <resources>
     <string name="settings">Definições</string>
     <string name="error_ble_not_supported">BLE não é suportado</string>
-    <string name="error_bluetooth_not_supported">Bluetooth não suportado.</string>
+    <string name="error_bluetooth_not_supported">Bluetooth não suportado</string>
     <string name="request_location_enable">Serviço de localização desativado, por favor ative</string>
     <string name="request_location_permission">Permissão de localização é necessária</string>
     <string name="running">Em execução</string>
-    <string name="turn_on">Ligar</string>
     <string name="request_bt_enable">Bluetooth está desligado, por favor ligue</string>
     <string name="default_device_name">Dispositivo de temperatura Xiaomi Mijia BT</string>
     <string name="action_save">Guardar</string>
@@ -23,14 +22,14 @@
     <string name="title_pref_battery">Optimização de bateria</string>
     <string name="summary_pref_battery_en">Ativado (funcionamento pode ser parado em segundo plano)</string>
     <string name="summary_pref_battery_dis">Desativado (A aplicação não deve ser parada em segundo plano)</string>
-    <string name="title_pref_background">A funcionar em segundo plano</string>
+    <string name="title_pref_background">Funcionamento em segundo plano</string>
     <string name="title_pref_service_notif_prio">Prioridade da notificação</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Novo dispositivo detetado</string>
     <string name="temperature">Temperatura</string>
     <string name="humidity">Humidade</string>
     <string name="double_press">Por favor carregue &lt; novamente para sair</string>
-    <string name="title_pref_working_background">A funcionar em segundo plano</string>
+    <string name="title_pref_working_background">Funcionamento em segundo plano</string>
     <string name="title_pref_widget_refresh_period">Intervalo de atualização do widget</string>
     <string name="appwidget_configure_instructions">Por favor selecione o dispositivo que deseja que apareça no widget</string>
     <string name="saved">Guardado</string>
@@ -65,7 +64,6 @@
     <string name="summary_pref_database">Definições relacionadas com a base de dados</string>
     <string name="thingspeak_channel">ID do canal</string>
     <string name="thingspeak_key">Chave de escrita do canal</string>
-    <string name="create">Criar</string>
     <string name="no_internet_for">Ligação a internet necessária para %s</string>
     <string name="error_thingspeak_key">Erro de Chave / ID de canal</string>
     <string name="thingspeak_data_need">Definir chave &amp; ID de canal</string>
@@ -75,7 +73,7 @@
     <string name="enable">Ativar</string>
     <string name="enabled">Ativado</string>
     <string name="disable">Desativar</string>
-    <string name="disabled">Desativar</string>
+    <string name="disabled">Desativado</string>
     <string name="test">Testar</string>
     <string name="this_function">esta função</string>
     <string name="test_needs_for_save">Para guardar os dados do ThingSpeak  é necessário um teste com sucesso</string>
@@ -98,10 +96,8 @@
     <string name="buy">Comprar</string>
     <string name="desc_sku_thingspeak">Integração ThingSpeak</string>
     <string name="purchased_pre" formatted="false">Comprou %s</string>
-    <string name="purchased_post" formatted="false">Se tiver algum problema, não hesite em contactar.
-Obrigado.</string>
-    <string name="purchased_pro">Versão Pro.
-A aplicação agora não tem anúncios</string>
+    <string name="purchased_post" formatted="false">Se tiver algum problema, não hesite em contactar.\nObrigado.</string>
+    <string name="purchased_pro">Versão Pro.\nA aplicação agora não tem anúncios</string>
     <string name="purchased_thingspeak">Integração de uma função ThingSpeak.</string>
     <string name="activity_configure">Configurar widget</string>
     <string name="checkbox_name_visibility">Nome do dispositivo visível</string>
@@ -152,7 +148,7 @@ A aplicação agora não tem anúncios</string>
     <string name="field_settings">Configurações dos campos</string>
     <string name="thingspeak_set">Por favor definar uma chave API e um ID de canal</string>
     <string name="default_field">ID único (1–8) (não definido)</string>
-    <string name="alert">Alerta</string>
+    <string name="alert">Alertas</string>
     <string name="notification">Notificação</string>
     <string name="email">E-mail</string>
     <string name="title_pref_devicesettings_alert_temp_enable">Alerta de temperatura</string>
@@ -169,7 +165,7 @@ A aplicação agora não tem anúncios</string>
     <string name="function_disbled">Esta função esta desativada de momento (nesta versão)</string>
     <string name="needed" formatted="false">%s necessário</string>
     <string name="too_much_alert" formatted="false">Demasiados %s alertas</string>
-    <string name="other">Outro</string>
+    <string name="other">Outros</string>
     <string name="summary_db_reset_for_device">Valores guardados deste dispositivo vão ser eliminados</string>
     <string name="title_pref_devicesettings_sms_receiver">Número de SMS do destinatário</string>
     <string name="sms">SMS</string>
@@ -180,7 +176,7 @@ A aplicação agora não tem anúncios</string>
     &#149; Preencher o Channel ID e escrever a chave (através da chaves de API no menu do channel) no menu das definições do dispositivo<br>
     &#149; Definir os números no campo na aplicação ao seu gosto (ex. 1 para temperatura, 2 para humidade, 3 para valores da bateria)<br>
     &#149; Ativar os campos de reportar no incio do ThingSpeak reporting<br>
-    &#149; Finalmente acabou agora pode aceder aos valores em qualquer lugar no mundo(através da página do ThingSpeak e nas aplicações ThingSpeak)
+    &#149; Finalmente acabou, agora pode aceder aos valores em qualquer lugar no mundo(através da página do ThingSpeak e nas aplicações ThingSpeak)
     ]]></string>
     <string name="title_pref_alert_threshold">Intervalo de alerta</string>
     <string name="summary_pref_database_for_device">Definições de base de dados relacionados com este dispositivo</string>
@@ -201,7 +197,7 @@ A aplicação agora não tem anúncios</string>
     <string name="summary_pref_truetime">Maior precisão da hora da rede invés da hora local</string>
     <string name="time">Hora</string>
     <string name="translate">Traduzir</string>
-    <string name="title_pref_other">Outro</string>
+    <string name="title_pref_other">Outros</string>
     <string name="summary_pref_other">Outras funções (experimentais)</string>
     <string name="title_dontkill">Don\'t kill my app!</string>
     <string name="warn_pro">Apenas na versão Pro</string>
@@ -214,7 +210,7 @@ A aplicação agora não tem anúncios</string>
     &#149; Criar um Delivery group ou grupo de entrega (pode subscrever para isto) para obter o Group Key ou chave de grupo<br>
     &#149; Preencher o API Token e a Group Key ou Chave de grupo no menu das defeniçoes do dispositivo<br>
     &#149; Ativar os campos de resporte no Pushover reporting<br>
-    &#149; Finalmente acabou irá ser notificado na <a href=\"https://pushover.net/clients\">official clients</a> em qualquer parte do mundo
+    &#149; Finalmente acabou, irá ser notificado na <a href=\"https://pushover.net/clients\">official clients</a> em qualquer parte do mundo
     ]]></string>
     <string name="title_pref_devicesettings_pushbullet_channel">Etiqueta do canal</string>
     <string name="title_pref_devicesettings_apikey">Chave API</string>
@@ -228,12 +224,12 @@ A aplicação agora não tem anúncios</string>
     &#149; <a href=\"https://www.pushbullet.com/my-channel\">Create a new channel (Criar novo canal)</a><br>
     &#149; Preencher o API key ou chave de API e o channel tag ou marcador de canal no menu de definições dispositivo<br>
     &#149; Ative os campos de reporte no Pushbullet reporting<br>
-    &#149; Finalmente acabou irá ser notificado na <a href=\"https://www.pushbullet.com/apps\">official clients</a> em qualqyer parte do mundo
+    &#149; Finalmente acabou, irá ser notificado na <a href=\"https://www.pushbullet.com/apps\">official clients</a> em qualquer parte do mundo
     ]]></string>
     <string name="error_device_not_found">Dispositivo não encontrado na base de dados</string>
     <string name="title_language">Idioma</string>
     <string name="title_pref_filter">Filtrar</string>
-    <string name="summary_pref_filter">Apenas dispovistos conhecidos (Em caso de problemas, crashes, etc.)</string>
+    <string name="summary_pref_filter">Apenas dispositivos conhecidos (Em caso de problemas, crashes, etc.)</string>
 
     <string name="moisture">Humidade</string>
     <string name="illuminance">Intensidade da luz</string>
@@ -253,6 +249,8 @@ A aplicação agora não tem anúncios</string>
     <string name="info_visible_notall">Dispositivos selecionados estão visíveis</string>
     <string name="opportunistic">Oportuno</string>
     <string name="low_power">Baixo comsumo</string>
-    <string name="balanced">Equilibrado</string>
     <string name="low_latency">Baixa latência</string>
+    <string name="balanced">Equilibrado</string>
+    <string name="title_pref_devicesettings_clock">Sincronização das horas</string>
+    <string name="summary_pref_devicesettings_clock">Sincronização das horas com as horas do dispositivo</string>
 </resources>
