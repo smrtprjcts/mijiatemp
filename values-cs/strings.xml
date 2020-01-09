@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Nastavení</string>
+    <string name="error_ble_not_supported">Funkce BLE není podporována</string>
+    <string name="error_bluetooth_not_supported">Bluetooth není podporován</string>
+    <string name="request_location_enable">Služba určování polohy je zakázána, zapněte ji prosím</string>
+    <string name="request_location_permission">Je vyžadováno povolení polohy</string>
+    <string name="running">Beží</string>
+    <string name="request_bt_enable">Bluetooth je zakázán, prosím zapněte ho</string>
+    <string name="default_device_name">Xiaomi Mijia BT teploměr</string>
+    <string name="action_save">Uložit</string>
+    <string name="title_pref_db_save_period">Interval aktualizace databáze</string>
+    <string name="title_pref_start_on_boot">Zapnout proces na pozadí po startu telefonu</string>
+    <string name="title_pref_keep_service_alive">Udržet naživu</string>
+    <string name="summary_pref_keep_service_alive">Udržujte službu naživu</string>
+    <string name="title_pref_store">Teplota a vlhkost</string>
+    <string name="summary_pref_store">Uložte teplotu/vlhkost do databáze</string>
+    <string name="title_pref_store_batt">Stav baterie</string>
+    <string name="summary_pref_store_batt">Uložte denní úroveň baterie do databáze</string>
+    <string name="title_db_reset">Vyčištění databáze</string>
+    <string name="summary_db_reset">Uložené hodnoty budou smazány</string>
+    <string name="title_pref_battery">Optimalizace baterie</string>
+    <string name="summary_pref_battery_en">Zapnuto (aplikace může být vypnuta na pozadí)</string>
+    <string name="summary_pref_battery_dis">Vypnuto (aplikace by neměla být vypnuta na pozadí)</string>
+    <string name="title_pref_background">Běh na pozadí</string>
+    <string name="title_pref_service_notif_prio">Priorita oznámení</string>
+    <string name="title_fahr">Fahrenheit</string>
+    <string name="notif_new_device">Detekováno nové zařízení</string>
+    <string name="temperature">Teplota</string>
+    <string name="humidity">Vlhkost</string>
+    <string name="double_press">Opětovným kliknutím na ZPĚT opusťte nabídku</string>
+    <string name="title_pref_working_background">Běh na pozadí</string>
+    <string name="title_pref_widget_refresh_period">Interval aktualizace widgetu</string>
+    <string name="appwidget_configure_instructions">Vyberte prosím zařízení pro zobrazení ve widgetu</string>
+    <string name="saved">Uložené</string>
+    <string name="short_batt">bat=</string>
+    <string name="short_humidity">vlh=</string>
+    <string name="short_temperature">tep=</string>
+    <string name="title_pref_bt_scan_mode">Režim skenování Bluetooth</string>
+    <string name="device">Zařízení</string>
+    <string name="devices">Zařízení</string>
+    <string name="short_second">sec</string>
+    <string name="short_minute">min</string>
+    <string name="now">Nyní</string>
+    <string name="action_date">Interval</string>
+    <string name="reset">Reset</string>
+    <string name="title_range">Selektor časového období</string>
+    <string name="no_range_selected">Není vybrán interval</string>
+    <string name="title_device_visibility">Viditelnost zařízení a zpracování</string>
+    <string name="summary_device_visibility">Viditelnost v seznamu, zpracování</string>
+    <string name="warn_optimized">Nyní je běh na pozadí aplikace optimalizován operačním systémem. Aplikace na pozadí tak může být zastavena, optimalizaci ale můžete zrušit.</string>
+    <string name="cancel">Zrušit </string>
+    <string name="period_all">Interval není nastaven</string>
+    <string name="hint_offset_temp">Odchylka teploty od reálné hodnoty</string>
+    <string name="hint_offset_hum">Odchylka vlhkosti od reálné</string>
+    <string name="temp_offset" formatted="false">Teplotní odchylka (%+.1f%s)</string>
+    <string name="hum_offset" formatted="false">Odchylka vlhkosti (%+.1f%%)</string>
+    <string name="realtime">Aktuální hodnota</string>
+    <string name="history">Historie</string>
+    <string name="title_pref_appearance">Vzhled</string>
+    <string name="title_pref_database">Databáze</string>
+    <string name="summary_pref_appearance">Nastavení vzhledu aplikace</string>
+    <string name="summary_pref_background">Nastavení běhu na pozadí</string>
+    <string name="summary_pref_database">Nastavení související s databází</string>
+    <string name="thingspeak_channel">ID kanálu</string>
+    <string name="thingspeak_key">Klíč pro zápis do kanálu</string>
+    <string name="no_internet_for">Internetové připojení je vyžadováno pro %s</string>
+    <string name="error_thingspeak_key">Chyba klíče/ID kanálu</string>
+    <string name="thingspeak_data_need">Nastavte klíč/ID kanálu</string>
+    <string name="thingspeak_temp">ID teplotního pole</string>
+    <string name="thingspeak_hum">Humidity field id</string>
+    <string name="thingspeak_bat">ID pole baterie</string>
+    <string name="enable">Umožnit</string>
+    <string name="enabled">Zapnuto</string>
+    <string name="disable">Vypnout</string>
+    <string name="disabled">Vypnuto</string>
+    <string name="test">Test</string>
+    <string name="this_function">tato funkce</string>
+    <string name="test_needs_for_save">Uložení ThingSpeak dat vyžaduje úspěšný test</string>
+    <string name="test_needs_for_enable">Musíte provést úspěšný test</string>
+    <string name="thingspeak_update_interval_min">Interval aktualizace (minuty)</string>
+    <string name="thingspeak_update_interval_min_temp">Interval aktualizace teploty (minuty)</string>
+    <string name="thingspeak_update_interval_min_hum">Interval aktualizace vlhkosti (minuty)</string>
+    <string name="thingspeak_update_interval_min_bat">Interval aktualizace baterie (minuty)</string>
+    <string name="admob">Můžete podpořit další vývoj zakoupením Pro verze</string>
+    <string name="exit">Exit</string>
+    <string name="expired_please_refresh">Prosím, obnovte aplikaci</string>
+    <string name="share">Sdílet</string>
+    <string name="feedback">Zpětná vazba a hlášení chyb</string>
+    <string name="help">Pomoc</string>
+    <string name="purchase">Obchod</string>
+    <string name="send">Poslat…</string>
+    <string name="sku_title_pro">Verze Pro</string>
+    <string name="sku_title_tingspeak">ThingSpeak</string>
+    <string name="desc_sku_pro">Aplikace bez reklam a s dalšími vyepšeními</string>
+    <string name="buy">Nákup</string>
+    <string name="desc_sku_thingspeak">Integrace ThingSpeak</string>
+    <string name="purchased_pre" formatted="false">Nakoupil jste %s</string>
+    <string name="purchased_post" formatted="false">\nPokud máte jakýkoliv problém, neváhejte mne kontaktovat.\nDěkuji.</string>
+    <string name="purchased_pro">Pro verze.\nAplikace je bez reklam.</string>
+    <string name="purchased_thingspeak">ThingSpeak integrační funkce.</string>
+    <string name="activity_configure">Nastavení Widgetu</string>
+    <string name="checkbox_name_visibility">Viditelnost jména zařízení</string>
+    <string name="checkbox_temp_visibility">Viditelnost teploty</string>
+    <string name="checkbox_hum_visibility">Viditelnost vlhkosti</string>
+    <string name="checkbox_bat_visibility">Viditelnost beterie</string>
+    <string name="title_widget_appearance">Nastavení vzhledu widgetu</string>
+    <string name="text_size">Velikost textu</string>
+    <string name="sample_text">Vzorový text</string>
+    <string name="battery">Baterie</string>
+    <string name="widget_type">Typ widgetu</string>
+    <string name="text_color">Barva textu</string>
+    <string name="background_color">Barva pozadí</string>
+    <string name="new_version_on_play">Nová verze v Play</string>
+    <string name="refresh">Prosím obnovte!</string>
+    <string name="notif_period_expired">zkušební doba vypršela</string>
+    <string name="unknown_error">Chyba</string>
+    <string name="title_theme">Téma</string>
+    <string name="title_pref_color_temperatue">Barva čáry teploty</string>
+    <string name="title_pref_color_humidity">Barva čáry vlhkosti</string>
+    <string name="title_pref_color_battery">Barva čáry baterie</string>
+    <string name="chart">Graf</string>
+    <string name="post_title_app">\u0020aplikace</string>
+    <string name="appintro_welcome_title">Vítejte!</string>
+    <string name="appintro_welcome_desc">Neoficiální aplikace pro Xiaomi Mijia bluetooth teplo-vlhkoměry</string>
+    <string name="appintro_permission_title">Požadavek na oprávnění</string>
+    <string name="appintro_permission_desc">Pro přístup k bluetooth musíte aplikaci udělit oprávnění polohy</string>
+    <string name="appintro_how_it_works_title">Jak to funguje?</string>
+    <string name="appintro_how_it_works_desc">Nechte pouze teploměr poblíž tohoto zařízení</string>
+    <string name="appintro_battery_optimazition_title">Optimalizace baterie</string>
+    <string name="appintro_battery_optimazition_desc">Vypněte optimalizaci baterie pro správný běh na pozadí</string>
+    <string name="appintro_finished_title">Základní nastavení je provedeno</string>
+    <string name="appintro_finished_desc">ZAČÍT</string>
+    <string name="title_pref_save_button">Tlačítko uložit</string>
+    <string name="summary_pref_save_button">Oddělte tlačítko namísto tlačítka na panelu nástrojů</string>
+    <string name="title_pref_backup_restore">Záloha / obnovení</string>
+    <string name="title_pref_db_backup">Záloha</string>
+    <string name="summary_pref_db_backup">Záloha do databáze v cloudu</string>
+    <string name="title_pref_db_restore">Obnovit</string>
+    <string name="summary_pref_db_restore">Obnovení z cloudové databáze</string>
+    <string name="correction">Hlášené hodnoty teploty a vlhkosti byly korigovány o odchylky</string>
+    <string name="error_iab_init">Fakturace v aplikaci není dostupná!</string>
+    <string name="title_pref_devicesettings_name">Jméno zařízení</string>
+    <string name="title_pref_devicesettings_offsets">Odchylky</string>
+    <string name="reporting">Hlášení</string>
+    <string name="summary_device_name">Jedinečné jméno tohoto za řízení (zatím nenastaveno)</string>
+    <string name="summary_offset">Odchylky od reálných hodnot (ještě nenastaveny)</string>
+    <string name="field_settings">Nastavení pole</string>
+    <string name="thingspeak_set">Nastavte prosím klíč API a ID kanálu</string>
+    <string name="default_field">Jedinečné ID (1–8) (zatím nenastaveno)</string>
+    <string name="alert">Upozornění</string>
+    <string name="notification">Notifikace</string>
+    <string name="email">E-mail</string>
+    <string name="title_pref_devicesettings_alert_temp_enable">Upozornění teploty</string>
+    <string name="title_pref_devicesettings_alert_hum_enable">Upozornění vlhkosti</string>
+    <string name="title_pref_devicesettings_alert_bat_enable">Upozornění baterie</string>
+    <string name="title_pref_devicesettings_alert_temp">Normální teplotní rozsah</string>
+    <string name="title_pref_devicesettings_alert_hum">Normální rozsah vlhkosti</string>
+    <string name="title_pref_devicesettings_alert_bat">Limit výstrahy baterie</string>
+    <string name="alertif">Upozornit, jestli</string>
+    <string name="text_and">a</string>
+    <string name="notset">(dosud nenastaveno)</string>
+    <string name="title_pref_devicesettings_email_sender">E-mailová adresa odesílatele</string>
+    <string name="title_pref_devicesettings_email_receiver">E-mailová adresa příjemce</string>
+    <string name="function_disbled">Tato funkce je v tuto chvíli deaktivována (v této verzi)</string>
+    <string name="needed" formatted="false">%s potřeboval</string>
+    <string name="too_much_alert" formatted="false">Příliš mnoho %s upozornění</string>
+    <string name="other">Ostatní</string>
+    <string name="summary_db_reset_for_device">Uložené hodnoty tohoto zařízení budou smazány</string>
+    <string name="title_pref_devicesettings_sms_receiver">Číslo příjemce SMS</string>
+    <string name="sms">SMS</string>
+    <string name="help_thingspeak"><![CDATA[
+    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Zaregistrujte se na Thinspeak</a> pokud ještě nemáte účet<br>
+    &#149; <a href=\"https://thingspeak.com/login\">Přihlaste se do ThingSpeak</a><br>
+    &#149; Vytvořte nový kanál výběrem Kanály, Moje kanály a poté Nový kanál<br>
+    &#149; Vyplňte ID kanálu a klíč pro zápis (z nabídky klíčů API kanálu) v nabídce nastavení zařízení<br>
+    &#149; Nastavte čísla polí v aplikaci, kterou chcete (např. 1 pro teplotu, 2 pro vlhkost, 3 pro hodnoty baterie)<br>
+    &#149; Povolte hlášení polí a hlavní hlášení ThingSpeak<br>
+    &#149; Jste hotovi a máte přístup k hodnotám kdekoli na světě (na domovské stránce ThingSpeak, v aplikacích ThingSpeak)
+    ]]></string>
+    <string name="title_pref_alert_threshold">Interval upozornění</string>
+    <string name="summary_pref_database_for_device">Nastavení související s databází pro toto zařízení</string>
+    <string name="title_pref_autostart">Povolení k automatickému spuštění</string>
+    <string name="summary_pref_autostart">Nastavení související s výrobcem</string>
+    <string name="title_invitation">Pošli pozvánku</string>
+    <string name="invitation_cta">Instaluj!</string>
+    <string name="invitation_message">Chtěl bych Vám doporučit tuto aplikaci</string>
+    <string name="invite">Pozvi a odměň</string>
+    <string name="communication">Komunikace</string>
+    <string name="invitation_sent">Pozvánka(y) odeslány</string>
+    <string name="thingspeak_devices">Andorid 5.0+ zařízení s touto Aplikací</string>
+    <string name="any_devices">Webové prohlížeče, aplikace pro Android, aplikace pro iOS, atd. </string>
+    <string name="msg_sure">Jse si jist?</string>
+    <string name="title_device_delete">Smazat zařízení</string>
+    <string name="summary_device_delete">Zařízení a jeho uložené hodnoty budou smazány</string>
+    <string name="title_pref_truetime">Čas sítě</string>
+    <string name="summary_pref_truetime">Vyšší přesnost síťového času místo místního času</string>
+    <string name="time">Čas</string>
+    <string name="translate">Přeložit</string>
+    <string name="title_pref_other">Jiný</string>
+    <string name="summary_pref_other">Jiný (experimentální) funkce</string>
+    <string name="title_dontkill">Don\'t kill my app!</string>
+    <string name="warn_pro">Pouze s verzí Pro</string>
+    <string name="title_pref_devicesettings_api_token">API Token</string>
+    <string name="title_pref_devicesettings_user_group_key">Klíč uživatele/skupiny</string>
+    <string name="help_pushover"><![CDATA[
+    &#149; <a href=\"https://pushover.net/login\">Zaregistrujte se na Pushover</a> pokud ještě nemáte účet<br>
+    &#149; <a href=\"https://pushover.com/login\">Přihlaste se do Pushover</a><br>
+    &#149; Vytvořte aplikaci/API Token a získejte API Token<br>
+    &#149; Vytvořte skupinu dodávek (můžete se přihlásit k odběru), abyste získali klíč skupiny<br>
+    &#149; Vyplňte API Token  skupinový klíč v nabídce nastavení zařízení<br>
+    &#149; Povolte hlášení polí a hlavní hlášení Pushover<br>
+    &#149; Jste hotovi a budete informováni u <a href=\"https://pushover.net/clients\">oficiální klienti</a> kdekoliv na světě
+    ]]></string>
+    <string name="title_pref_devicesettings_pushbullet_channel">Štítek kanálu</string>
+    <string name="title_pref_devicesettings_apikey">Klíč API</string>
+    <string name="help_email">Můžete poslat e-mail z vybrané adresy na jinou danou e-mailovou adresu o změnách teploty, vlhkosti a stavu baterie</string>
+    <string name="help_sms">Z této SIM karty tohoto zařízení můžete odeslat SMS na dané telefonní číslo o změnách teploty/vlhkosti/změny baterie</string>
+    <string name="help_notif">Na tomto zařízení můžete informovat o změnách teploty / vlhkosti / změny baterie (na stavovém řádku)</string>
+    <string name="help_pushbullet"><![CDATA[
+    &#149; <a href=\"https://pushbullet.com/\">Zaregistrujte se na Pushbullet</a> pokud ještě nemáte účet<br>
+    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Přihlaste se do Pushbullet</a><br>
+    &#149; Vytvořit klíč API v <a href=\"https://www.pushbullet.com/#settings\">nabídce</a> nastavení<br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Vytvořte nový kanál</a><br>
+    &#149; Vyplňte klíč API a štítek kanálu v nabídce nastavení zařízení<br>
+    &#149; Povolte hlášení polí a hlavní hlášení Pushbullet<br>
+    &#149; Jste hotovi a budete informováni u <a href=\"https://www.pushbullet.com/apps\">oficiální klienti</a> kdekoliv na světě
+    ]]></string>
+    <string name="error_device_not_found">Zařízení nebylo nalezeno v databázi</string>
+    <string name="title_language">Jazyk</string>
+    <string name="title_pref_filter">Filtrování</string>
+    <string name="summary_pref_filter">Pouze známá zařízení (v případě problémů, pádů, atd.)</string>
+    <string name="moisture">Vlhkost</string>
+    <string name="illuminance">Intenzita světla</string>
+    <string name="conductivity">Vodivost</string>
+    <string name="title_pref_devicesettings_devinfo">Informace o zařízení</string>
+    <string name="loading">Nahrávám. Prosím počkejte...</string>
+    <string name="summary_device_info">Informace o tomto zařízení</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Verze hardwaru</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Verze softwaru</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Verze firmwaru</string>
+    <string name="title_pref_devicesettings_devinfo_serial">Sériové číslo</string>
+    <string name="title_pref_devicesettings_devinfo_model">Číslo meodelu</string>
+    <string name="title_pref_devicesettings_devinfo_manufacturer">Výrobce</string>
+    <string name="cap_default">Výchozí</string>
+    <string name="info_visible_all">Všechny zařízení jsou viditelné</string>
+    <string name="info_visible_notall">Vybraná zařízení jsou viditelná</string>
+    <string name="opportunistic">Oportunistický</string>
+    <string name="low_power">Nízká spotřeba</string>
+    <string name="low_latency">Nízká latence</string>
+    <string name="balanced">Vyvážený</string>
+    <string name="title_pref_devicesettings_clock">Synchronizace času</string>
+    <string name="summary_pref_devicesettings_clock">Synchronizujte čas s časem zařízení Android</string>
+    <string name="title_pref_appearance_mac">Viditelnost adresy zařízení</string>
+    <string name="summary_pref_appearance_mac">Adresa viditelná v seznamu hlavní obrazovky</string>
+    <string name="message_translate">Překlad se provádí ve spolupráci s komunitou. Pokud najdete nějaký opravitelný text, kontaktujte mě, nebo jej jednoduše opravte na githubu, který je k dispozici z hlavního menu.\nDíky překladatelům</string>
+</resources>

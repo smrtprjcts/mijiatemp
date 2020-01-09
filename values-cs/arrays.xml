@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_db_save_period_entries">
+        <item>1 minuta (výchozí)</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 hodina</item>
+    </string-array>
+
+    <string-array name="pref_service_notif_prio_entries">
+        <item>Min</item>
+        <item>Nízké</item>
+        <item>@string/cap_default</item>
+        <item>Vysoké</item>
+        <item>Max</item>
+    </string-array>
+
+    <string-array name="pref_widget_refresh_period_entries">
+        <item>Okamžitě</item>
+        <item>1 minuta (výchozí)</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 hodina</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>@string/cap_default</item>
+        <item>Hour average</item>
+        <item>Day average</item>
+        <item>Week average</item>
+        <item>Month average</item>
+        <item>Year average</item>
+    </string-array>
+
+    <string-array name="pref_themes_entries">
+        <item>Naľahko</item>
+        <item>Tma</item>
+        <item>Čierna</item>
+    </string-array>
+
+    <string-array name="pref_alert_threshold_entries">
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>5 minut (výchozí)</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 hodina</item>
+    </string-array>
+
+</resources>

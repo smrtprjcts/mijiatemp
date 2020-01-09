@@ -34,7 +34,7 @@
     <string name="appwidget_configure_instructions">Prosim izberi napravo, ki jo želiš prikazati v widget-u</string>
     <string name="saved">Shranjeno</string>
     <string name="short_batt">bat=</string>
-    <string name="short_humidity">%=</string>
+    <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Način skeniranja Bluetooth</string>
     <string name="device">Naprava</string>

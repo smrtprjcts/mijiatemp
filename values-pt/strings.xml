@@ -253,4 +253,8 @@
     <string name="balanced">Equilibrado</string>
     <string name="title_pref_devicesettings_clock">Sincronização das horas</string>
     <string name="summary_pref_devicesettings_clock">Sincronização das horas com as horas do dispositivo</string>
+    <string name="title_pref_appearance_mac">Visibilidade do endereço do dispositivo</string>
+    <string name="summary_pref_appearance_mac">O endereço é visível na lista do ecrã principal</string>
+    <string name="message_translate">A tradução é realizada pela ajuda da comunidade. Se encontrar algum texto que necessita de correção entre em contacto comigo ou simplesmente corrija no github que está disponível no ecrã principal.\nMuito obrigado ao tradutores</string>
+
 </resources>
