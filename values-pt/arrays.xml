@@ -14,14 +14,14 @@
 
     <string-array name="pref_service_notif_prio_entries">
         <item>Min</item>
-        <item>Low</item>
+        <item>Baixo</item>
         <item>@string/cap_default</item>
-        <item>High</item>
+        <item>Alto</item>
         <item>Max</item>
     </string-array>
 
     <string-array name="pref_widget_refresh_period_entries">
-        <item>Immediately</item>
+        <item>Imediatamente</item>
         <item>1 minuto (por defeito)</item>
         <item>2 minutos</item>
         <item>3 minutos</item>
@@ -34,17 +34,17 @@
 
     <string-array name="periods">
         <item>@string/cap_default</item>
-        <item>Hour average</item>
-        <item>Day average</item>
-        <item>Week average</item>
-        <item>Month average</item>
-        <item>Year average</item>
+        <item>Média por Hora</item>
+        <item>Média por Dia</item>
+        <item>Média por Semana</item>
+        <item>Média por Mês</item>
+        <item>Média por Ano</item>
     </string-array>
 
     <string-array name="pref_themes_entries">
-        <item>Light</item>
-        <item>Dark</item>
-        <item>Black</item>
+        <item>Claro</item>
+        <item>Escuro</item>
+        <item>Preto</item>
     </string-array>
 
     <string-array name="pref_alert_threshold_entries">
