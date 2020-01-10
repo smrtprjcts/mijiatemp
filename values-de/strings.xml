@@ -5,7 +5,7 @@
     <string name="error_bluetooth_not_supported">Bluetooth wird nicht unterstützt</string>
     <string name="request_location_enable">Der Lokalisierungsdienst ist ausgeschaltet, bitte schalten Sie ihn ein</string>
     <string name="request_location_permission">Die Erlaubnis zur Lokalisierung ist notwendig</string>
-    <string name="running">Läuft</string>
+    <string name="running">Gestartet</string>
 
     <string name="request_bt_enable">Bluetooth ist ausgeschaltet, bitte schalten Sie es ein</string>
     <string name="default_device_name">Xiaomi Mijia BT Temp Gerät</string>
@@ -21,7 +21,7 @@
     <string name="title_db_reset">Datenbanken leeren</string>
     <string name="summary_db_reset">Gespeicherte Werte werden gelöscht</string>
     <string name="title_pref_battery">Batterieoptimierung</string>
-    <string name="summary_pref_battery_en">Einschaltet (die App kann im Hintergrund gestoppt werden)</string>
+    <string name="summary_pref_battery_en">Eingeschaltet (die App kann im Hintergrund gestoppt werden)</string>
     <string name="summary_pref_battery_dis">Ausgeschaltet (die App sollte im Hintergrund nicht gestoppt werden)</string>
     <string name="title_pref_background">Läuft im Hintergrund</string>
     <string name="title_pref_service_notif_prio">Benachrichtigungspriorität</string>
@@ -29,14 +29,14 @@
     <string name="notif_new_device">Neues Gerät erkannt</string>
     <string name="temperature">Temperatur</string>
     <string name="humidity">Feuchtigkeit</string>
-    <string name="double_press">Bitte klicken nochmals Sie ZURÜCK zum verlassen</string>
+    <string name="double_press">Nochmaliges Tippen beendet die App</string>
     <string name="title_pref_working_background">Läuft im Hintergrund</string>
     <string name="title_pref_widget_refresh_period">Widget Aktualisierungsintervall</string>
     <string name="appwidget_configure_instructions">Bitte wählen Sie das Gerät, das Sie im Widget anzeigen möchten</string>
     <string name="saved">Gespeichert</string>
 
     <string name="short_batt">batt=</string>
-    <string name="short_humidity">feuch=</string>
+    <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Bluetooth Scan Modus</string>
     <string name="device">Gerät</string>
@@ -52,7 +52,7 @@
     <string name="summary_device_visibility">Sichtbarkeit des Geräts in der Liste</string>
     <string name="warn_optimized">Im Moment wird die Hintergrundverwendung der App durch das System optimiert. In diesem Zustand könnte die App im Hintergrund gestoppt werden, aber Sie können diese Optimierung ausschalten.</string>
     <string name="cancel">Abbrechen</string>
-    <string name="period_all">Interval nicht festgelegt</string>
+    <string name="period_all">Intervall nicht festgelegt</string>
     <string name="hint_offset_temp">Temperaturabweichung vom richtigen Wert</string>
     <string name="hint_offset_hum">Feuchtigkeitsabweichung vom richtigen Wert</string>
     <string name="temp_offset" formatted="false">Temperaturkorrekturwert (%+.1f%s)</string>
@@ -77,7 +77,7 @@
     <string name="disable">Ausschalten</string>
     <string name="disabled">Ausgeschaltet</string>
     <string name="test">Test</string>
-    <string name="this_function">diese funktion</string>
+    <string name="this_function">diese Funktion</string>
     <string name="test_needs_for_save">ThingSpeak Datenspeicherung benötigt einen erfolgreichen Test</string>
     <string name="test_needs_for_enable">Sie müssen einen erfolgreichen Test durchführen</string>
     <string name="thingspeak_update_interval_min">Update Intervall (Minuten)</string>
@@ -94,7 +94,7 @@
     <string name="send">Senden…</string>
     <string name="sku_title_pro">Pro Version</string>
     <string name="sku_title_tingspeak">ThingSpeak</string>
-    <string name="desc_sku_pro">Werberfreie App mit Extrafunktionen</string>
+    <string name="desc_sku_pro">Werbefreie App mit Extrafunktionen</string>
     <string name="buy">Kaufen</string>
     <string name="desc_sku_thingspeak">ThingSpeak integration</string>
     <string name="purchased_pre" formatted="false">Sie haben %s gekauft</string>
@@ -102,36 +102,36 @@
     <string name="purchased_pro">Pro version.\nDie app ist jetzt werbefrei.</string>
     <string name="purchased_thingspeak">ThingSpeak integration funktion.</string>
     <string name="activity_configure">Widgetkonfiguration</string>
-    <string name="checkbox_name_visibility">Sichtbarkeit gerätenamen</string>
-    <string name="checkbox_temp_visibility">Sichtbarkeit temperatur</string>
-    <string name="checkbox_hum_visibility">Sichtbarkeit feuchtigkeit</string>
-    <string name="checkbox_bat_visibility">Sichtbarkeit batterie</string>
+    <string name="checkbox_name_visibility">Sichtbarkeit Gerätename</string>
+    <string name="checkbox_temp_visibility">Sichtbarkeit Temperatur</string>
+    <string name="checkbox_hum_visibility">Sichtbarkeit Feuchtigkeit</string>
+    <string name="checkbox_bat_visibility">Sichtbarkeit Batterie</string>
     <string name="title_widget_appearance">Einstellungen Erscheinungsbild Widget</string>
-    <string name="text_size">Textgrösse</string>
+    <string name="text_size">Textgröße</string>
     <string name="sample_text">Beispieltext</string>
     <string name="battery">Batterie</string>
     <string name="widget_type">Widgettyp</string>
     <string name="text_color">Textfarbe</string>
     <string name="background_color">Hintergrundfarbe</string>
     <string name="new_version_on_play">Neue Version im Play-Store</string>
-    <string name="refresh">Please aktualisieren!</string>
+    <string name="refresh">Bitte aktualisieren!</string>
     <string name="notif_period_expired">Testzeitraum abgelaufen</string>
     <string name="unknown_error">Fehler</string>
     <string name="title_theme">Thema</string>
-    <string name="title_pref_color_temperatue">Farbe temperaturezeile</string>
-    <string name="title_pref_color_humidity">Farbe feuchtigkeitszeile</string>
-    <string name="title_pref_color_battery">Farbe batteriezeile</string>
-    <string name="chart">Chart</string>
+    <string name="title_pref_color_temperatue">Farbe Temperatur</string>
+    <string name="title_pref_color_humidity">Farbe Feuchtigkeit</string>
+    <string name="title_pref_color_battery">Farbe Batterie</string>
+    <string name="chart">Diagramm</string>
     <string name="post_title_app">\u0020application</string>
     <string name="appintro_welcome_title">Willkommen!</string>
-    <string name="appintro_welcome_desc">Unoffizielle App für Xiaomi Mijia Bluetooth Hygro-Thermometer</string>
-    <string name="appintro_permission_title">Antrag auf Erlaubnis</string>
-    <string name="appintro_permission_desc">Um auf ihr Bluetooth zuzugreiffen, müssen Sie die Lokalisierungserlaubnis erteilen</string>
+    <string name="appintro_welcome_desc">Inoffizielle App für Xiaomi Mijia Bluetooth Hygro-Thermometer</string>
+    <string name="appintro_permission_title">Zugriffsberechtigung</string>
+    <string name="appintro_permission_desc">Bitte stimmen Sie dem Zugriff auf Bluetooth zu</string>
     <string name="appintro_how_it_works_title">Wie es funktioniert</string>
-    <string name="appintro_how_it_works_desc">Halten Sie den Thermometer einfach in die Nähe dieses Geräts</string>
+    <string name="appintro_how_it_works_desc">Halten Sie das Smartphone einfach in die Nähe des Geräts</string>
     <string name="appintro_battery_optimazition_title">Batterieoptimierung</string>
-    <string name="appintro_battery_optimazition_desc">Schalten Sie die Batterieoptimierung aus damit die App im Hintergrund läuft</string>
-    <string name="appintro_finished_title">Die grundlegend Einstellungen sind gemacht</string>
+    <string name="appintro_battery_optimazition_desc">Deaktivieren Sie die Batterieoptimierung für diese App, damit sie im Hintergrund weiterlaufen kann</string>
+    <string name="appintro_finished_title">Die grundlegenden Einstellungen sind gemacht</string>
     <string name="appintro_finished_desc">EINSTEIGEN</string>
     <string name="title_pref_save_button">Speicherknopf</string>
     <string name="summary_pref_save_button">Den Speicherknopf anstelle des Toolbarknopfs teilen</string>
@@ -144,32 +144,32 @@
     <string name="error_iab_init">In-App-Bezahlung ist nicht verfügbar!</string>
     <string name="title_pref_devicesettings_name">Gerätename</string>
     <string name="title_pref_devicesettings_offsets">Korrekturwert</string>
-    <string name="reporting">Berich</string>
-    <string name="summary_device_name">Einzigartiger Name für dieses Gerät (noch nicht gesetzt)</string>
+    <string name="reporting">Bericht</string>
+    <string name="summary_device_name">Eindeutiger Name für dieses Gerät (noch nicht gesetzt)</string>
     <string name="summary_offset">Korrekturwert vom richtigen Wert (noch nicht gesetzt)</string>
     <string name="field_settings">Feldeinstellungen</string>
-    <string name="thingspeak_set">Bitte api key und channel id einstellen</string>
+    <string name="thingspeak_set">Bitte API Key und Channel ID eingeben</string>
     <string name="default_field">Einmalige ID (1–8) (noch nicht gesetzt)</string>
     <string name="alert">Warnung</string>
     <string name="notification">Mitteilung</string>
-    <string name="email">Email</string>
+    <string name="email">E-Mail</string>
     <string name="title_pref_devicesettings_alert_temp_enable">Temperaturwarnung</string>
     <string name="title_pref_devicesettings_alert_hum_enable">Feuchtigkeitswarnung</string>
     <string name="title_pref_devicesettings_alert_bat_enable">Batteriewarnung</string>
-    <string name="title_pref_devicesettings_alert_temp">Normaler temperaturbereich</string>
-    <string name="title_pref_devicesettings_alert_hum">Normaler feuchtigkeitsbereich</string>
+    <string name="title_pref_devicesettings_alert_temp">Normaler Temperaturbereich</string>
+    <string name="title_pref_devicesettings_alert_hum">Normaler Feuchtigkeitsbereich</string>
     <string name="title_pref_devicesettings_alert_bat">Grenze für Batteriewarnung</string>
     <string name="alertif">Warnen wenn</string>
     <string name="text_and">und</string>
     <string name="notset">(noch nicht gesetzt)</string>
-    <string name="title_pref_devicesettings_email_sender">Ansender Emailadresse</string>
-    <string name="title_pref_devicesettings_email_receiver">Empfänger Emailadresse</string>
-    <string name="function_disbled">Diese funktion ist im moment ausgeschaltet (in dieser version)</string>
+    <string name="title_pref_devicesettings_email_sender">E-Mail-Adresse des Absenders</string>
+    <string name="title_pref_devicesettings_email_receiver">E-Mail-Adresse des Empfängers</string>
+    <string name="function_disbled">Diese Funktion ist im Moment deaktiviert (in dieser version)</string>
     <string name="needed" formatted="false">%s wird benötigt</string>
-    <string name="too_much_alert" formatted="false">Zu viel %s warnung</string>
+    <string name="too_much_alert" formatted="false">Zu viel %s Warnung</string>
     <string name="other">Andere</string>
     <string name="summary_db_reset_for_device">Gespeicherte Werte auf diesem Gerät werden gelöscht</string>
-    <string name="title_pref_devicesettings_sms_receiver">Empfänger SMS Nummer</string>
+    <string name="title_pref_devicesettings_sms_receiver">Nummer für SMS-Empfang</string>
     <string name="sms">SMS</string>
     <string name="help_thingspeak"><![CDATA[
     &#149; <a href=\"https://thingspeak.com/users/sign_up\">Für ThingSpeak registrieren</a> wenn du noch keinen Account hast<br>
@@ -180,13 +180,13 @@
     &#149; Aktiviere \'fields reporting\' und das Haupt-\'ThingSpeak reporting\'<br>
     &#149; Du bist fertig und kannst nun die Werte überall auf der Welt (auf der ThingSpeak Homepage und den ThingSpeak Apps) angucken
     ]]></string>
-    <string name="title_pref_alert_threshold">Warnungsinterval</string>
+    <string name="title_pref_alert_threshold">Warnungsintervall</string>
     <string name="summary_pref_database_for_device">Einstellungen zur Datenbank auf diesem Gerät</string>
     <string name="title_pref_autostart">Autostarterlaubnis</string>
     <string name="summary_pref_autostart">Herstellerspezifische Einstellungen</string>
     <string name="title_invitation">Einladung senden</string>
     <string name="invitation_cta">Installieren!</string>
-    <string name="invitation_message">Ich würde dir gerne diese App empfehlen</string>
+    <string name="invitation_message">Ich möchte dir diese App empfehlen</string>
     <string name="invite">Einladen und Belohnen</string>
     <string name="communication">Kommunikation</string>
     <string name="invitation_sent">Einladung(en) versendet</string>
@@ -208,7 +208,7 @@
     <string name="title_pref_devicesettings_user_group_key">Nutzer/Gruppen Schlüssel</string>
 
     <string name="title_pref_devicesettings_pushbullet_channel">Kanal Tag</string>
-    <string name="title_pref_devicesettings_apikey">API Schlüssel</string>
+    <string name="title_pref_devicesettings_apikey">API Key</string>
     <string name="help_email">Du kannst eine Email von einer gewählten Adresse zu einer anderen gewählten Adresse über die Temperatur/Feuchtigkeits/Batterieänderungen senden</string>
     <string name="help_sms">Du kannst eine SMS von diesem Handy zu einer anderen Handynummer mit Temperatur/Feuchtigkeits/Batterieänderungen senden</string>
     <string name="help_notif">Du kannst auf diesem Gerät über Temperatur/Feuchtigkeits/Batterieänderungen informiert werden (in der Statusanzeige)</string>
@@ -218,14 +218,14 @@
     <string name="title_pref_filter">Filter</string>
     <string name="summary_pref_filter">Nur bekannte Geräte (im Falle von Problemen, Abstürzen, usw.)</string>
     <string name="moisture">Feuchtigkeit</string>
-    <string name="illuminance">Licht helligkeit</string>
+    <string name="illuminance">Licht Helligkeit</string>
     <string name="conductivity">Leitfähigkeit</string>
     <string name="title_pref_devicesettings_devinfo">Geräteinformationen</string>
     <string name="loading">Lädt. Bitte warten…</string>
-    <string name="summary_device_info">Infos über dieses Gerät</string>
-    <string name="title_pref_devicesettings_devinfo_hwrev">Hardware version</string>
-    <string name="title_pref_devicesettings_devinfo_swrev">Software version</string>
-    <string name="title_pref_devicesettings_devinfo_fwrev">Firmware version</string>
+    <string name="summary_device_info">Gerätedetails</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Hardware Version</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Software Version</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Firmware Version</string>
     <string name="title_pref_devicesettings_devinfo_serial">Seriennummer</string>
     <string name="title_pref_devicesettings_devinfo_model">Modellnummer</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Hersteller</string>
