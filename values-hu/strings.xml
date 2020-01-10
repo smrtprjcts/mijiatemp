@@ -251,4 +251,5 @@
     <string name="title_pref_appearance_mac">Eszközcím megjelenítés</string>
     <string name="summary_pref_appearance_mac">Az eszköz címének megjelenítése a kezelt eszközök listájában</string>
     <string name="message_translate">A fordítás közösségi összefogással készül. Amennyiben bármiféle javítandót találsz, vedd fel a kapcsolatot velem vagy te is javíhatod a githubon amit megtalálsz a főmenüből.\nKöszönet a fordítóknak</string>
+    <string name="summary_pref_default_chart_values">Kiválasztható mi jelenjen meg a diagramon alapértelmezettként</string>
 </resources>

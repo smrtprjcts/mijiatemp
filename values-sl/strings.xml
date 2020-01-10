@@ -53,7 +53,7 @@
     <string name="period_all">Interval ni nastavljen</string>
     <string name="hint_offset_temp">Temperatura odmik od realne vrednosti</string>
     <string name="hint_offset_hum">Vlažnost se odmika od realne vrednosti</string>
-    <string name="temp_offset" formatted="false">Odmik temperaturne korekcije (% +. 1f% s)</string>
+    <string name="temp_offset" formatted="false">Odmik temperaturne korekcije (%+.1f%s)</string>
     <string name="hum_offset" formatted="false">Odmik vlažnostne korekcije (%+.1f%%)</string>
     <string name="realtime">V realnem času</string>
     <string name="history">Zgodovina</string>

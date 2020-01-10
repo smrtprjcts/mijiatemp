@@ -58,4 +58,16 @@
         <item>1 hour</item>
     </string-array>
 
+    <string-array name="pref_default_chart_entries">
+        <item>@string/temperature</item>
+        <item>@string/humidity</item>
+        <item>@string/battery</item>
+    </string-array>
+
+    <string-array name="pref_default_chart_values" translateable="false">
+        <item>temp</item>
+        <item>hum</item>
+        <item>bat</item>
+    </string-array>
+
 </resources>

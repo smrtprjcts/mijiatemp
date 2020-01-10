@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="settings">Settings</string>
 
     <string name="error_ble_not_supported">BLE is not supported</string>
@@ -272,5 +272,7 @@
     <string name="title_pref_appearance_mac">Device address visibility</string>
     <string name="summary_pref_appearance_mac">Address visible in the list of the main screen</string>
     <string name="message_translate">The translation is made with community cooperation. If you find any correctable text please contact me or simply fix it on the github which is available from the main menu.\nThanks to the translators</string>
+    <string name="title_pref_default_chart_values" tools:ignore="MissingTranslation">@string/chart</string>
+    <string name="summary_pref_default_chart_values">Select what can be visible by default</string>
 
 </resources>
