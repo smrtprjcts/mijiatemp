@@ -6,7 +6,6 @@
     <string name="request_location_enable">Prístup k udajom o polohe je vypnutý</string>
     <string name="request_location_permission">Vyžaduje sa povolenie polohy</string>
     <string name="running">Spustený</string>
-    <string name="turn_on">Zapnúť</string>
     <string name="request_bt_enable">Bluetooth je vypnutý, prosím zapnite ho</string>
     <string name="default_device_name">Xiaomi Mijia BT Temp zariadenia</string>
     <string name="action_save">Uložiť</string>
@@ -22,7 +21,7 @@
     <string name="summary_db_reset">Uložené hodnoty sa vymažú</string>
     <string name="title_pref_battery">Optimalizácia batérie</string>
     <string name="summary_pref_battery_en">Povolené (beh možno zastaviť na pozadí)</string>
-    <string name="summary_pref_battery_dis">Disabled (app shouldn't be stopped in the background)</string>
+
     <string name="title_pref_background">Beh na pozadí</string>
     <string name="title_pref_service_notif_prio">Notifikácie priorita</string>
     <string name="title_fahr">Fahrenheit</string>
@@ -35,15 +34,9 @@
     <string name="appwidget_configure_instructions">Vyberte v miniaplikácii zariadenie, ktoré chcete zobraziť</string>
     <string name="saved">Uložené</string>
 
-    <!-- string name="hint_device_name">Device name</string -->
-    <string name="short_batt">batt=</string>
-    <string name="short_humidity">hum=</string>
-    <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Bluetooth režim skenovania</string>
     <string name="device">Zariadenie</string>
     <string name="devices">Zariadenia</string>
-    <string name="short_second">sec</string>
-    <string name="short_minute">min</string>
     <string name="now">Teraz</string>
     <string name="action_date">Rozsah dátumu</string>
     <string name="reset">Resetovať</string>
@@ -67,7 +60,7 @@
     <string name="summary_pref_database">Nastavenia týkajúce sa databázy</string>
     <string name="thingspeak_channel">ID kanála</string>
     <string name="thingspeak_key">Channel Write Key</string>
-    <string name="create">Vytvoriť</string>
+
     <string name="no_internet_for">Potrebné pripojenie k internetu %s</string>
     <string name="error_thingspeak_key">Key/channel ID error</string>
     <string name="thingspeak_data_need">Nastavte kľúč a ID kanála</string>
@@ -176,11 +169,9 @@
     <string name="title_pref_alert_threshold">Interval vystrahy</string>
     <string name="summary_pref_database_for_device">Nastavenia týkajúce sa databázy pre toto zariadenie</string>
     <string name="title_pref_autostart">Autoštart povolenia</string>
-    <string name="summary_pref_autostart">Manufacturer related setting</string>
     <string name="title_invitation">Pošli pozvánku</string>
     <string name="invitation_cta">Inštalovať!</string>
-    <string name="invitation_message">I'd like to recommend this app for you</string>
-    <string name="invite">Invite and reward</string>
+
     <string name="communication">Komunikácia</string>
     <string name="invitation_sent">Pozvánky odoslané</string>
     <string name="thingspeak_devices">Android 5.0+ device with this App</string>

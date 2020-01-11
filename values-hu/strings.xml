@@ -145,6 +145,7 @@
     <string name="reporting">Jelentés</string>
     <string name="summary_device_name">Eszköz egyedi neve (még nincs beállítva)</string>
     <string name="summary_offset">Eltolás értéke a valós értéktől (nincs beállítva)</string>
+    <string name="info_offset">Különbség értékek a mért és a valós közt</string>
     <string name="field_settings">Mező beállítás</string>
     <string name="thingspeak_set">Kérjem állítsa be az api kulcs és csatorna azonosítóját</string>
     <string name="default_field">Egyedi azonosító (1–8) (még nincs beállítva)</string>

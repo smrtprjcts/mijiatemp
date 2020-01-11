@@ -159,6 +159,7 @@
     <string name="reporting">Reporting</string>
     <string name="summary_device_name">Unique name of this device (not set yet)</string>
     <string name="summary_offset">Offsets from the real values (not set yet)</string>
+    <string name="info_offset">Differences between the measured and the real values</string>
     <string name="field_settings">Field settings</string>
     <string name="thingspeak_set">Please set api key and channel id</string>
     <string name="default_field">Unique id (1–8) (not set yet)</string>
@@ -272,7 +273,6 @@
     <string name="title_pref_appearance_mac">Device address visibility</string>
     <string name="summary_pref_appearance_mac">Address visible in the list of the main screen</string>
     <string name="message_translate">The translation is made with community cooperation. If you find any correctable text please contact me or simply fix it on the github which is available from the main menu.\nThanks to the translators</string>
-    <string name="title_pref_default_chart_values" tools:ignore="MissingTranslation">@string/chart</string>
     <string name="summary_pref_default_chart_values">Select what can be visible by default</string>
 
 </resources>
