@@ -2,14 +2,14 @@
 <resources>
 
     <string-array name="pref_db_save_period_entries">
-        <item>1 minute (standard)</item>
-        <item>2 minuten</item>
-        <item>3 minuten</item>
-        <item>5 minuten</item>
-        <item>10 minuten</item>
-        <item>15 minuten</item>
-        <item>30 minuten</item>
-        <item>1 stunde</item>
+        <item>1 Minute (Standard)</item>
+        <item>2 Minuten</item>
+        <item>3 Minuten</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
     </string-array>
 
     <string-array name="pref_service_notif_prio_entries">
@@ -21,24 +21,24 @@
     </string-array>
 
     <string-array name="pref_widget_refresh_period_entries">
-        <item>Immediately</item>
-        <item>1 minute (standard)</item>
-        <item>2 minuten</item>
-        <item>3 minuten</item>
-        <item>5 minuten</item>
-        <item>10 minuten</item>
-        <item>15 minuten</item>
-        <item>30 minuten</item>
-        <item>1 stunde</item>
+        <item>sofort</item>
+        <item>1 Minute (Standard)</item>
+        <item>2 Minuten</item>
+        <item>3 Minuten</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
     </string-array>
 
     <string-array name="periods">
         <item>@string/cap_default</item>
-        <item>stunde average</item>
-        <item>Day average</item>
-        <item>Week average</item>
-        <item>Month average</item>
-        <item>Year average</item>
+        <item>Stundendurchschnitt</item>
+        <item>Tagesdurchschnitt</item>
+        <item>Wochendurchschnitt</item>
+        <item>Monatsdurchschnitt</item>
+        <item>Jahresdurchschnitt</item>
     </string-array>
 
     <string-array name="pref_themes_entries">
@@ -48,14 +48,14 @@
     </string-array>
 
     <string-array name="pref_alert_threshold_entries">
-        <item>1 minute</item>
-        <item>2 minuten</item>
-        <item>3 minuten</item>
-        <item>5 minuten (standard)</item>
-        <item>10 minuten</item>
-        <item>15 minuten</item>
-        <item>30 minuten</item>
-        <item>1 stunde</item>
+        <item>1 Minute</item>
+        <item>2 Minuten</item>
+        <item>3 Minuten</item>
+        <item>5 Minuten (Standard)</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
     </string-array>
 
 </resources>
