@@ -270,5 +270,6 @@
     <string name="title_pref_appearance_mac">Widoczność adresu MAC</string>
     <string name="summary_pref_appearance_mac">Widoczność adresu MAC na ekranie głównym</string>
     <string name="message_translate">Tłumaczenia oparte są na współpracy z użytkownikami. Jeśli uważasz, że coś należy poprawić skontaktuj się ze mną lub dokonaj poprawki na githubie, który jest dostępny z głównego menu.</string>
+    <string name="summary_pref_default_chart_values">Wybierz co ma być widoczne domyślnie</string>
 
 </resources>

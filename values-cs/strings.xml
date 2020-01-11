@@ -234,7 +234,7 @@
     <string name="illuminance">Intenzita světla</string>
     <string name="conductivity">Vodivost</string>
     <string name="title_pref_devicesettings_devinfo">Informace o zařízení</string>
-    <string name="loading">Nahrávám. Prosím počkejte...</string>
+    <string name="loading">Nahrávám. Prosím počkejte…</string>
     <string name="summary_device_info">Informace o tomto zařízení</string>
     <string name="title_pref_devicesettings_devinfo_hwrev">Verze hardwaru</string>
     <string name="title_pref_devicesettings_devinfo_swrev">Verze softwaru</string>
@@ -254,4 +254,5 @@
     <string name="title_pref_appearance_mac">Viditelnost adresy zařízení</string>
     <string name="summary_pref_appearance_mac">Adresa viditelná v seznamu hlavní obrazovky</string>
     <string name="message_translate">Překlad se provádí ve spolupráci s komunitou. Pokud najdete nějaký opravitelný text, kontaktujte mě, nebo jej jednoduše opravte na githubu, který je k dispozici z hlavního menu.\nDíky překladatelům</string>
+    <string name="summary_pref_default_chart_values">Vyberte, co bude ve výchozím nastavení viditelné</string>
 </resources>

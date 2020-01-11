@@ -6,6 +6,7 @@
     <string name="request_location_enable">Prístup k udajom o polohe je vypnutý</string>
     <string name="request_location_permission">Vyžaduje sa povolenie polohy</string>
     <string name="running">Spustený</string>
+    <string name="turn_on">Zapnúť</string>
     <string name="request_bt_enable">Bluetooth je vypnutý, prosím zapnite ho</string>
     <string name="default_device_name">Xiaomi Mijia BT Temp zariadenia</string>
     <string name="action_save">Uložiť</string>
@@ -21,6 +22,7 @@
     <string name="summary_db_reset">Uložené hodnoty sa vymažú</string>
     <string name="title_pref_battery">Optimalizácia batérie</string>
     <string name="summary_pref_battery_en">Povolené (beh možno zastaviť na pozadí)</string>
+    <string name="summary_pref_battery_dis">Disabled (app shouldn't be stopped in the background)</string>
     <string name="title_pref_background">Beh na pozadí</string>
     <string name="title_pref_service_notif_prio">Notifikácie priorita</string>
     <string name="title_fahr">Fahrenheit</string>
@@ -32,6 +34,8 @@
     <string name="title_pref_widget_refresh_period">Obnovovací interval miniaplikácie</string>
     <string name="appwidget_configure_instructions">Vyberte v miniaplikácii zariadenie, ktoré chcete zobraziť</string>
     <string name="saved">Uložené</string>
+
+    <!-- string name="hint_device_name">Device name</string -->
     <string name="short_batt">batt=</string>
     <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
@@ -62,7 +66,10 @@
     <string name="summary_pref_background">Pozadie aplikácie v závislosti od nastavení</string>
     <string name="summary_pref_database">Nastavenia týkajúce sa databázy</string>
     <string name="thingspeak_channel">ID kanála</string>
+    <string name="thingspeak_key">Channel Write Key</string>
+    <string name="create">Vytvoriť</string>
     <string name="no_internet_for">Potrebné pripojenie k internetu %s</string>
+    <string name="error_thingspeak_key">Key/channel ID error</string>
     <string name="thingspeak_data_need">Nastavte kľúč a ID kanála</string>
     <string name="thingspeak_temp">Id poľa Teploty</string>
     <string name="thingspeak_hum">Id poľa Vlhkosti</string>
@@ -71,6 +78,7 @@
     <string name="enabled">Povoliť</string>
     <string name="disable">Zakázať</string>
     <string name="disabled">Zakázať</string>
+    <string name="test">Test</string>
     <string name="this_function">Táto funkcia</string>
     <string name="test_needs_for_save">Ukladanie údajov do ThingSpeak vyžaduje úspešný test</string>
     <string name="test_needs_for_enable">Potrebné vykonať úspešný test</string>
@@ -102,6 +110,7 @@
     <string name="checkbox_bat_visibility">Bateria viditeľnosť</string>
     <string name="title_widget_appearance">Nastavenia vzhľadu widgetu</string>
     <string name="text_size">Veľkosť textu</string>
+    <string name="sample_text">Samle text</string>
     <string name="battery">Batéria</string>
     <string name="widget_type">Typ miniaplikácie</string>
     <string name="text_color">Farba textu</string>
@@ -115,6 +124,7 @@
     <string name="title_pref_color_humidity">Farba čiary vlhkosti</string>
     <string name="title_pref_color_battery">Farba čiary batérie</string>
     <string name="chart">Graf</string>
+    <string name="post_title_app">\u0020application</string>
     <string name="appintro_welcome_title">Vitajte!</string>
     <string name="appintro_welcome_desc">Neoficiálna aplikácia pre bluetooth hygro-teplomer Xiaomi Mijia</string>
     <string name="appintro_permission_title">Žiadosť o povolenie</string>
@@ -169,6 +179,7 @@
     <string name="summary_pref_autostart">Manufacturer related setting</string>
     <string name="title_invitation">Pošli pozvánku</string>
     <string name="invitation_cta">Inštalovať!</string>
+    <string name="invitation_message">I'd like to recommend this app for you</string>
     <string name="invite">Invite and reward</string>
     <string name="communication">Komunikácia</string>
     <string name="invitation_sent">Pozvánky odoslané</string>
@@ -186,13 +197,40 @@
     <string name="title_dontkill">Nezabíjajte moju aplikáciu!</string>
     <string name="warn_pro">Iba vo verzii Pro</string>
     <string name="title_pref_devicesettings_api_token">API Token</string>
+    <string name="title_pref_devicesettings_user_group_key">Používateľ/Kľúč skupiny</string>
+    <string name="help_pushover"><![CDATA[
+    &#149; <a href=\"https://pushover.net/login\">Zaregistrujte sa na Pushover</a> ak ešte nemáte účet<br>
+    &#149; <a href=\"https://pushover.com/login\">Prihláste sa do Pushover</a><br>
+    &#149; Vytvorte aplikáciu/ API Token a získajte API Token<br>
+    &#149; Vytvorte skupinu zobrazovania (môžete sa prihlásiť na odber) aby ste získali skupinový kľúč<br>
+    &#149; Vyplňte API Token a Skupinový kľúč v ponuke nastavení zariadenia<br>
+    &#149; Povoľte hlásenia polí a hlavné hlásenia Pushovera<br>
+    &#149; Ste hotoví a dostanete upozornenie v <a href=\"https://pushover.net/clients\">oficiálni klienti</a> kdekoľvek na svete
+    ]]></string>
+    <string name="title_pref_devicesettings_pushbullet_channel">Štítok kanála</string>
     <string name="title_pref_devicesettings_apikey">API Kľúč</string>
+    <string name="help_email">Môžete poslať e-mail z vybranej adresy na inú danú e-mailovú adresu o zmenách teploty, vlhkosti a stavu batérie</string>
+    <string name="help_sms">Z tejto SIM karty tohto zariadenia môžete na dané telefónne číslo odoslať SMS správu o zmene teploty/vlhkosti/stavu batérie</string>
+    <string name="help_notif">Na tomto zariadení môžete informovať o zmenách teploty/vlhkosti/zmeny batérie (na stavovom riadku)</string>
+    <string name="help_pushbullet"><![CDATA[
+    &#149; <a href=\"https://pushbullet.com/\">Zaregistrujte sa na Pushbullet</a> ak ešte nemáte účet<br>
+    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Prihláste sa do Pushbullet</a><br>
+    &#149; Vytvorte klúč API v <a href=\"https://www.pushbullet.com/#settings\">ponuke</a> nastavení<br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Vytvorte nový kanál</a><br>
+    &#149; Vyplňte klúč API a štítok kanála v ponuke nastavení zariadenia<br>
+    &#149; Povoľte hlásenia polí a hlavné hlásenia Pushbullet<br>
+    &#149; Ste hotoví a dostanete upozornenie v <a href=\"https://www.pushbullet.com/apps\">oficiálni klienti</a> kdekoľvek na svete
+    ]]></string>
     <string name="error_device_not_found">Zariadenie sa nenašlo v databáze</string>
     <string name="title_language">Jazyk</string>
     <string name="title_pref_filter">Filtrovanie</string>
+    <string name="summary_pref_filter">Iba známe zariadenia (v prípade problémov, zlyhanie, atď.)</string>
     <string name="moisture">Vlhkosť</string>
     <string name="illuminance">Ľahká intenzita</string>
+    <string name="conductivity">Vodivosť</string>
+    <string name="title_pref_devicesettings_devinfo">Informácie o zariadení</string>
     <string name="loading">Načítanie. Prosím čakajte…</string>
+    <string name="summary_device_info">Informácie o tomto zariadení</string>
     <string name="title_pref_devicesettings_devinfo_hwrev">Revízia hardvéru</string>
     <string name="title_pref_devicesettings_devinfo_swrev">Revízia softvéru</string>
     <string name="title_pref_devicesettings_devinfo_fwrev">Revízia firmwaru</string>
@@ -200,9 +238,17 @@
     <string name="title_pref_devicesettings_devinfo_model">Číslo modelu</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Výrobca</string>
     <string name="cap_default">Predvolený</string>
-    <string name="info_visible_notall">Vybraté zariadenia sú viditeľné</string>
+    <string name="info_visible_all">Všetky zariadenia sú viditeľné</string>
+	
+	<string name="info_visible_notall">Vybraté zariadenia sú viditeľné</string>
+    <string name="opportunistic">Adaptívné</string>
+    <string name="low_power">Nízka spotreba</string>
     <string name="low_latency">Nízka latencia</string>
     <string name="balanced">Vyvažený</string>
     <string name="title_pref_devicesettings_clock">Synchronizácia času</string>
     <string name="summary_pref_devicesettings_clock">Synchronizácia času s časom zariadenia</string>
+    <string name="title_pref_appearance_mac">Viditeľnosť adresy zariadenia</string>
+    <string name="summary_pref_appearance_mac">Adresa viditeľná v zozname hlavnej obrazovky</string>
+    <string name="message_translate">Preklad sa robí v spolupráci s komunitou. Ak nájdete nejaký opraviteľný text, kontaktujte ma, alebo ho jednoducho opravte na githube, ktorý je k dispozícii v hlavnej ponuke.\nVďaka prekladateľom</string>
+    <string name="summary_pref_default_chart_values">Vyberte, čo sa môže predvolene zobraziť</string>
 </resources>

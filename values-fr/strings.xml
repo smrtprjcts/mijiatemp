@@ -206,13 +206,13 @@
     <string name="title_pref_devicesettings_api_token">API Token</string>
     <string name="title_pref_devicesettings_user_group_key">Utlisateur / clé Groupe</string>
     <string name="help_pushover"><![CDATA[
-    &amp;#149 ; <a href=\"https://pushover.net/login\">S\'inscrire Sur Pushover</a> si vous n\'avez pas encore de compte<br>
-    &amp;#149 ; <a href=\"https://pushover.com/login\">Se logguer Sur Pushover</a><br>
-    &amp;#149 ; Créer un Token d\'application/API pour obtenir le Token API<br>
-    &amp;#149 ; Créer un groupe de livraison (vous pouvez vous y inscrire) pour obtenir la clé de groupe<br>
-    &amp;#149 ; Remplir le Token API et la clé de groupe dans le menu des paramètres du périphérique<br>
-    &amp;#149 ; Activer les champs de rapport et le rapport principal de Pushover<br>
-    &amp;#149 ; Vous avez terminé et vous allez être notifié dans votre <a href=\"https://pushover.net/clients\">clients officiels</a> partout dans le monde
+    &#149; <a href=\"https://pushover.net/login\">S\'inscrire Sur Pushover</a> si vous n\'avez pas encore de compte<br>
+    &#149; <a href=\"https://pushover.com/login\">Se logguer Sur Pushover</a><br>
+    &#149; Créer un Token d\'application/API pour obtenir le Token API<br>
+    &#149; Créer un groupe de livraison (vous pouvez vous y inscrire) pour obtenir la clé de groupe<br>
+    &#149; Remplir le Token API et la clé de groupe dans le menu des paramètres du périphérique<br>
+    &#149; Activer les champs de rapport et le rapport principal de Pushover<br>
+    &#149; Vous avez terminé et vous allez être notifié dans votre <a href=\"https://pushover.net/clients\">clients officiels</a> partout dans le monde
     ]]></string>
     <string name="title_pref_devicesettings_pushbullet_channel">Channel Tag</string>
     <string name="title_pref_devicesettings_apikey">API Key</string>
@@ -220,13 +220,13 @@
     <string name="help_sms">Vous pouvez envoyer un SMS depuis cette carte SIM de cet appareil vers un numéro de téléphone donné à propos des changements de température/humidité/batterie</string>
     <string name="help_notif">Vous pouvez signaler sur cet appareil les changements de température/humidité/batterie (Dans la barre de notification)</string>
     <string name="help_pushbullet"><![CDATA[
-    &amp;#149 ; <a href=\"https://pushbullet.com/\">S\'inscrire à Pushbullet</a> si vous n\'avez pas encore de compte<br>
-    &amp;#149 ; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Connexion à Pushbullet</a><br>
-    &amp;#149 ; Créer une clé API dans <a href=\"https://www.pushbullet.com/#settings\">réglages</a> menu<br>
-    &amp;#149 ; <a href=\"https://www.pushbullet.com/my-channel\">Créer un nouveau canal</a><br>
-    &amp;#149 ; Remplir la clé API et l\'étiquette de canal dans le menu des paramètres du dispositif<br>
-    &amp;#149 ; Activer les champs de rapport et le rapport principal de Pushbullet<br>
-    &amp;#149 ; Vous avez terminé et vous allez être notifié dans votre <a href=\"https://www.pushbullet.com/apps\">clients officiels</a> partout dans le monde
+    &#149; <a href=\"https://pushbullet.com/\">S\'inscrire à Pushbullet</a> si vous n\'avez pas encore de compte<br>
+    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Connexion à Pushbullet</a><br>
+    &#149; Créer une clé API dans <a href=\"https://www.pushbullet.com/#settings\">réglages</a> menu<br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Créer un nouveau canal</a><br>
+    &#149; Remplir la clé API et l\'étiquette de canal dans le menu des paramètres du dispositif<br>
+    &#149; Activer les champs de rapport et le rapport principal de Pushbullet<br>
+    &#149; Vous avez terminé et vous allez être notifié dans votre <a href=\"https://www.pushbullet.com/apps\">clients officiels</a> partout dans le monde
     ]]></string>
     <string name="error_device_not_found">Equipement non trouvé dans la base de donnée</string>
     <string name="title_language">Langue</string>
@@ -251,4 +251,10 @@
     <string name="low_power">Basse consommation</string>
     <string name="low_latency">faible latence</string>
     <string name="balanced">Balancé</string>
+    <string name="title_pref_devicesettings_clock">Synchronisation horaire</string>
+    <string name="summary_pref_devicesettings_clock">Synchroniser avec l\'horloge de l\'équipement Android</string>
+    <string name="title_pref_appearance_mac">Visibilité de l\'adresse de l\'équipement</string>
+    <string name="summary_pref_appearance_mac">Adresses des équipements visibles sur la page d\'accueil</string>
+    <string name="message_translate">Les traductions sont faites par la communauté. Si vous détectez des erreurs ou des améliorations à apporter veuillez me contacter, ou proposez les modifications par Github qui est accessible par le menu principal. Merci aux traducteurs.</string>
+    <string name="summary_pref_default_chart_values">Sélectionnez ce qui sera visible par défaut</string>
 </resources>
