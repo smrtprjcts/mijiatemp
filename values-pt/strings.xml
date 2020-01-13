@@ -257,5 +257,5 @@
     <string name="summary_pref_appearance_mac">O endereço é visível na lista do ecrã principal</string>
     <string name="message_translate">A tradução é realizada pela ajuda da comunidade. Se encontrar algum texto que necessita de correção entre em contacto comigo ou simplesmente corrija no github que está disponível no ecrã principal.\nMuito obrigado ao tradutores</string>
     <string name="summary_pref_default_chart_values">Selecione o que pode ser visível por defeito</string>
-
+    <string name="info_offset">"Diferenças entre valores medidos e os valores reais"</string>
 </resources>

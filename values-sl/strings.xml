@@ -248,4 +248,5 @@
     <string name="balanced">Uravnoteženo</string>
     <string name="title_pref_devicesettings_clock">Časovna sinhronizacija</string>
     <string name="summary_pref_devicesettings_clock">Časovna sinhronizacija s časom naprave</string>
+    <string name="info_offset">Razlike med izmerjenimi in resničnimi vrednostmi</string>
 </resources>

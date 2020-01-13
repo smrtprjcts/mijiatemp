@@ -170,15 +170,6 @@
     <string name="summary_db_reset_for_device">Les valeurs mémorisées dans cette appareil vont être effacées</string>
     <string name="title_pref_devicesettings_sms_receiver">Numéro SMS destinataire</string>
     <string name="sms">SMS</string>
-    <string name="help_thingspeak"><![CDATA[
-    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Sign up for ThingSpeak</a> if you don\'t have account yet<br>
-    &#149; <a href=\"https://thingspeak.com/login\">Sign in to ThingSpeak</a><br>
-    &#149; Create a new Channel by selecting Channels, My Channels, and then New Channel<br>
-    &#149; Fill Channel ID and the write key (from the API Keys menu of the channel) in the device settings menu<br>
-    &#149; Set the field numbers in the app you would like (eg. 1 for temperature, 2 for humidity, 3 for battery values)<br>
-    &#149; Enable the fields reporting and the main ThingSpeak reporting<br>
-    &#149; You\'re finished and able to access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)
-    ]]></string>
     <string name="title_pref_alert_threshold">Intervalle d\'alerte</string>
     <string name="summary_pref_database_for_device">Paramètres liés à la base de données pour ce dispositif</string>
     <string name="title_pref_autostart">Permission d\'auto-démarrage</string>
@@ -257,4 +248,5 @@
     <string name="summary_pref_appearance_mac">Adresses des équipements visibles sur la page d\'accueil</string>
     <string name="message_translate">Les traductions sont faites par la communauté. Si vous détectez des erreurs ou des améliorations à apporter veuillez me contacter, ou proposez les modifications par Github qui est accessible par le menu principal. Merci aux traducteurs.</string>
     <string name="summary_pref_default_chart_values">Sélectionnez ce qui sera visible par défaut</string>
+    <string name="info_offset">Différences entre les valeurs réelles et celles mesurées</string>
 </resources>

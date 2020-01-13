@@ -2,14 +2,14 @@
 <resources>
 
     <string-array name="pref_db_save_period_entries">
-        <item>1 minute (default)</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
+        <item>1 dakika (varsayılan)</item>
+        <item>2 dakika</item>
+        <item>3 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
     </string-array>
 
     <string-array name="pref_service_notif_prio_entries">
@@ -21,15 +21,15 @@
     </string-array>
 
     <string-array name="pref_widget_refresh_period_entries">
-        <item>Immediately</item>
-        <item>1 minute (default)</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
+        <item>Hemen</item>
+        <item>1 dakika (varsayılan)</item>
+        <item>2 dakika</item>
+        <item>3 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
     </string-array>
 
     <string-array name="periods">
@@ -48,14 +48,14 @@
     </string-array>
 
     <string-array name="pref_alert_threshold_entries">
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>5 minutes (default)</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>3 dakika</item>
+        <item>5 dakika (varsayılan)</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
     </string-array>
 
 </resources>

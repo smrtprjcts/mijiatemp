@@ -255,4 +255,5 @@
     <string name="summary_pref_appearance_mac">Adresa viditelná v seznamu hlavní obrazovky</string>
     <string name="message_translate">Překlad se provádí ve spolupráci s komunitou. Pokud najdete nějaký opravitelný text, kontaktujte mě, nebo jej jednoduše opravte na githubu, který je k dispozici z hlavního menu.\nDíky překladatelům</string>
     <string name="summary_pref_default_chart_values">Vyberte, co bude ve výchozím nastavení viditelné</string>
+    <string name="info_offset">Rozdíl mezi změřenou a reálnou hodnotou</string>
 </resources>

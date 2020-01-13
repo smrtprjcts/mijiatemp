@@ -251,8 +251,17 @@
     <string name="info_visible_all">Отображаются все устройства</string>
     <string name="info_visible_notall">Отображаются выбранные устройства</string>
 
-    <string name="opportunistic">Случайный</string>
+    <string name="opportunistic">Адаптивный</string>
     <string name="low_power">Малая мощность</string>
     <string name="low_latency">Малая задержка</string>
     <string name="balanced">Сбалансировано</string>
+
+    <string name="title_pref_devicesettings_clock">Синхронизация времени</string>
+    <string name="summary_pref_devicesettings_clock">Синхронизация с временем устройства</string>
+    <string name="title_pref_appearance_mac">Видимость адреса устройства</string>
+    <string name="summary_pref_appearance_mac">Адрес виден в списке главного экрана</string>
+    <string name="message_translate">Перевод сделан совместными усилиями сообщества. Если вы найдете какой-либо некорректный текст, пожалуйста, свяжитесь со мной или просто исправьте его на github, который доступен из главного меню.\nСпасибо переводчикам</string>
+    <string name="summary_pref_default_chart_values">Выберите показания, видимые по умолчанию</string>
+    <string name="info_offset">Различия между измеренными и реальными значениями</string>
+
 </resources>
