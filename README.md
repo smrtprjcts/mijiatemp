@@ -3,9 +3,7 @@
 If you would like to translate to the [MijiaTemp app](https://play.google.com/store/apps/details?id=com.smrtprjcts.mijiabt) to your language you can choose from the below methods:
 
 ## POEditor method
-Limited possibility. POEditor has 1000 strings limit and now it's increased to 30k until 13th Jan, 2020.
-[Join to translate project](https://poeditor.com/join/project/aBfzBj2DX6
-)
+POEditor has 1000 strings limit. [Join to translate project](https://poeditor.com/join/project/aBfzBj2DX6)
 
 ## Git method
 
