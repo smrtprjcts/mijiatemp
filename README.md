@@ -1,6 +1,8 @@
 # MijiaTemp string resources for translation
 
-If you would like to translate to the [MijiaTemp app](https://play.google.com/store/apps/details?id=com.smrtprjcts.mijiabt) to your language you can choose from the below methods:
+This project has the strings for [MijiaTemp app](https://play.google.com/store/apps/details?id=com.smrtprjcts.mijiabt).
+If you would like to translate or fix an existing language please do it in github.
+If you would like to create a translation for a non-translated-yet language, you can choose from the below methods:
 
 ## POEditor method
 POEditor has 1000 strings limit. [Join to translate project](https://poeditor.com/join/project/aBfzBj2DX6)
