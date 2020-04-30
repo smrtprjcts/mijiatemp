@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Налаштування</string>
+    <string name="error_ble_not_supported">BLE не підтримується</string>
+    <string name="error_bluetooth_not_supported">Bluetooth не підтримується</string>
+    <string name="request_location_enable">Служба локації вимкнена, будь ласка увімкніть</string>
+    <string name="request_location_permission">Вимагається дозвіл на місцезнаходження</string>
+    <string name="running">Працює</string>
+    <string name="request_bt_enable">Bluetooth відключено, будь ласка увімкніть</string>
+    <string name="default_device_name">Xiaomi Mijia BT Temp Device</string>
+    <string name="action_save">Зберегти</string>
+    <string name="title_pref_db_save_period">Інтервал оновлення датабази</string>
+    <string name="title_pref_start_on_boot">Почати роботу у фоні після завантаження</string>
+    <string name="title_pref_keep_service_alive">Підтримувати</string>
+    <string name="summary_pref_keep_service_alive">Підтримувати сервіс активним</string>
+    <string name="title_pref_store">Температура та вологість</string>
+    <string name="summary_pref_store">Зберегти температуру та вологість до датабази</string>
+    <string name="title_pref_store_batt">Рівень заряду батарейки</string>
+    <string name="summary_pref_store_batt">Зберегти щоденний рівень заряду батарейки до датабази</string>
+    <string name="title_db_reset">Очищення датабази</string>
+    <string name="summary_db_reset">Збережені значення буде видалено</string>
+    <string name="title_pref_battery">Оптимізація використання батарейки</string>
+    <string name="summary_pref_battery_en">Дозволено (робота може бути припинена у фоні)</string>
+    <string name="summary_pref_battery_dis">Заборонено (додаток не може бути припинений у фоні)</string>
+    <string name="title_pref_background">Робота у фоні</string>
+    <string name="title_pref_service_notif_prio">Пріоритет сповіщення</string>
+    <string name="title_fahr">Фаренгейт</string>
+    <string name="notif_new_device">Виявлено новий пристрій</string>
+    <string name="temperature">Температура</string>
+    <string name="humidity">Вологість</string>
+    <string name="double_press">Клацніть НАЗАД знову для виходу</string>
+    <string name="title_pref_working_background">Робота у фоні</string>
+    <string name="title_pref_widget_refresh_period">Інтервал оновлення віджету</string>
+    <string name="appwidget_configure_instructions">Виберіть пристрій, який ви хочете показати у віджеті</string>
+    <string name="saved">Збережено</string>
+
+    <!-- string name="hint_device_name">Device name</string -->
+    <string name="short_batt">бат=</string>
+    <string name="short_humidity">вол=</string>
+    <string name="short_temperature">темп=</string>
+    <string name="title_pref_bt_scan_mode">Режим сканування Bluetooth</string>
+    <string name="device">Пристрій</string>
+    <string name="devices">Пристрої</string>
+    <string name="short_second">сек</string>
+    <string name="short_minute">хв</string>
+    <string name="now">Зараз</string>
+    <string name="action_date">Діапазон дат</string>
+    <string name="reset">Скидання</string>
+    <string name="title_range">Вибір діапазону дат</string>
+    <string name="no_range_selected">Не вибрано діапазон дат</string>
+    <string name="title_device_visibility">Видимість та обробка пристрою</string>
+    <string name="summary_device_visibility">Видимість у списку, обробка</string>
+    <string name="warn_optimized">В даний час використання додатку у фоні оптимізовано системою. У такому стані робота у фоні може припинитися, але ви можете відключити оптимізацію.</string>
+    <string name="cancel">Скасувати</string>
+    <string name="period_all">Інтервал не встановлений</string>
+    <string name="hint_offset_temp">Відхилення температури від реального значення</string>
+    <string name="hint_offset_hum">Відхилення вологості від реального значення</string>
+    <string name="temp_offset" formatted="false">Поправка відхилення температури (%+.1f%s)</string>
+    <string name="hum_offset" formatted="false">Поправка відхилення вологості (%+.1f%%)</string>
+    <string name="realtime">У реальному часі</string>
+    <string name="history">Історія</string>
+    <string name="title_pref_appearance">Вигляд</string>
+    <string name="title_pref_database">Датабаза</string>
+    <string name="summary_pref_appearance">Налаштування залежності зовнішнього вигляду додатка</string>
+    <string name="summary_pref_background">Фон програми працює залежно від налаштувань</string>
+    <string name="summary_pref_database">Налаштування датабази</string>
+    <string name="thingspeak_channel">Ідентифікатор каналу</string>
+    <string name="thingspeak_key">Ключ Запису Каналу</string>
+    <string name="no_internet_for">Підключення до Інтернету необхідне для %s</string>
+    <string name="error_thingspeak_key">Помилка ключа/ідентифікатора каналу</string>
+    <string name="thingspeak_data_need">Встановіть ключ та Channel ID</string>
+    <string name="thingspeak_temp">Ідентифікатор поля температури</string>
+    <string name="thingspeak_hum">Ідентифікатор поля вологості</string>
+    <string name="thingspeak_bat">Ідентифікатор поля батарейки</string>
+    <string name="enable">Дозволити</string>
+    <string name="enabled">Дозволено</string>
+    <string name="disable">Заборонити</string>
+    <string name="disabled">Заборонено</string>
+    <string name="test">Тест</string>
+    <string name="this_function">ця функція</string>
+    <string name="test_needs_for_save">Збереження даних ThingSpeak потребує успішного тестування</string>
+    <string name="test_needs_for_enable">Потрібно зробити успішне тестування</string>
+    <string name="thingspeak_update_interval_min">Інтервал оновлення (хвилин)</string>
+    <string name="thingspeak_update_interval_min_temp">Інтервал оновлення температури (хвилин)</string>
+    <string name="thingspeak_update_interval_min_hum">Інтервал оновлення вологості (хвилин)</string>
+    <string name="thingspeak_update_interval_min_bat">Інтервал оновлення батарейки (хвилин)</string>
+    <string name="admob">Ви можете підтримати подальший розвиток, придбавши версію Pro</string>
+    <string name="exit">Вихід</string>
+    <string name="expired_please_refresh">Будь ласка оновіть додаток</string>
+    <string name="share">Поширити</string>
+    <string name="feedback">Зворотній зв\'язок та звіт про помилки</string>
+    <string name="help">Допомога</string>
+    <string name="purchase">Магазин</string>
+    <string name="send">Надіслати…</string>
+    <string name="sku_title_pro">Про версія</string>
+    <string name="sku_title_tingspeak">ThingSpeak</string>
+    <string name="desc_sku_pro">Рекламуйте безкоштовний додаток з додатковими функціями</string>
+    <string name="buy">Купити</string>
+    <string name="desc_sku_thingspeak">Інтеграція ThingSpeak</string>
+    <string name="purchased_pre" formatted="false">Ви придбали %s</string>
+    <string name="purchased_post" formatted="false">Якщо у вас є якісь проблеми з цим, не соромтеся зв\'язатися зі мною.
+Дякую.</string>
+    <string name="purchased_pro">Про версія.
+Додаток зараз без реклами.</string>
+    <string name="purchased_thingspeak">Функція інтеграції ThingSpeak.</string>
+    <string name="activity_configure">Налаштування віджета</string>
+    <string name="checkbox_name_visibility">Видимість назви пристрою</string>
+    <string name="checkbox_temp_visibility">Видимість температури</string>
+    <string name="checkbox_hum_visibility">Видимість вологості</string>
+    <string name="checkbox_bat_visibility">Видимість батарейки</string>
+    <string name="title_widget_appearance">Налаштування зовнішнього вигляду віджету</string>
+    <string name="text_size">Розмір тексту</string>
+    <string name="sample_text">Зразок тексту</string>
+    <string name="battery">Батарейка</string>
+    <string name="widget_type">Тип віджета</string>
+    <string name="text_color">Коліртексту</string>
+    <string name="background_color">Колір фону</string>
+    <string name="new_version_on_play">Нова версія в Play</string>
+    <string name="refresh">Будь ласка, оновіть!</string>
+    <string name="notif_period_expired">випробувальний термін закінчився</string>
+    <string name="unknown_error">Помилка</string>
+    <string name="title_theme">Тема</string>
+    <string name="title_pref_color_temperatue">Колір рядка температури</string>
+    <string name="title_pref_color_humidity">Колір рядка вологості</string>
+    <string name="title_pref_color_battery">Колір рядка батарейки</string>
+    <string name="chart">Діаграма</string>
+    <string name="post_title_app">\u0020додаток</string>
+    <string name="appintro_welcome_title">Ласкаво просимо!</string>
+    <string name="appintro_welcome_desc">Неофіційний додаток для гігро-термометрів Xiaomi Mijia Bluetooth</string>
+    <string name="appintro_permission_title">Запит на дозвіл</string>
+    <string name="appintro_permission_desc">Для доступу до Bluetooth ви повинні надати дозвіл на місцезнаходження</string>
+    <string name="appintro_how_it_works_title">Як це працює</string>
+    <string name="appintro_how_it_works_desc">Просто тримайте термометр близько до цього пристрою</string>
+    <string name="appintro_battery_optimazition_title">Оптимізація акумулятора</string>
+    <string name="appintro_battery_optimazition_desc">Вимкніть оптимізацію акумулятора для належної роботи в фоновому режимі</string>
+    <string name="appintro_finished_title">Основні налаштування встановлені</string>
+    <string name="appintro_finished_desc">РОЗПОЧАТИ</string>
+    <string name="title_pref_save_button">Кнопка зберегти</string>
+    <string name="summary_pref_save_button">Окрему кнопку зберегти замість кнопки на панелі інструментів</string>
+    <string name="title_pref_backup_restore">Резервне копіювання / відновлення</string>
+    <string name="title_pref_db_backup">Резервне копіювання</string>
+    <string name="summary_pref_db_backup">Резервне копіювання в хмарну датабазу</string>
+    <string name="title_pref_db_restore">Відновлення</string>
+    <string name="summary_pref_db_restore">Відновлення з хмарної датабази</string>
+    <string name="correction">Повідомлені значення температури/вологості коригуються поправкою на відхилення</string>
+    <string name="error_iab_init">Платежі через додаток недоступні!</string>
+    <string name="title_pref_devicesettings_name">Ім\'я пристрою</string>
+    <string name="title_pref_devicesettings_offsets">Поправки відхилення</string>
+    <string name="reporting">Звітність</string>
+    <string name="summary_device_name">Унікальна назва цього пристрою (ще не встановлено)</string>
+    <string name="summary_offset">Відхилення від реальних значень (ще не встановлено)</string>
+    <string name="field_settings">Налаштування поля</string>
+    <string name="thingspeak_set">Введіть ключ api та ідентифікатор каналу</string>
+    <string name="default_field">Унікальний ідентифікатор (1–8) (ще не встановлено)</string>
+    <string name="alert">Тривога</string>
+    <string name="notification">Повідомлення</string>
+    <string name="email">Електронна пошта</string>
+    <string name="title_pref_devicesettings_alert_temp_enable">Тривога температура</string>
+    <string name="title_pref_devicesettings_alert_hum_enable">Тривога вологість</string>
+    <string name="title_pref_devicesettings_alert_bat_enable">Тривога батарейка</string>
+    <string name="title_pref_devicesettings_alert_temp">Нормальний діапазон температур</string>
+    <string name="title_pref_devicesettings_alert_hum">Нормальний діапазон вологості</string>
+    <string name="title_pref_devicesettings_alert_bat">Ліміт тривоги батарейки</string>
+    <string name="alertif">Тривога, якщо</string>
+    <string name="text_and">і</string>
+    <string name="notset">(ще не встановлено)</string>
+    <string name="title_pref_devicesettings_email_sender">Адреса електронної пошти відправника</string>
+    <string name="title_pref_devicesettings_email_receiver">Адреса електронної пошти одержувача</string>
+    <string name="function_disbled">Ця функція вимкнена в цей момент (у цій версії)</string>
+    <string name="needed" formatted="false">%s потрібні</string>
+    <string name="too_much_alert" formatted="false">Надто багато %s тривог</string>
+    <string name="other">Інший</string>
+    <string name="summary_db_reset_for_device">Збережені значення цього пристрою будуть видалені</string>
+    <string name="title_pref_devicesettings_sms_receiver">Номер одержувача СМС</string>
+    <string name="sms">СМС</string>
+    <string name="title_pref_alert_threshold">Інтервал тривог</string>
+    <string name="summary_pref_database_for_device">Налаштування, пов\'язані з датабазою для цього пристрою</string>
+    <string name="title_pref_autostart">Дозвіл автозапуску</string>
+    <string name="summary_pref_autostart">Налаштування, пов\'язані з виробником</string>
+    <string name="title_invitation">Надіслати запрошення</string>
+    <string name="invitation_cta">Встановити!</string>
+    <string name="invitation_message">Я хотів би рекомендувати цей додаток для вас</string>
+    <string name="invite">Запросити та нагородити</string>
+    <string name="communication">Зв\'язок</string>
+    <string name="invitation_sent">Запрошення надіслано</string>
+    <string name="thingspeak_devices">Android 5.0+ пристрій з цим додатком</string>
+    <string name="any_devices">Веб-браузери, додатки для Android, додатки для iOS тощо.</string>
+    <string name="msg_sure">Ви впевнені?</string>
+    <string name="title_device_delete">Видалення пристрою</string>
+    <string name="summary_device_delete">Пристрій та його збережені значення буде видалено</string>
+    <string name="title_pref_truetime">Мережевий час</string>
+    <string name="summary_pref_truetime">Більш висока точність мережевого часу замість місцевого часу</string>
+    <string name="time">Час</string>
+    <string name="translate">Перекласти</string>
+    <string name="title_pref_other">Інший</string>
+    <string name="summary_pref_other">Інші (експериментальні) функції</string>
+    <string name="title_dontkill">Не вбивайте мою програму!</string>
+    <string name="warn_pro">Тільки з Pro версією</string>
+    <string name="title_pref_devicesettings_api_token">API Token</string>
+    <string name="title_pref_devicesettings_user_group_key">Користувацький/Груповий Ключ</string>
+    <string name="help_pushover"><![CDATA[
+    &#149; <a href=\"https://pushover.net/login\">Зареєструйтесь на Pushover</a> якщо у вас ще немає облікового запису<br>
+    &#149; <a href=\"https://pushover.com/login\">Увійдіть у Pushover</a><br>
+    &#149; Створіть Application/API Token, щоб отримати API Token<br>
+    &#149; Створіть Delivery group (ви можете підписатися на неї), щоб отримати Group Key<br>
+    &#149; В меню налаштувань пристрою заповніть API Token та Group Key<br>
+    &#149; Увімкніть поля звітування та основні звіти Pushover<br>
+    &#149; Ви закінчите і отримаєте сповіщення у своєму <a href=\"https://pushover.net/clients\">official clients</a> в будь-якій точці світу
+    ]]></string>
+    <string name="title_pref_devicesettings_pushbullet_channel">Тег каналу</string>
+    <string name="title_pref_devicesettings_apikey">Ключ API</string>
+    <string name="help_email">Ви можете надіслати електронний лист із вибраної адреси на іншу адресу електронної пошти про зміну температури/вологість/батарейку</string>
+    <string name="help_sms">Ви можете надіслати SMS з цієї SIM цього пристрою на вказаний номер телефону про зміни температури/ вологість/батарейки</string>
+    <string name="help_notif">Ви можете повідомити на цьому пристрої про зміни температури/ вологість/батарейки (в статусбарі)</string>
+    <string name="help_pushbullet"><![CDATA[
+    &#149; <a href=\"https://pushbullet.com/\">Зареєструйтесь на Pushbullet</a> якщо у вас ще немає облікового запису<br>
+    &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Увійдіть у Pushbullet</a><br>
+    &#149; Створіть ключ API в <a href=\"https://www.pushbullet.com/#settings\">settings</a> menu<br>
+    &#149; <a href=\"https://www.pushbullet.com/my-channel\">Створіть новий канал</a><br>
+    &#149; Заповніть API ключ і тег каналу в меню налаштувань пристрою<br>
+    &#149; Увімкніть поля звітування та основні звіти Pushbullet<br>
+    &#149; Ви закінчите і отримаєте сповіщення у своєму <a href=\"https://www.pushbullet.com/apps\">official clients</a> в будь-якій точці світу
+    ]]></string>
+    <string name="error_device_not_found">Пристрій не знайдено в датабазі</string>
+    <string name="title_language">Мова</string>
+    <string name="title_pref_filter">Фільтрування</string>
+    <string name="summary_pref_filter">Тільки відомі пристрої (у разі проблем, збоїв тощо)</string>
+    <string name="moisture">Волога</string>
+    <string name="illuminance">Інтенсивність світла</string>
+    <string name="conductivity">Родючість</string>
+    <string name="title_pref_devicesettings_devinfo">Інформація про пристрій</string>
+    <string name="loading">Завантаження. Будь ласка, зачекайте ...</string>
+    <string name="summary_device_info">Інформація про цей пристрій</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Версія обладнання</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Версія ПЗ</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Версія прошивки</string>
+    <string name="title_pref_devicesettings_devinfo_serial">Серійний номер</string>
+    <string name="title_pref_devicesettings_devinfo_model">Номер моделі</string>
+    <string name="title_pref_devicesettings_devinfo_manufacturer">Виробник</string>
+    <string name="cap_default">За замовчуванням</string>
+    <string name="info_visible_all">Усі пристрої видно</string>
+    <string name="info_visible_notall">Вибрані пристрої видно</string>
+    <string name="opportunistic">Опортуністичний</string>
+    <string name="low_power">Низька потужність</string>
+    <string name="low_latency">Низька затримка</string>
+    <string name="balanced">Збалансований</string>
+    <string name="title_pref_devicesettings_clock">Часова синхронізація</string>
+    <string name="summary_pref_devicesettings_clock">Синхронізуйте час із часом його пристрою Android</string>
+    <string name="title_pref_appearance_mac">Видимість адреси пристрою</string>
+    <string name="summary_pref_appearance_mac">Адреса, видима у списку головного екрана</string>
+    <string name="message_translate">Переклад зроблений у співпраці з громадою. Якщо ви знайдете будь-який виправлений текст, будь ласка, зв\'яжіться зі мною або просто зафіксуйте його на github, який доступний у головному меню.
+Дякую перекладачам</string>
+    <string name="summary_pref_default_chart_values">Виберіть те, що може бути видимим за замовчуванням</string>
+    <string name="help_thingspeak"><![CDATA[
+    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Зареєструйтесь на ThingSpeak</a> якщо у вас ще немає облікового запису<br>
+    &#149; <a href=\"https://thingspeak.com/login\">Увійдіть у ThingSpeak</a><br>
+    &#149; Створіть новий канал, вибравши Channels, My Channels, і далі New Channel<br>
+    &#149; Заповніть Channel ID та ключ запису (з меню API Keys каналу) в меню налаштувань пристрою<br>
+    &#149; Встановіть номери полів у додатку, який ви хотіли б (напр. 1 для температури, 2 для вологості, 3 для батарейки)<br>
+    &#149; Увімкніть поля звітування та основні звіти  ThingSpeak <br>
+    &#149; Ви закінчили і можете отримати доступ до значень у будь-якій точці світу (на домашній сторінці ThingSpeak, в додатку ThingSpeak)
+    ]]></string>
+    <string name="info_offset">Відмінності між вимірюваною та реальною величинами</string>
+</resources>

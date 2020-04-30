@@ -55,7 +55,7 @@
     <string name="hint_offset_temp">Sıcaklık gerçek değer ofseti</string>
     <string name="hint_offset_hum">Nem gerçek değer ofseti</string>
     <string name="temp_offset" formatted="false">Sıcaklık düzeltme ofseti (%+.1f%s)</string>
-    <string name="hum_offset" formatted="false">Nem düzeltme ofseti (%+.1%%)</string>
+    <string name="hum_offset" formatted="false">Nem düzeltme ofseti (%+.1f%%)</string>
     <string name="realtime">Gerçek zaman</string>
     <string name="history">Tarih</string>
     <string name="title_pref_appearance">Görünüm</string>
