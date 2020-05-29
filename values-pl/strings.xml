@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="settings">Ustawienia</string>
 
     <string name="error_ble_not_supported">BLE nie jest wspierane</string>
@@ -7,8 +7,8 @@
 
     <string name="request_location_enable">Usługa lokalizacji jest wyłączona, proszę ją włączyć</string>
     <string name="request_location_permission">Zezwolenie na lokalizację jest konieczne</string>
-    <string name="running">Działa</string>
 
+    <string name="running">Działa</string>
     <string name="request_bt_enable">Bluetooth jest wyłączony, proszę go włączyć</string>
 
     <string name="default_device_name">Xiaomi Mijia BT Temp Device</string>
@@ -34,7 +34,7 @@
     <string name="title_pref_background">Działanie w tle</string>
 
     <string name="title_pref_service_notif_prio">Priorytet powiadomień</string>
-    <string name="title_fahr">Fahrenheit</string>
+    <string name="title_fahr">Skala Fahrenheita</string>
     <string name="notif_new_device">Wykryto nowe urządzenie</string>
     <string name="temperature">Temperatura</string>
     <string name="humidity">Wilgotność</string>
@@ -45,14 +45,15 @@
     <string name="title_pref_widget_refresh_period">Częstotliwość odświeżania widżetu</string>
     <string name="appwidget_configure_instructions">Wybierz urządzenie, które ma wyświetlać widżet</string>
     <string name="saved">Zapisano</string>
-    <string name="short_batt">bat=</string>
-    <string name="short_humidity">wilg=</string>
+    <!--string name="hint_device_name">Nazwa urządzenia</string-->
+    <string name="short_batt">bat.=</string>
+    <string name="short_humidity">wilg.=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Tryb skanowania bluetooth</string>
     <string name="device">Urządzenie</string>
     <string name="devices">Urządzenia</string>
-    <string name="short_second">sek</string>
-    <string name="short_minute">min</string>
+    <string name="short_second">sek.</string>
+    <string name="short_minute">min.</string>
     <string name="now">Teraz</string>
     <string name="action_date">Zakres dat</string>
     <string name="reset">Resetuj</string>
@@ -63,8 +64,8 @@
     <string name="warn_optimized">Aktualnie działanie w tle jest optymalizowane przez system. W tym przypadku działanie w tle może zostać zatrzymane, ale możesz wyłączyć optymalizację.</string>
     <string name="cancel">Anuluj</string>
     <string name="period_all">Wybierz okres</string>
-    <string name="hint_offset_temp">Odchylenie wartości temperatury od rzeczywistej</string>
-    <string name="hint_offset_hum">Odchylenie wartości wilgotności od rzeczywistej</string>
+    <string name="hint_offset_temp">Odchylenie temperatury od wartości rzeczywistej</string>
+    <string name="hint_offset_hum">Odchylenie wilgotności od wartości rzeczywistej</string>
     <string name="temp_offset" formatted="false">Korekta odchylenia temperatury (%+.1f%s)</string>
     <string name="hum_offset" formatted="false"> Korekta odchylenia wilgotności (%+.1f%%)</string>
     <string name="realtime">Czas rzeczywisty</string>
@@ -76,6 +77,7 @@
     <string name="summary_pref_database">Ustawienia związane z bazą danych</string>
     <string name="thingspeak_channel">ID kanału</string>
     <string name="thingspeak_key">Klucz zapisu kanału</string>
+
     <string name="no_internet_for">Wymagane połączenie z internetem dla %s</string>
     <string name="error_thingspeak_key">Błąd ID klucza/kanału</string>
     <string name="thingspeak_data_need">Ustaw ID klucza i kanału</string>
@@ -90,10 +92,10 @@
     <string name="this_function">tę funkcję</string>
     <string name="test_needs_for_save">Zapis danych ThingSpeak wymaga udanego testu</string>
     <string name="test_needs_for_enable">Wymagany udany test</string>
-    <string name="thingspeak_update_interval_min">Częstotliwość odświeżania (minut)</string>
-    <string name="thingspeak_update_interval_min_temp">Częstotliwość odświeżania temperatury (minut)</string>
-    <string name="thingspeak_update_interval_min_hum">Częstotliwość odświeżania wilgotności (minut)</string>
-    <string name="thingspeak_update_interval_min_bat">Częstotliwość odświeżania baterii (minute)</string>
+    <string name="thingspeak_update_interval_min">Częstotliwość odświeżania (minuty)</string>
+    <string name="thingspeak_update_interval_min_temp">Częstotliwość odświeżania temperatury (minuty)</string>
+    <string name="thingspeak_update_interval_min_hum">Częstotliwość odświeżania wilgotności (minuty)</string>
+    <string name="thingspeak_update_interval_min_bat">Częstotliwość odświeżania baterii (minuty)</string>
     <string name="admob">Możesz wesprzeć dalszy rozwój kupując wersję Pro</string>
     <string name="exit">Wyjdź</string>
     <string name="expired_please_refresh">Proszę odświeżyć aplikację</string>
@@ -109,7 +111,7 @@
     <string name="desc_sku_thingspeak">Integracja ThingSpeak</string>
     <string name="purchased_pre" formatted="false">Zakupiłeś %s</string>
     <string name="purchased_post" formatted="false">\nJeśli masz z tym jakiś problem nie wahaj się skontaktować ze mną.\nDziękuję.</string>
-    <string name="purchased_pro">Wersja Pro.\naAplikacja nie zawiera reklam.</string>
+    <string name="purchased_pro">Wersja Pro.\nAplikacja nie zawiera reklam.</string>
     <string name="purchased_thingspeak">ThingSpeak integration feature.</string>
     <string name="activity_configure">Konfiguracja widżetu</string>
     <string name="checkbox_name_visibility">Nazwa urządzenia</string>
@@ -143,13 +145,13 @@
     <string name="appintro_battery_optimazition_desc">Wyłącz optymalizację baterii dla poprawnej pracy w tle</string>
     <string name="appintro_finished_title">Podstawowa konfiguracja zakończona</string>
     <string name="appintro_finished_desc">ROZPOCZNIJ</string>
-    <string name="title_pref_save_button">Zapisz przycisk</string>
+    <string name="title_pref_save_button">Przycisk &quot;Zapisz&quot;</string>
     <string name="summary_pref_save_button">Oddzielny przycisk zapisu zamiast przycisku na pasku</string>
     <string name="title_pref_backup_restore">Kopia zapasowa / przywracanie</string>
     <string name="title_pref_db_backup">Kopia zapasowa</string>
     <string name="summary_pref_db_backup">Kopia zapasowa do chmury bazy danych</string>
     <string name="title_pref_db_restore">Przywracanie</string>
-    <string name="summary_pref_db_restore">Przywróć z chmury bazy danych</string>
+    <string name="summary_pref_db_restore">Przywróć bazę danych z chmury</string>
     <string name="correction">Zgłoszone wartości temperatury/wilgotności skorygowane o odchylenia</string>
     <string name="error_iab_init">Rozliczenie wewnątrz aplikacji nie jest dostępne!</string>
     <string name="title_pref_devicesettings_name">Nazwa urządzenia</string>
@@ -157,6 +159,7 @@
     <string name="reporting">Zgłaszanie</string>
     <string name="summary_device_name">Unikalna nazwa tego urządzenia (nie ustawione)</string>
     <string name="summary_offset">Odchylenie od rzeczywistych wartości (nie ustawione)</string>
+    <string name="info_offset">Różnice między zmierzonymi, a rzeczywistymi wartościami</string>
     <string name="field_settings">Ustawienia pola</string>
     <string name="thingspeak_set">Proszę ustawić klucz API oraz ID kanału</string>
     <string name="default_field">Unikalne ID (1–8) (nie ustawione)</string>
@@ -177,7 +180,7 @@
     <string name="title_pref_devicesettings_email_receiver">Adres e-mail odbiorcy</string>
     <string name="function_disbled">Ta funkcja jest na razie zablokowana (w tej wersji)</string>
     <string name="needed" formatted="false">%s wymagane</string>
-    <string name="too_much_alert" formatted="false">Zbyt wiele %s alertu</string>
+    <string name="too_much_alert" formatted="false">Zbyt wiele alertów %s</string>
     <string name="other">Inne</string>
     <string name="summary_db_reset_for_device">Zapisane wartości tego urządzenia zostaną usunięte</string>
     <string name="title_pref_devicesettings_sms_receiver">Numer odbiorcy SMS</string>
@@ -206,13 +209,12 @@
     <string name="msg_sure">Jesteś pewny?</string>
     <string name="title_device_delete">Usuń urządzenie</string>
     <string name="summary_device_delete">Urządzenie i zapisane dla niego wartości zostaną usunięte</string>
-    <string name="title_pref_truetime">Czas sieci</string>
+    <string name="title_pref_truetime">Czas z sieci</string>
     <string name="summary_pref_truetime">Wyższa dokładność czasu sieciowego zamiast czasu lokalnego</string>
     <string name="time">Czas</string>
     <string name="translate">Przetłumacz</string>
     <string name="title_pref_other">Inne</string>
     <string name="summary_pref_other">Inne (eksperymentalne) funkcje</string>
-
     <string name="title_dontkill">Nie zabijaj mojej aplikacji!</string>
     <string name="warn_pro">Tylko z wersją PRO</string>
     <string name="title_pref_devicesettings_api_token">Token API</string>
@@ -238,7 +240,7 @@
     &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Zaloguj się do Pushbullet</a><br>
     &#149; Utwórz klucz API w <a href=\"https://www.pushbullet.com/#settings\">ustawieniach</a><br>
     &#149; <a href=\"https://www.pushbullet.com/my-channel\">Utwórz nowy kanał</a><br>
-    &#149; Uzupełnij klucz API oraz kanał tagu w menu ustawień urządzenia<br>
+    &#149; Uzupełnij klucz API oraz tag kanału w menu ustawień urządzenia<br>
     &#149; Odblokuj pola raportowania oraz głównego raportowania Pushbullet<br>
     &#149; Skończyłeś i otrzymasz powiadomienie w swoim <a href=\"https://www.pushbullet.com/apps\">oficjalnym kliencie</a> gdziekolwiek na świecie
     ]]></string>
@@ -246,9 +248,9 @@
     <string name="title_language">Język</string>
     <string name="title_pref_filter">Filtrowanie</string>
     <string name="summary_pref_filter">Tylko znane urządzenia (w przypadku problemów, crashowania itp.)</string>
-    <string name="moisture">Wilgoć</string>
-    <string name="illuminance">Intensywność światła</string>
-    <string name="conductivity">Przewodnictwo</string>
+    <string name="moisture">Wilgotność</string>
+    <string name="illuminance">Natężenie światła</string>
+    <string name="conductivity">Żyzność (przewodność)</string>
     <string name="title_pref_devicesettings_devinfo">Informacje o urządzeniu</string>
     <string name="loading">Ładowanie. Proszę czekać…</string>
     <string name="summary_device_info">Informacje o tym urządzeniu</string>
@@ -258,15 +260,16 @@
     <string name="title_pref_devicesettings_devinfo_serial">Numer Seryjny</string>
     <string name="title_pref_devicesettings_devinfo_model">Numer modelu</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Producent</string>
-    <string name="cap_default">Domyślny</string>
     <string name="info_visible_all">Wszystkie urządzenia</string>
     <string name="info_visible_notall">Wybrane urządzenia</string>
+    <string name="cap_default">Domyślny</string>
+
     <string name="opportunistic">Powolny</string>
     <string name="low_power">Oszczędny</string>
-    <string name="low_latency">Szybki</string>
     <string name="balanced">Optymalny</string>
+    <string name="low_latency">Szybki</string>
     <string name="title_pref_devicesettings_clock">Synchronizacja czasu</string>
-    <string name="summary_pref_devicesettings_clock">Synchronizuj czas z tym urządzeniem </string>
+    <string name="summary_pref_devicesettings_clock">Synchronizuj czasu z tym urządzeniem</string>
     <string name="title_pref_appearance_mac">Widoczność adresu MAC</string>
     <string name="summary_pref_appearance_mac">Widoczność adresu MAC na ekranie głównym</string>
     <string name="message_translate">Tłumaczenia oparte są na współpracy z użytkownikami. Jeśli uważasz, że coś należy poprawić skontaktuj się ze mną lub dokonaj poprawki na githubie, który jest dostępny z głównego menu.</string>
