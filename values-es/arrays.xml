@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_db_save_period_entries">
+        <item>1 minuto (por defecto)</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+    <string-array name="pref_service_notif_prio_entries">
+        <item>Minimo</item>
+        <item>Bajo</item>
+        <item>@string/por_defecto</item>
+        <item>Alto</item>
+        <item>Maximo</item>
+    </string-array>
+
+    <string-array name="pref_widget_refresh_period_entries">
+        <item>Inmediatamente</item>
+        <item>1 minuto (default)</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>@string/por_defecto</item>
+        <item>Promedio por hora</item>
+        <item>Promedio Diario</item>
+        <item>Promedio Semanal</item>
+        <item>Promedio Mensual</item>
+        <item>Promedio Anual</item>
+    </string-array>
+
+    <string-array name="pref_themes_entries">
+        <item>Claro</item>
+        <item>Oscuro</item>
+        <item>Negro</item>
+    </string-array>
+
+    <string-array name="pref_alert_threshold_entries">
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>5 minutos (default)</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+</resources>
