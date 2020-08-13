@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_db_save_period_entries">
+        <item>1분 (기본값)</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>30분</item>
+        <item>1시간</item>
+    </string-array>
+
+    <string-array name="pref_service_notif_prio_entries">
+        <item>최소</item>
+        <item>낮움</item>
+        <item>@string/cap_default</item>
+        <item>높음</item>
+        <item>최대</item>
+    </string-array>
+
+    <string-array name="pref_widget_refresh_period_entries">
+        <item>실시간</item>
+        <item>1분 (기본값)</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>30분</item>
+        <item>1시간</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>@string/cap_default</item>
+        <item>시간 평균</item>
+        <item>일 평균</item>
+        <item>주 평균</item>
+        <item>월 평균</item>
+        <item>연 평균</item>
+    </string-array>
+
+    <string-array name="pref_themes_entries">
+        <item>밝은테마</item>
+        <item>어두운 테마</item>
+        <item>검정 테마</item>
+    </string-array>
+
+    <string-array name="pref_alert_threshold_entries">
+        <item>1분</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>5분 (기본값)</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>30분</item>
+        <item>1시간</item>
+    </string-array>
+
+</resources>
