@@ -2,14 +2,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="settings">설정</string>
 
-    <string name="error_ble_not_supported">BLE는 지원되지 않습니다.</string>
-    <string name="error_bluetooth_not_supported">블루투스가 지원되지 않습니다.</string>
+    <string name="error_ble_not_supported">BLE는 지원되지 않습니다</string>
+    <string name="error_bluetooth_not_supported">블루투스가 지원되지 않습니다</string>
 
-    <string name="request_location_enable">위치 서비스가 사용 중지되었습니다. 사용 설정하세요.</string>
+    <string name="request_location_enable">위치 서비스가 사용 중지되었습니다. 사용 설정하세요</string>
     <string name="request_location_permission">위치 권한이 필요합니다. (앱선택>앱정보>권한>위치)</string>
 
     <string name="running">동작중</string>
-    <string name="request_bt_enable">블루투스가 비활성화되어 있습니다. 블루투스를 켜주세요.</string>
+    <string name="request_bt_enable">블루투스가 비활성화되어 있습니다. 블루투스를 켜주세요</string>
 
     <string name="default_device_name">샤오미 미지아 블루투스 온습도계</string>
     <string name="action_save">저장</string>
@@ -17,16 +17,16 @@
 
     <string name="title_pref_start_on_boot">부팅 후 앱 자동실행</string>
     <string name="title_pref_keep_service_alive">상태바에 위젯 사용</string>
-    <string name="summary_pref_keep_service_alive">앱 상태바에 온습도정보를 표시합니다.</string>
+    <string name="summary_pref_keep_service_alive">앱 상태바에 온습도정보를 표시합니다</string>
 
     <string name="title_pref_store">온도 및 습도</string>
-    <string name="summary_pref_store">온도와 습도를 데이터베이스에 저장합니다.</string>
+    <string name="summary_pref_store">온도와 습도를 데이터베이스에 저장합니다</string>
 
     <string name="title_pref_store_batt">배터리 잔량</string>
-    <string name="summary_pref_store_batt">배터리의 잔량을 데이터베이스에 저장합니다.</string>
+    <string name="summary_pref_store_batt">배터리의 잔량을 데이터베이스에 저장합니다</string>
 
     <string name="title_db_reset">데이터베이스 초기화</string>
-    <string name="summary_db_reset">저장 된 온습도 데이터 등을 모두 삭제합니다.</string>
+    <string name="summary_db_reset">저장 된 온습도 데이터 등을 모두 삭제합니다</string>
 
     <string name="title_pref_battery">배터리 최적화</string>
     <string name="summary_pref_battery_en">사용 (화면꺼짐 상태에서 앱이 동작하지 않을 수 있음)</string>
@@ -35,15 +35,15 @@
 
     <string name="title_pref_service_notif_prio">알림 우선 순위</string>
     <string name="title_fahr">화씨 (°F)</string>
-    <string name="notif_new_device">새로운 장치가 인식되었습니다.</string>
+    <string name="notif_new_device">새로운 장치가 인식되었습니다</string>
     <string name="temperature">온도</string>
     <string name="humidity">습도</string>
-    <string name="double_press">어플을 종료하시려면 뒤로가기를 한번 더 누르세요.</string>
+    <string name="double_press">어플을 종료하시려면 뒤로가기를 한번 더 누르세요</string>
 
     <string name="title_pref_working_background">Background working</string>
 
     <string name="title_pref_widget_refresh_period">위젯 업데이트 간격</string>
-    <string name="appwidget_configure_instructions">위젯에 표시 할 장치를 선택하세요.</string>
+    <string name="appwidget_configure_instructions">위젯에 표시 할 장치를 선택하세요</string>
     <string name="saved">저장됨</string>
     <!--string name="hint_device_name">Device name</string-->
     <string name="short_batt">배터리=</string>
@@ -58,12 +58,12 @@
     <string name="action_date">날짜 범위</string>
     <string name="reset">초기화</string>
     <string name="title_range">날짜 범위 선택기</string>
-    <string name="no_range_selected">선택한 기간이 없습니다.</string>
+    <string name="no_range_selected">선택한 기간이 없습니다</string>
     <string name="title_device_visibility">장치 표시 및 처리</string>
-    <string name="summary_device_visibility">메인 페이지에 이 장치를 표시하거나 숨길 수 있습니다.</string>
-    <string name="warn_optimized">주의) 배터리 최적화 설정으로 인하여 화면꺼짐 상태에서 어플이 동작하지 않을 수 있습니다.</string>
+    <string name="summary_device_visibility">메인 페이지에 이 장치를 표시하거나 숨길 수 있습니다</string>
+    <string name="warn_optimized">주의) 배터리 최적화 설정으로 인하여 화면꺼짐 상태에서 어플이 동작하지 않을 수 있습니다</string>
     <string name="cancel">취소</string>
-    <string name="period_all">간격이 설정되지 않았습니다.</string>
+    <string name="period_all">간격이 설정되지 않았습니다</string>
     <string name="hint_offset_temp">실제 온도와의 오차범위</string>
     <string name="hint_offset_hum">실제 습도와의 오차범위</string>
     <string name="temp_offset" formatted="false">온도 오차범위 보정 (%+.1f%s)</string>
@@ -72,15 +72,15 @@
     <string name="history">기록</string>
     <string name="title_pref_appearance">일반설정</string>
     <string name="title_pref_database">데이터베이스</string>
-    <string name="summary_pref_appearance">앱의 언어/디자인/단위 등을 설정할 수 있습니다.</string>
-    <string name="summary_pref_background">App background working depending settings</string>
-    <string name="summary_pref_database">데이터베이스 관련 설정입니다.</string>
+    <string name="summary_pref_appearance">앱의 언어/디자인/단위 등을 설정할 수 있습니다</string>
+    <string name="summary_pref_background">백그라운드에서 앱이 어떻게 동작할지 설정합니다</string>
+    <string name="summary_pref_database">데이터베이스 관련 설정입니다</string>
     <string name="thingspeak_channel">Channel ID</string>
     <string name="thingspeak_key">Channel Write Key</string>
 
-    <string name="no_internet_for">%s을 위해 인터넷 연결이 필요합니다.</string>
-    <string name="error_thingspeak_key">Key/channel ID 오류입니다.</string>
-    <string name="thingspeak_data_need">Key, Channel ID를 입력해주세요.</string>
+    <string name="no_internet_for">%s을 위해 인터넷 연결이 필요합니다</string>
+    <string name="error_thingspeak_key">Key/channel ID 오류입니다</string>
+    <string name="thingspeak_data_need">Key, Channel ID를 입력해주세요</string>
     <string name="thingspeak_temp">Temperature field id</string>
     <string name="thingspeak_hum">Humidity field id</string>
     <string name="thingspeak_bat">Battery field id</string>
@@ -88,7 +88,7 @@
     <string name="enabled">활성화됨</string>
     <string name="disable">비활성화</string>
     <string name="disabled">비활성화됨</string>
-    <string name="test">테스트</string>
+    <string name="test">실험실</string>
     <string name="this_function">this function</string>
     <string name="test_needs_for_save">ThingSpeak data saving needs a successful testing</string>
     <string name="test_needs_for_enable">Need to do a successful test</string>
@@ -96,23 +96,23 @@
     <string name="thingspeak_update_interval_min_temp">온도 업데이트 간격 (분)</string>
     <string name="thingspeak_update_interval_min_hum">습도 업데이트 간격 (분)</string>
     <string name="thingspeak_update_interval_min_bat">배터리 업데이트 간격 (분)</string>
-    <string name="admob">Pro 버전을 구입함으로써 후속 개발을 지원하실 수 있습니다.</string>
+    <string name="admob">Pro 버전을 구입함으로써 후속 개발을 지원하실 수 있습니다</string>
     <string name="exit">종료</string>
     <string name="expired_please_refresh">Please refresh the application</string>
     <string name="share">공유</string>
-    <string name="feedback">페이스북 &amp; 버그 제보</string>
+    <string name="feedback">피드백 &amp; 버그 제보</string>
     <string name="help">도움말</string>
     <string name="purchase">스토어</string>
     <string name="send">보내기…</string>
     <string name="sku_title_pro">Pro version</string>
     <string name="sku_title_tingspeak">ThingSpeak</string>
-    <string name="desc_sku_pro">Pro 기능사용이 가능하며 광고가 제거됩니다.</string>
+    <string name="desc_sku_pro">Pro 기능을 사용할 수 있으며 광고가 제거됩니다</string>
     <string name="buy">구매하기</string>
     <string name="desc_sku_thingspeak">ThingSpeak 통합</string>
     <string name="purchased_pre" formatted="false">You purchased %s</string>
-    <string name="purchased_post" formatted="false">\nIf you have any problem with it, don\'t hesitate to contact me.\nThank you.</string>
-    <string name="purchased_pro">Pro version.\n이제 광고가 표시되지 않습니다.</string>
-    <string name="purchased_thingspeak">ThingSpeak 통합기능.</string>
+    <string name="purchased_post" formatted="false">\nIf you have any problem with it, don\'t hesitate to contact me.\nThank you</string>
+    <string name="purchased_pro">Pro version.\n이제 광고가 표시되지 않습니다</string>
+    <string name="purchased_thingspeak">ThingSpeak 통합기능</string>
     <string name="activity_configure">위젯 설정</string>
     <string name="checkbox_name_visibility">장치이름 표시</string>
     <string name="checkbox_temp_visibility">온도 표시</string>
@@ -136,13 +136,13 @@
     <string name="chart">차트</string>
     <string name="post_title_app">\u0020어플리케이션</string>
     <string name="appintro_welcome_title">환영합니다!</string>
-    <string name="appintro_welcome_desc">이 어플은 샤오미 미지아 블루투스 온습도계용 비공식 어플입니다.</string>
+    <string name="appintro_welcome_desc">이 어플은 샤오미 미지아 블루투스 온습도계용 비공식 어플입니다</string>
     <string name="appintro_permission_title">권한 요청</string>
-    <string name="appintro_permission_desc">블루투스 접근을 위하여 위치 권한을 허용해주세요.</string>
+    <string name="appintro_permission_desc">블루투스 접근을 위하여 위치 권한을 허용해주세요</string>
     <string name="appintro_how_it_works_title">작동방식</string>
-    <string name="appintro_how_it_works_desc">온습도계를 휴대폰과 가까이 둬주세요.</string>
+    <string name="appintro_how_it_works_desc">온습도계를 휴대폰과 가까이 둬주세요</string>
     <string name="appintro_battery_optimazition_title">배터리 최적화</string>
-    <string name="appintro_battery_optimazition_desc">화면꺼짐 상태에서도 어플이 동작할 수 있도록 배터리최적화를 꺼주세요.</string>
+    <string name="appintro_battery_optimazition_desc">화면꺼짐 상태에서도 어플이 동작할 수 있도록 배터리최적화를 꺼주세요</string>
     <string name="appintro_finished_title">기본값으로 설정됨</string>
     <string name="appintro_finished_desc">시작하기</string>
     <string name="title_pref_save_button">저장 버튼</string>
@@ -179,10 +179,10 @@
     <string name="title_pref_devicesettings_email_sender">발신자 이메일 주소</string>
     <string name="title_pref_devicesettings_email_receiver">수신자 이메일 주소</string>
     <string name="function_disbled">이 기능은 현재 비활성화되어 있습니다 (향후 업데이트)</string>
-    <string name="needed" formatted="false">%s이(가) 필요합니다.</string>
+    <string name="needed" formatted="false">%s이(가) 필요합니다</string>
     <string name="too_much_alert" formatted="false">너무 많은 %s 알림</string>
     <string name="other">그외</string>
-    <string name="summary_db_reset_for_device">이 장치에 저장된 데이터가 삭제됩니다.</string>
+    <string name="summary_db_reset_for_device">이 장치에 저장된 데이터가 삭제됩니다</string>
     <string name="title_pref_devicesettings_sms_receiver">수신자 SMS 번호</string>
     <string name="sms">SMS</string>
     <string name="help_thingspeak"><![CDATA[
@@ -201,14 +201,14 @@
     <string name="title_invitation">Send invitation</string>
     <string name="invitation_cta">설치!</string>
     <string name="invitation_message">이 어플을 추천하고 싶습니다</string>
-    <string name="invite">지인에게 어플 추천하기</string>
+    <string name="invite">친구 초대하기</string>
     <string name="communication">Communication</string>
-    <string name="invitation_sent">추천을 발송하였습니다.</string>
-    <string name="thingspeak_devices">이 어플은 안드로이드 5.0 이상을 지원합니다.</string>
+    <string name="invitation_sent">추천을 발송하였습니다</string>
+    <string name="thingspeak_devices">이 어플은 안드로이드 5.0 이상을 지원합니다</string>
     <string name="any_devices">웹 브라우저, Android 앱, iOS 앱 등</string>
     <string name="msg_sure">확실합니까?</string>
     <string name="title_device_delete">장치 삭제</string>
-    <string name="summary_device_delete">장치 및 저장된 값이 삭제됩니다.</string>
+    <string name="summary_device_delete">장치 및 저장된 값이 삭제됩니다</string>
     <string name="title_pref_truetime">네트워크 시간</string>
     <string name="summary_pref_truetime">현지 시간 대신 더 높은 정확도의 네트워크 시간</string>
     <string name="time">시간</string>
@@ -232,9 +232,9 @@
 
     <string name="title_pref_devicesettings_pushbullet_channel">Channel tag</string>
     <string name="title_pref_devicesettings_apikey">API Key</string>
-    <string name="help_email">온도 / 습도 / 배터리 변화에 대한 이메일을 선택한 주소에서 다른 이메일 주소로 보낼 수 있습니다.</string>
-    <string name="help_sms">이 기기의 SIM에서 지정된 전화 번호로 온도 / 습도 / 배터리 변화에 대한 SMS를 보낼 수 있습니다.</string>
-    <string name="help_notif">이 장치에서 온도 / 습도 / 배터리 변화에 대해 알릴 수 있습니다 (상태 표시 줄에 있음).</string>
+    <string name="help_email">온도 / 습도 / 배터리 변화에 대한 이메일을 선택한 주소에서 다른 이메일 주소로 보낼 수 있습니다</string>
+    <string name="help_sms">이 기기의 SIM에서 지정된 전화 번호로 온도 / 습도 / 배터리 변화에 대한 SMS를 보낼 수 있습니다</string>
+    <string name="help_notif">이 장치에서 온도 / 습도 / 배터리 변화에 대해 알릴 수 있습니다 (상태 표시 줄에 있음)</string>
     <string name="help_pushbullet"><![CDATA[
     &#149; <a href=\"https://pushbullet.com/\">Sign up for Pushbullet</a> if you don\'t have account yet<br>
     &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Sign in to Pushbullet</a><br>
@@ -244,7 +244,7 @@
     &#149; Enable the fields reporting and the main Pushbullet reporting<br>
     &#149; You\'re finished and going be notified in your <a href=\"https://www.pushbullet.com/apps\">official clients</a> anywhere in the world
     ]]></string>
-    <string name="error_device_not_found">데이터베이스에서 장치를 찾을 수 없습니다.</string>
+    <string name="error_device_not_found">데이터베이스에서 장치를 찾을 수 없습니다</string>
     <string name="title_language">언어</string>
     <string name="title_pref_filter">필터링</string>
     <string name="summary_pref_filter">알려진 장치 만 (충돌/문제가 있는경우)</string>
@@ -260,8 +260,8 @@
     <string name="title_pref_devicesettings_devinfo_serial">Serial number</string>
     <string name="title_pref_devicesettings_devinfo_model">Model number</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Manufacturer</string>
-    <string name="info_visible_all">모든 장치가 표시됩니다.</string>
-    <string name="info_visible_notall">선택한 장치가 표시됩니다.</string>
+    <string name="info_visible_all">모든 장치가 표시됩니다</string>
+    <string name="info_visible_notall">선택한 장치가 표시됩니다</string>
     <string name="cap_default">기본값</string>
 
     <string name="opportunistic">Opportunistic</string>
@@ -272,7 +272,7 @@
     <string name="summary_pref_devicesettings_clock">Android 장치와 시간 동기화</string>
     <string name="title_pref_appearance_mac">장치 주소 가시성</string>
     <string name="summary_pref_appearance_mac">메인 목록에 장치의 MAC 주소를 표시</string>
-    <string name="message_translate">이 어플에 사용 된 번역은 여러 기여자의 협력으로 만들어졌습니다. 번역 활동에 기여하고 싶다면, Github에서 수정하거나 저에게 연락해주세요.\n번역에 참여해주신 분들께 감사드립니다.</string>
+    <string name="message_translate">이 어플에 사용 된 번역은 여러 기여자의 협력으로 만들어졌습니다. 번역 활동에 기여하고 싶다면, Github에서 수정하거나 저에게 연락해주세요.\n번역에 참여해주신 분들께 감사드립니다</string>
     <string name="summary_pref_default_chart_values">기본적으로 표시 할 수있는 항목 선택</string>
 
 </resources>
