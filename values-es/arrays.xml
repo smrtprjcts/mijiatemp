@@ -13,11 +13,11 @@
     </string-array>
 
     <string-array name="pref_service_notif_prio_entries">
-        <item>Minimo</item>
+        <item>Mínimo</item>
         <item>Bajo</item>
-        <item>@string/por_defecto</item>
+        <item>@string/cap_default</item>
         <item>Alto</item>
-        <item>Maximo</item>
+        <item>Máximo</item>
     </string-array>
 
     <string-array name="pref_widget_refresh_period_entries">
@@ -33,7 +33,7 @@
     </string-array>
 
     <string-array name="periods">
-        <item>@string/por_defecto</item>
+        <item>@string/cap_default</item>
         <item>Promedio por hora</item>
         <item>Promedio Diario</item>
         <item>Promedio Semanal</item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="settings">Ustawienia</string>
 
     <string name="error_ble_not_supported">BLE nie jest wspierane</string>
@@ -7,8 +7,8 @@
 
     <string name="request_location_enable">Usługa lokalizacji jest wyłączona, proszę ją włączyć</string>
     <string name="request_location_permission">Zezwolenie na lokalizację jest konieczne</string>
-
     <string name="running">Działa</string>
+
     <string name="request_bt_enable">Bluetooth jest wyłączony, proszę go włączyć</string>
 
     <string name="default_device_name">Xiaomi Mijia BT Temp Device</string>
@@ -45,15 +45,14 @@
     <string name="title_pref_widget_refresh_period">Częstotliwość odświeżania widżetu</string>
     <string name="appwidget_configure_instructions">Wybierz urządzenie, które ma wyświetlać widżet</string>
     <string name="saved">Zapisano</string>
-    <!--string name="hint_device_name">Nazwa urządzenia</string-->
     <string name="short_batt">bat.=</string>
     <string name="short_humidity">wilg.=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Tryb skanowania bluetooth</string>
     <string name="device">Urządzenie</string>
     <string name="devices">Urządzenia</string>
-    <string name="short_second">sek.</string>
-    <string name="short_minute">min.</string>
+    <string name="short_second">sek</string>
+    <string name="short_minute">min</string>
     <string name="now">Teraz</string>
     <string name="action_date">Zakres dat</string>
     <string name="reset">Resetuj</string>
@@ -77,7 +76,6 @@
     <string name="summary_pref_database">Ustawienia związane z bazą danych</string>
     <string name="thingspeak_channel">ID kanału</string>
     <string name="thingspeak_key">Klucz zapisu kanału</string>
-
     <string name="no_internet_for">Wymagane połączenie z internetem dla %s</string>
     <string name="error_thingspeak_key">Błąd ID klucza/kanału</string>
     <string name="thingspeak_data_need">Ustaw ID klucza i kanału</string>
@@ -180,7 +178,7 @@
     <string name="title_pref_devicesettings_email_receiver">Adres e-mail odbiorcy</string>
     <string name="function_disbled">Ta funkcja jest na razie zablokowana (w tej wersji)</string>
     <string name="needed" formatted="false">%s wymagane</string>
-    <string name="too_much_alert" formatted="false">Zbyt wiele alertów %s</string>
+    <string name="too_much_alert" formatted="false">Zbyt wiele %s alertu</string>
     <string name="other">Inne</string>
     <string name="summary_db_reset_for_device">Zapisane wartości tego urządzenia zostaną usunięte</string>
     <string name="title_pref_devicesettings_sms_receiver">Numer odbiorcy SMS</string>
@@ -215,6 +213,7 @@
     <string name="translate">Przetłumacz</string>
     <string name="title_pref_other">Inne</string>
     <string name="summary_pref_other">Inne (eksperymentalne) funkcje</string>
+
     <string name="title_dontkill">Nie zabijaj mojej aplikacji!</string>
     <string name="warn_pro">Tylko z wersją PRO</string>
     <string name="title_pref_devicesettings_api_token">Token API</string>
@@ -240,7 +239,7 @@
     &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Zaloguj się do Pushbullet</a><br>
     &#149; Utwórz klucz API w <a href=\"https://www.pushbullet.com/#settings\">ustawieniach</a><br>
     &#149; <a href=\"https://www.pushbullet.com/my-channel\">Utwórz nowy kanał</a><br>
-    &#149; Uzupełnij klucz API oraz tag kanału w menu ustawień urządzenia<br>
+        &#149; Uzupełnij klucz API oraz tag kanału w menu ustawień urządzenia<br>
     &#149; Odblokuj pola raportowania oraz głównego raportowania Pushbullet<br>
     &#149; Skończyłeś i otrzymasz powiadomienie w swoim <a href=\"https://www.pushbullet.com/apps\">oficjalnym kliencie</a> gdziekolwiek na świecie
     ]]></string>
@@ -260,16 +259,15 @@
     <string name="title_pref_devicesettings_devinfo_serial">Numer Seryjny</string>
     <string name="title_pref_devicesettings_devinfo_model">Numer modelu</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Producent</string>
+    <string name="cap_default">Domyślny</string>
     <string name="info_visible_all">Wszystkie urządzenia</string>
     <string name="info_visible_notall">Wybrane urządzenia</string>
-    <string name="cap_default">Domyślny</string>
-
     <string name="opportunistic">Powolny</string>
     <string name="low_power">Oszczędny</string>
-    <string name="balanced">Optymalny</string>
     <string name="low_latency">Szybki</string>
+    <string name="balanced">Optymalny</string>
     <string name="title_pref_devicesettings_clock">Synchronizacja czasu</string>
-    <string name="summary_pref_devicesettings_clock">Synchronizuj czas z tym urządzeniem</string>
+    <string name="summary_pref_devicesettings_clock">Synchronizuj czas z tym urządzeniem </string>
     <string name="title_pref_appearance_mac">Widoczność adresu MAC</string>
     <string name="summary_pref_appearance_mac">Widoczność adresu MAC na ekranie głównym</string>
     <string name="message_translate">Tłumaczenia oparte są na współpracy z użytkownikami. Jeśli uważasz, że coś należy poprawić skontaktuj się ze mną lub dokonaj poprawki na githubie, który jest dostępny z głównego menu.</string>

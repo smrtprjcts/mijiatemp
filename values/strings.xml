@@ -274,5 +274,7 @@
     <string name="summary_pref_appearance_mac">Address visible in the list of the main screen</string>
     <string name="message_translate">The translation is made with community cooperation. If you find any correctable text please contact me or simply fix it on the github which is available from the main menu.\nThanks to the translators</string>
     <string name="summary_pref_default_chart_values">Select what can be visible by default</string>
+    <string name="title_pref_custom_sync">Custom time sync method</string>
+    <string name="summary_pref_custom_sync">If the time is incorrect with the default method</string>
 
 </resources>

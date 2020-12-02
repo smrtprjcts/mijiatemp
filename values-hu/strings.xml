@@ -88,7 +88,7 @@
     <string name="share">Megosztás</string>
     <string name="feedback">Visszajelzés és hibajelentés</string>
     <string name="help">Segítség</string>
-    <string name="purchase">Play áruház</string>
+    <string name="purchase">Áruház</string>
     <string name="send">Küldés…</string>
     <string name="sku_title_pro">Pro verzió</string>
     <string name="sku_title_tingspeak">ThingSpeak</string>
@@ -253,4 +253,6 @@
     <string name="summary_pref_appearance_mac">Az eszköz címének megjelenítése a kezelt eszközök listájában</string>
     <string name="message_translate">A fordítás közösségi összefogással készül. Amennyiben bármiféle javítandót találsz, vedd fel a kapcsolatot velem vagy te is javíhatod a githubon amit megtalálsz a főmenüből.\nKöszönet a fordítóknak</string>
     <string name="summary_pref_default_chart_values">Kiválasztható mi jelenjen meg a diagramon alapértelmezettként</string>
+    <string name="title_pref_custom_sync">Alternatív időszinkronizáló módszer</string>
+    <string name="summary_pref_custom_sync">Ha az eredeti módszerrel beállított idő hibásnak bizonyul</string>
 </resources>
