@@ -64,11 +64,11 @@
     <string name="summary_pref_appearance">Einstellungen zum Erscheinungsbild der App</string>
     <string name="summary_pref_background">Einstellungen zum Hintergrundbetrieb der App</string>
     <string name="summary_pref_database">Einstellungen zur Datenbank</string>
-    <string name="thingspeak_channel">Channel ID</string>
-    <string name="thingspeak_key">Kanal Key</string>
+    <string name="thingspeak_channel">Kanal ID</string>
+    <string name="thingspeak_key">Kanal Kanal</string>
     <string name="no_internet_for">Internetverbindung benötigt für %s</string>
-    <string name="error_thingspeak_key">Key/channel ID Fehler</string>
-    <string name="thingspeak_data_need">Key und channel ID setzen</string>
+    <string name="error_thingspeak_key">Key/kanal ID Fehler</string>
+    <string name="thingspeak_data_need">Key und kanal ID setzen</string>
     <string name="thingspeak_temp">Temperaturfeld ID</string>
     <string name="thingspeak_hum">Feuchtigkeitsfeld ID</string>
     <string name="thingspeak_bat">Batteriefeld ID</string>
@@ -148,7 +148,7 @@
     <string name="summary_device_name">Eindeutiger Name für dieses Gerät (noch nicht gesetzt)</string>
     <string name="summary_offset">Korrekturwert vom richtigen Wert (noch nicht gesetzt)</string>
     <string name="field_settings">Feldeinstellungen</string>
-    <string name="thingspeak_set">Bitte API Key und Channel ID eingeben</string>
+    <string name="thingspeak_set">Bitte API Key und kanal ID eingeben</string>
     <string name="default_field">Einmalige ID (1–8) (noch nicht gesetzt)</string>
     <string name="alert">Warnung</string>
     <string name="notification">Mitteilung</string>
@@ -174,7 +174,7 @@
     <string name="help_thingspeak"><![CDATA[
     &#149; <a href=\"https://thingspeak.com/users/sign_up\">Für ThingSpeak registrieren</a> wenn du noch keinen Account hast<br>
     &#149; <a href=\"https://thingspeak.com/login\">Login in ThingSpeak</a><br>
-    &#149; Erstelle einen neuen Kanal indem du auf \'Channels, My Channels\', und dann \'New Channel\' klickst<br>
+    &#149; Erstelle einen neuen Kanal indem du auf \'Kanal, Mein Kanals\', und dann \'Neu Kanal\' klickst<br>
     &#149; Fülle die Kanal ID und den Schlüssel (vom API Keys Menü des Kanals) in die Geräteeinstellungen<br>
     &#149; Stelle nun die passenden Nummern ein (z.B. 1 für Temperatur, 2 für Luftfeuchtigkeit, 3 für den Batteriestatus)<br>
     &#149; Aktiviere \'fields reporting\' und das Haupt-\'ThingSpeak reporting\'<br>
