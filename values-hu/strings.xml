@@ -26,6 +26,8 @@
     <string name="title_pref_service_notif_prio">Értesítési prioritás</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Új eszközt észlelve</string>
+    <string name="notif_new_device_saved">Automatikusan mentve (beállításokban állítható)</string>
+    <string name="notif_new_device_skipped">Nincs mentve (beállításokban állítható)</string>
     <string name="temperature">Hőmérséklet</string>
     <string name="humidity">Páratartalom</string>
     <string name="double_press">A kilépéshez kattintson újra a VISSZA gombra</string>
@@ -179,7 +181,7 @@
     &#149; Engedélyezze a mezők jelentését és a fő ThingSpeak jelentést<br>
     &#149; Elkészült és hozzáférhet az értékekhez a világ bármely pontján (a ThingSpeak honlapon, a ThingSpeak alkalmazásban)]]></string>
     <string name="title_pref_alert_threshold">Riasztási intervallum</string>
-    <string name="summary_pref_database_for_device">Az eszköz adatbázisához kapcsolódó beállítások</string>
+    <string name="summary_pref_database_for_device">Az eszköz adatbázisához kapcsolódó beállítások  (pl. eszköz törlése)</string>
     <string name="title_pref_autostart">Automatikus indítás engedély</string>
     <string name="summary_pref_autostart">Gyártóval kapcsolatos beállítás</string>
     <string name="title_invitation">Meghívás küldése</string>
@@ -255,4 +257,13 @@
     <string name="summary_pref_default_chart_values">Kiválasztható mi jelenjen meg a diagramon alapértelmezettként</string>
     <string name="title_pref_custom_sync">Alternatív időszinkronizáló módszer</string>
     <string name="summary_pref_custom_sync">Ha az eredeti módszerrel beállított idő hibásnak bizonyul</string>
+    <string name="title_pref_background_new_device_detection">Új eszköz detektálás</string>
+    <string name="snack_bar_undo">Undo</string>
+    <string name="info_deleted">Device deleted</string>
+    <string name="data_sync">Adatszinkronizálás</string>
+    <string name="summary_pref_devicesettings_history">Hőmérséklet és páratartalom adatok letöltése az eszközről</string>
+    <string name="data_sync_mark">Szeretné hogy az eszköz megjegyezné hogy letöltötte az adatokat?\nEbben az esetben az adatok törlődnek az eszközről és más alkalmazás sem fogja elérni.</string>
+    <string name="clear_history">Adatok törlése az eszközről</string>
+    <string name="summary_clear_history">A mentett hőmérséklet és páratartalom adatok letörli az eszközről</string>
+    <string name="data_cleared">Data cleared</string>
 </resources>

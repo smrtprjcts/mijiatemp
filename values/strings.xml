@@ -36,6 +36,8 @@
     <string name="title_pref_service_notif_prio">Notification priority</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">New device detected</string>
+    <string name="notif_new_device_saved">Automatically saved (can be change in settings)</string>
+    <string name="notif_new_device_skipped">Not saved (can be change in settings)</string>
     <string name="temperature">Temperature</string>
     <string name="humidity">Humidity</string>
     <string name="double_press">Please click BACK again to exit</string>
@@ -195,7 +197,7 @@
     &#149; You\'re finished and able to access the values anywhere in the world (on ThingSpeak homepage, in ThingSpeak apps)
     ]]></string>
     <string name="title_pref_alert_threshold">Alert interval</string>
-    <string name="summary_pref_database_for_device">Database related settings for this device</string>
+    <string name="summary_pref_database_for_device">Database related settings for this device. (e.g.: delete device)</string>
     <string name="title_pref_autostart">Autostart permission</string>
     <string name="summary_pref_autostart">Manufacturer related setting</string>
     <string name="title_invitation">Send invitation</string>
@@ -276,5 +278,15 @@
     <string name="summary_pref_default_chart_values">Select what can be visible by default</string>
     <string name="title_pref_custom_sync">Custom time sync method</string>
     <string name="summary_pref_custom_sync">If the time is incorrect with the default method</string>
+    <string name="title_pref_background_new_device_detection">New device detection</string>
+    <string name="snack_bar_undo">Undo</string>
+    <string name="info_deleted">Device deleted</string>
+    <string name="data_sync">Data synchronization</string>
+    <string name="summary_pref_devicesettings_history">Download the temperature and humidity data history from the device</string>
+    <string name="data_sync_mark">Do you want the device to remember that you downloaded the data?\nIn this case, the data will be deleted from the device and will not be accessed by any other application.</string>
+    <string name="clear_history">Clear history data on device</string>
+    <string name="summary_clear_history">Saved temperature and humidity data will delete from the device</string>
+    <string name="data_cleared">Data cleared</string>
+    <string name="data">Data</string>
 
 </resources>
