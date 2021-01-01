@@ -13,14 +13,13 @@ POEditor has a 1000 strings limit. [Join to translate project.](https://poeditor
 
 ## Git method
 
-Clone this repository or download the necessary XMLs (e.g. the default English) and translate them (see the values/ directory).
+Clone this repository or download the necessary XMLs (e.g. the default English) and translate them (see the app/src/main/res/values/ directory).
+If you are using Android Studio it is easiest to open the Translations Editor
 
 Steps: 
-* Create a directory (values-\<lang\>) for the new translation e.g. values-hu for Hungarian, values-de for German, etc. The correct language code can be found in the ISO639-1 column [there](http://www.loc.gov/standards/iso639-2/php/code_list.php).
+* Create a directory (app/src/main/res/values-\<lang\>) for the new translation e.g. values-hu for Hungarian, values-de for German, etc. The correct language code can be found in the ISO639-1 column [there](http://www.loc.gov/standards/iso639-2/php/code_list.php).
 * Copy the available values directory content to your new directory. Translate the texts between > and < chars. Please pay attention to the special characters ( > < \n \" %s %.f etc) because non-proper strings can cause crashes.  
 
 P.S.: English strings are always up-to-date, that would be the better choice for translation. 
 
 Thanks for helping!
-
-
