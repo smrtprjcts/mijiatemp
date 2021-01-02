@@ -291,5 +291,13 @@
     <string name="search">Search</string>
     <string name="title_pref_devicesettings_advert_monitoring">Monitoring in the background</string>
     <string name="summary_pref_devicesettings_advert_monitoringy">App constantly monitors the data coming from this device</string>
-
+    <string name="title_pref_devicesettings_key">Decryption key</string>
+    <string name="summary_pref_devicesettings_key">Key for decoding the encrypted data (if device is paired with MiHome)</string>
+    <string name="hint_key">key</string>
+    <string name="warn_wrong_key">Wrong key</string>
+    <string name="open">Open</string>
+    <string name="testing">Testing</string>
+    <string name="title_upgraded">The app has been updated</string>
+    <string name="desc_upgraded">Look what has changed</string>
+    <string name="channel_name_upgrade">Upgrade</string>
 </resources>

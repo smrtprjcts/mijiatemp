@@ -173,11 +173,11 @@
     <string name="title_pref_devicesettings_sms_receiver">Címzett SMS száma</string>
     <string name="sms">SMS</string>
     <string name="help_thingspeak"><![CDATA[
-    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Iratkozzon fel a ThingSpeak-re</a>ha még nem rendelkezik fiókkal<br>
+    &#149; <a href=\"https://thingspeak.com/users/sign_up\">Iratkozzon fel a ThingSpeak-re</a> ha még nem rendelkezik fiókkal<br>
     &#149; <a href=\"https://thingspeak.com/login\">Jelentkezzen be a ThingSpeak-be</a><br>
     &#149; Hozzon létre új csatornát a Csatornák, Saját csatornák, majd az Új csatorna kiválasztásával<br>
     &#149; Töltse ki a csatorna azonosítóját és az írási kulcsot (a csatorna API kulcsai menüből) az eszközbeállítások menüben<br>
-    &#149; Állítsa be a mezőszámot a kívánt alkalmazásban (pl. 1-es hőmérséklet, 2-es nedvesség, 3-as akkumulátor érték)br>
+    &#149; Állítsa be a mezőszámot a kívánt alkalmazásban (pl. 1-es hőmérséklet, 2-es nedvesség, 3-as akkumulátor érték)<br>
     &#149; Engedélyezze a mezők jelentését és a fő ThingSpeak jelentést<br>
     &#149; Elkészült és hozzáférhet az értékekhez a világ bármely pontján (a ThingSpeak honlapon, a ThingSpeak alkalmazásban)]]></string>
     <string name="title_pref_alert_threshold">Riasztási intervallum</string>
@@ -258,8 +258,8 @@
     <string name="title_pref_custom_sync">Alternatív időszinkronizáló módszer</string>
     <string name="summary_pref_custom_sync">Ha az eredeti módszerrel beállított idő hibásnak bizonyul</string>
     <string name="title_pref_background_new_device_detection">Új eszköz detektálás</string>
-    <string name="snack_bar_undo">Undo</string>
-    <string name="info_deleted">Device deleted</string>
+    <string name="snack_bar_undo">Visszavonás</string>
+    <string name="info_deleted">Eszköz törölve</string>
     <string name="data_sync">Adatszinkronizálás</string>
     <string name="summary_pref_devicesettings_history">Hőmérséklet és páratartalom adatok letöltése az eszközről</string>
     <string name="data_sync_mark">Szeretné hogy az eszköz megjegyezné hogy letöltötte az adatokat?\nEbben az esetben az adatok törlődnek az eszközről és más alkalmazás sem fogja elérni.</string>
@@ -270,4 +270,13 @@
     <string name="search">Keresés</string>
     <string name="title_pref_devicesettings_advert_monitoring">Monitorozás a háttérben</string>
     <string name="summary_pref_devicesettings_advert_monitoringy">Az alkalmazás folyamatosan figyeli a háttérben az eszköz által küldött adatokat</string>
+    <string name="title_pref_devicesettings_key">Titkosító kulcs</string>
+    <string name="summary_pref_devicesettings_key">A titkosított adatok dekódolásához szükséges (ha az eszköz a MiHome-al párosítva van)</string>
+    <string name="hint_key">kulcs</string>
+    <string name="warn_wrong_key">Hibás kulcs</string>
+    <string name="open">Megnyitás</string>
+    <string name="testing">Teszt</string>
+    <string name="title_upgraded">Az app frissült</string>
+    <string name="desc_upgraded">Nézd meg mi változott</string>
+    <string name="channel_name_upgrade">Frissítés</string>
 </resources>
