@@ -275,8 +275,6 @@
     <string name="hint_key">kulcs</string>
     <string name="warn_wrong_key">Hibás kulcs</string>
     <string name="open">Megnyitás</string>
-    <string name="testing">Teszt</string>
-    <string name="title_upgraded">Az app frissült</string>
-    <string name="desc_upgraded">Nézd meg mi változott</string>
-    <string name="channel_name_upgrade">Frissítés</string>
+    <string name="title_pref_devicesettings_clock_read">Dátum lekérdezése</string>
+    <string name="summary_pref_devicesettings_clock_read">Dátum kiolvasása az eszközből</string>
 </resources>
