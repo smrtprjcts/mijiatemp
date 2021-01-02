@@ -265,5 +265,9 @@
     <string name="data_sync_mark">Szeretné hogy az eszköz megjegyezné hogy letöltötte az adatokat?\nEbben az esetben az adatok törlődnek az eszközről és más alkalmazás sem fogja elérni.</string>
     <string name="clear_history">Adatok törlése az eszközről</string>
     <string name="summary_clear_history">A mentett hőmérséklet és páratartalom adatok letörli az eszközről</string>
-    <string name="data_cleared">Data cleared</string>
+    <string name="data_cleared">Adatok törölve</string>
+    <string name="data">Adatok</string>
+    <string name="search">Keresés</string>
+    <string name="title_pref_devicesettings_advert_monitoring">Monitorozás a háttérben</string>
+    <string name="summary_pref_devicesettings_advert_monitoringy">Az alkalmazás folyamatosan figyeli a háttérben az eszköz által küldött adatokat</string>
 </resources>

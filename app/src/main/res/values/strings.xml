@@ -288,5 +288,8 @@
     <string name="summary_clear_history">Saved temperature and humidity data will delete from the device</string>
     <string name="data_cleared">Data cleared</string>
     <string name="data">Data</string>
+    <string name="search">Search</string>
+    <string name="title_pref_devicesettings_advert_monitoring">Monitoring in the background</string>
+    <string name="summary_pref_devicesettings_advert_monitoringy">App constantly monitors the data coming from this device</string>
 
 </resources>
