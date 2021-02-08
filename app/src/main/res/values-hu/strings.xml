@@ -10,7 +10,7 @@
     <string name="action_save">Mentés</string>
     <string name="running">Fut</string>
     <string name="title_pref_db_save_period">Az adatbázis frissítési intervalluma</string>
-    <string name="title_pref_start_on_boot">App-indítás Android újraindítás után</string>
+    <string name="title_pref_start_on_boot">App-indítás eszköz újraindítás után</string>
     <string name="title_pref_keep_service_alive">Életben tartás</string>
     <string name="summary_pref_keep_service_alive">Életben tartja a szolgáltatást a háttérben futattva</string>
     <string name="title_pref_store">Hőmérséklet és páratartalom</string>
@@ -35,7 +35,7 @@
     <string name="title_pref_widget_refresh_period">Widget frissítési intervallum</string>
     <string name="appwidget_configure_instructions">Válassza ki azt az eszközt, amelyet meg szeretne jeleníteni a widgetben</string>
     <string name="saved">Mentve</string>
-    <string name="short_batt">akku=</string>
+    <!--string name="short_batt">akku=</string-->
     <string name="short_humidity">pára=</string>
     <string name="short_temperature">hőm=</string>
     <string name="title_pref_bt_scan_mode">Bluetooth keresési mód</string>
@@ -277,4 +277,38 @@
     <string name="open">Megnyitás</string>
     <string name="title_pref_devicesettings_clock_read">Dátum lekérdezése</string>
     <string name="summary_pref_devicesettings_clock_read">Dátum kiolvasása az eszközből</string>
+    <string name="title_pref_devicesettings_battery_service">Akkumulátor kiolvasás</string>
+    <string name="summary_pref_devicesettings_battery_service">Érték kiolvasása periodikusan BT kapcsolaton keresztül (eszköz hiányosság pótlása)</string>
+    <string name="warn_autostart_permission">Speciális gyártói engedély megadására lehet még szükség</string>
+    <string name="title_upgraded">Az app frissült</string>
+    <string name="desc_upgraded">Nézd meg mi változott</string>
+    <string name="channel_name_upgrade">Frissítés</string>
+    <string name="warn_service_not_running">A szolgálatás nem fut</string>
+    <string name="warn_location_permission">Helymeghatározás engedély szükséges a Bluetoot működéséhez. Helyadatokat az alkalmazás nem használ</string>
+    <string name="warn_kwgt">A valós értékek kizárólag Pro verzióval lesznek elküldve</string>
+    <string name="thingspeak" translatable="false">Hőmérséklet láthatóság</string>
+    <string name="testing">Tesztelés</string>
+    <string name="warn_permission_problem">Engedély probléma</string>
+    <string name="info_kwgt">_KWGT_ alkalmazás segítségével egyedi kinézetű Képernyő és Zárképernyő widget-eket készíthetsz.\n\n
+        A következő broadcast lehetőségeket biztosítja az alkalmazás:\n
+        &#160;&#149; Hőmérséklet szám érték:\n
+        &#160;&#160;&#160;$br(_d_, temp)$\n
+        &#160;&#149; Formázott hőmérséklet szöveg érték:\n
+        &#160;&#160;&#160;$br(_d_, tempt)$\n
+        &#160;&#149; Páratartalom érték:\n
+        &#160;&#160;&#160;$br(_d_, hum)$\n
+        &#160;&#149; Formázott páratartalom szöveg:\n
+        &#160;&#160;&#160;$br(_d_, humt)$\n
+        &#160;&#149; Akkumulátor érték:\n
+        &#160;&#160;&#160;$br(_d_, bat)$\n
+        &#160;&#149; Nedvesség érték:\n
+        &#160;&#160;&#160;$br(_d_, moi)$\n
+        &#160;&#149; Fényerősség érték:\n
+        &#160;&#160;&#160;$br(_d_, ill)$\n
+        &#160;&#149; Termékenység érték:\n
+        &#160;&#160;&#160;$br(_d_, con)$\n
+        \n\n
+        * Természetesen nem minden érték elérhető ennek az eszköznek a használatával.\n\n
+        Példa widget:
+    </string>
 </resources>

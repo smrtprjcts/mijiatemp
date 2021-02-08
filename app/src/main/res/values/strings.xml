@@ -16,6 +16,7 @@
     <string name="title_pref_db_save_period">Database update interval</string>
 
     <string name="title_pref_start_on_boot">Start background working after boot</string>
+
     <string name="title_pref_keep_service_alive">Keep alive</string>
     <string name="summary_pref_keep_service_alive">Keep the service alive</string>
 
@@ -41,14 +42,12 @@
     <string name="temperature">Temperature</string>
     <string name="humidity">Humidity</string>
     <string name="double_press">Please click BACK again to exit</string>
-
     <string name="title_pref_working_background">Background working</string>
-
     <string name="title_pref_widget_refresh_period">Widget refresh interval</string>
     <string name="appwidget_configure_instructions">Please select the device you would like to show in the widget</string>
     <string name="saved">Saved</string>
     <!--string name="hint_device_name">Device name</string-->
-    <string name="short_batt">batt=</string>
+    <!--string name="short_batt">batt=</string-->
     <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Bluetooth scan mode</string>
@@ -302,4 +301,34 @@
     <string name="channel_name_upgrade">Upgrade</string>
     <string name="title_pref_devicesettings_clock_read">Read date</string>
     <string name="summary_pref_devicesettings_clock_read">Read the date from the device</string>
+    <string name="title_pref_devicesettings_battery_service">Read battery value</string>
+    <string name="summary_pref_devicesettings_battery_service">Reading the value periodically with BT connection (workaround for device defect)</string>
+    <string name="warn_autostart_permission">Special manufacturer permission may be required</string>
+    <string name="warn_location_permission">Location permission is required for Bluetooth scan in Android.\nService running on Android 10 and higher cannot discover Bluetooth devices unless they have the background location permission. It needs for collecting the data from the bluetooth devices in the background.\nThe app does not collect location data at all but cannot work without these permissions, please grant them.</string>
+    <string name="warn_service_not_running">Service not running</string>
+    <string name="warn_permission_problem">Permission problem</string>
+    <string name="warn_kwgt">Values will be not valid without Pro version</string>
+    <string name="info_kwgt">You can create unique-looking Launcher and Lockscreen widgets with the _KWGT_ app.\n\n
+        The following broadcast options are provided by the application:\n
+        &#160;&#149; Raw temperature number:\n
+        &#160;&#160;&#160;$br(_d_, temp)$\n
+        &#160;&#149; Formatted temperature text:\n
+        &#160;&#160;&#160;$br(_d_, tempt)$\n
+        &#160;&#149; Raw humidity number:\n
+        &#160;&#160;&#160;$br(_d_, hum)$\n
+        &#160;&#149; Formatted humidity text:\n
+        &#160;&#160;&#160;$br(_d_, humt)$\n
+        &#160;&#149; Raw battery number:\n
+        &#160;&#160;&#160;$br(_d_, bat)$\n
+        &#160;&#149; Raw moisture text:\n
+        &#160;&#160;&#160;$br(_d_, moi)$\n
+        &#160;&#149; Raw illuminance text:\n
+        &#160;&#160;&#160;$br(_d_, ill)$\n
+        &#160;&#149; Raw conductivity text:\n
+        &#160;&#160;&#160;$br(_d_, con)$\n
+        \n\n
+        * Of course, not all of the above values are available for this device.\n\n
+        Example widget:
+    </string>
+
 </resources>
