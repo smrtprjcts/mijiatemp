@@ -7,7 +7,7 @@
     <string name="request_location_permission">Permissão de localização é necessária</string>
     <string name="running">Em execução</string>
     <string name="request_bt_enable">Bluetooth está desligado, por favor ligue</string>
-    <string name="default_device_name">Dispositivo de temperatura Xiaomi Mijia BT</string>
+    <string name="default_device_name">Dispositivo de temperatura Xiaomi BT</string>
     <string name="action_save">Guardar</string>
     <string name="title_pref_db_save_period">Intervalo de atualização da base de dados</string>
     <string name="title_pref_start_on_boot">Começar a funcionar em segundo plano após iniciar</string>
@@ -33,7 +33,7 @@
     <string name="title_pref_widget_refresh_period">Intervalo de atualização do widget</string>
     <string name="appwidget_configure_instructions">Por favor selecione o dispositivo que deseja que apareça no widget</string>
     <string name="saved">Guardado</string>
-    <string name="short_batt">bat=</string>
+    <!--string name="short_batt">bat=</string-->
     <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Modo de procura bluetooth</string>
@@ -229,7 +229,7 @@
     <string name="error_device_not_found">Dispositivo não encontrado na base de dados</string>
     <string name="title_language">Idioma</string>
     <string name="title_pref_filter">Filtrar</string>
-    <string name="summary_pref_filter">Apenas dispositivos conhecidos (Em caso de problemas, crashes, etc.)</string>
+    <!--<string name="summary_pref_filter">Apenas dispositivos conhecidos (Em caso de problemas, crashes, etc.)</string>-->
 
     <string name="moisture">Humidade</string>
     <string name="illuminance">Intensidade da luz</string>

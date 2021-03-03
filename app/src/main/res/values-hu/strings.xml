@@ -6,7 +6,7 @@
     <string name="request_location_enable">A helymeghatározó szolgáltatás le van tiltva, kérem kapcsolja be</string>
     <string name="request_location_permission">Engedély szükséges a tartózkodási helyéhez</string>
     <string name="request_bt_enable">Bluetooth kikapcsolva, kérem kapcsolja be</string>
-    <string name="default_device_name">Xiaomi Mijia BT hőmérsékleti eszköz</string>
+    <string name="default_device_name">Xiaomi BT szenzor</string>
     <string name="action_save">Mentés</string>
     <string name="running">Fut</string>
     <string name="title_pref_db_save_period">Az adatbázis frissítési intervalluma</string>
@@ -25,7 +25,7 @@
     <string name="title_pref_background">Háttérben futtatás</string>
     <string name="title_pref_service_notif_prio">Értesítési prioritás</string>
     <string name="title_fahr">Fahrenheit</string>
-    <string name="notif_new_device">Új eszközt észlelve</string>
+    <string name="notif_new_device">Új szenzor észlelve</string>
     <string name="notif_new_device_saved">Automatikusan mentve (beállításokban állítható)</string>
     <string name="notif_new_device_skipped">Nincs mentve (beállításokban állítható)</string>
     <string name="temperature">Hőmérséklet</string>
@@ -33,14 +33,14 @@
     <string name="double_press">A kilépéshez kattintson újra a VISSZA gombra</string>
     <string name="title_pref_working_background">Háttérműködés</string>
     <string name="title_pref_widget_refresh_period">Widget frissítési intervallum</string>
-    <string name="appwidget_configure_instructions">Válassza ki azt az eszközt, amelyet meg szeretne jeleníteni a widgetben</string>
+    <string name="appwidget_configure_instructions">Válassza ki azt az szenzort, amelyet meg szeretne jeleníteni a widgetben</string>
     <string name="saved">Mentve</string>
     <!--string name="short_batt">akku=</string-->
     <string name="short_humidity">pára=</string>
     <string name="short_temperature">hőm=</string>
     <string name="title_pref_bt_scan_mode">Bluetooth keresési mód</string>
-    <string name="device">Eszköz</string>
-    <string name="devices">Eszközök</string>
+    <string name="device">Szenzor</string>
+    <string name="devices">Szenzorok</string>
     <string name="short_second">mp</string>
     <string name="short_minute">perc</string>
     <string name="now">Most</string>
@@ -48,8 +48,8 @@
     <string name="reset">Törlés</string>
     <string name="title_range">Dátumtartomány-választó</string>
     <string name="no_range_selected">Nincs kiválasztva dátumtartomány</string>
-    <string name="title_device_visibility">Eszköz láthatóság/kezelés</string>
-    <string name="summary_device_visibility">Láthatóság a listában, eszköz kezelése</string>
+    <string name="title_device_visibility">Szenzor láthatóság/kezelés</string>
+    <string name="summary_device_visibility">Láthatóság a listában, szenzor kezelése</string>
     <string name="warn_optimized">Jelenleg az alkalmazás háttérben való működését a rendszer optimalizálja. Ebben az állapotban a háttérben való működés leállhat, de letilthatja az optimalizálást.</string>
     <string name="cancel">Mégsem</string>
     <string name="period_all">Az intervallum nincs beállítva</string>
@@ -102,7 +102,7 @@
     <string name="purchased_pro">Pro verzió.\nAz alkalmazás mostantól hirdetésmentes.</string>
     <string name="purchased_thingspeak">ThingSpeak integrációt</string>
     <string name="activity_configure">Widget konfigurálás</string>
-    <string name="checkbox_name_visibility">Eszköz nevének láthatósága</string>
+    <string name="checkbox_name_visibility">Szenzor nevének láthatósága</string>
     <string name="checkbox_temp_visibility">Hőmérséklet láthatóság</string>
     <string name="checkbox_hum_visibility">Páratartalom láthatóság</string>
     <string name="checkbox_bat_visibility">Akkumulátor láthatósága</string>
@@ -114,7 +114,7 @@
     <string name="text_color">Szöveg szín</string>
     <string name="background_color">Háttérszín</string>
     <string name="new_version_on_play">Új verzió a Play-en</string>
-    <string name="refresh">Kérjük, frissítse!</string>
+    <string name="refresh">Kérlek, frissítsd!</string>
     <string name="notif_period_expired">próbaidőszak lejárt</string>
     <string name="unknown_error">Hiba</string>
     <string name="title_theme">Téma</string>
@@ -128,7 +128,7 @@
     <string name="appintro_permission_title">Engedélykérés</string>
     <string name="appintro_permission_desc">A Bluetooth eléréséhez engedélyt kell adnia a helymeghatározáshoz</string>
     <string name="appintro_how_it_works_title">Hogyan működik</string>
-    <string name="appintro_how_it_works_desc">Csak tartsa a hőmérőt közel ehhez az eszközhöz</string>
+    <string name="appintro_how_it_works_desc">Csak tartsa a szenzort közel ehhez az eszközhöz</string>
     <string name="appintro_battery_optimazition_title">Akkumulátor optimalizálás</string>
     <string name="appintro_battery_optimazition_desc">Kapcsolja ki az akkumulátor optimalizálást a háttérben való megfelelő működéshez</string>
     <string name="appintro_finished_title">Az alapbeállítások beállítva</string>
@@ -142,10 +142,10 @@
     <string name="summary_pref_db_restore">Visszaállítás felhőadatbázisból</string>
     <string name="correction">Jelentett hőmérsékleti/páratartalmi értékek korrigálva</string>
     <string name="error_iab_init">Az alkalmazáson belüli számlázás nem elérhető!</string>
-    <string name="title_pref_devicesettings_name">Eszköznév</string>
+    <string name="title_pref_devicesettings_name">Szenzornév</string>
     <string name="title_pref_devicesettings_offsets">Korrekciós eltolások</string>
-    <string name="reporting">Jelentés</string>
-    <string name="summary_device_name">Eszköz egyedi neve (még nincs beállítva)</string>
+    <string name="reporting">Távoli riportolás</string>
+    <string name="summary_device_name">Szenzor egyedi neve (még nincs beállítva)</string>
     <string name="summary_offset">Eltolás értéke a valós értéktől (nincs beállítva)</string>
     <string name="info_offset">Különbség értékek a mért és a valós közt</string>
     <string name="field_settings">Mező beállítás</string>
@@ -169,19 +169,19 @@
     <string name="needed" formatted="false">%s szükséges</string>
     <string name="too_much_alert" formatted="false">Túl sok %s riasztás</string>
     <string name="other">Egyéb</string>
-    <string name="summary_db_reset_for_device">Az eszköz tárolt értékei törlődnek</string>
+    <string name="summary_db_reset_for_device">A szenzor tárolt értékei törlődnek</string>
     <string name="title_pref_devicesettings_sms_receiver">Címzett SMS száma</string>
     <string name="sms">SMS</string>
     <string name="help_thingspeak"><![CDATA[
     &#149; <a href=\"https://thingspeak.com/users/sign_up\">Iratkozzon fel a ThingSpeak-re</a> ha még nem rendelkezik fiókkal<br>
     &#149; <a href=\"https://thingspeak.com/login\">Jelentkezzen be a ThingSpeak-be</a><br>
     &#149; Hozzon létre új csatornát a Csatornák, Saját csatornák, majd az Új csatorna kiválasztásával<br>
-    &#149; Töltse ki a csatorna azonosítóját és az írási kulcsot (a csatorna API kulcsai menüből) az eszközbeállítások menüben<br>
+    &#149; Töltse ki a csatorna azonosítóját és az írási kulcsot (a csatorna API kulcsai menüből) az szenzorbeállítás menüben<br>
     &#149; Állítsa be a mezőszámot a kívánt alkalmazásban (pl. 1-es hőmérséklet, 2-es nedvesség, 3-as akkumulátor érték)<br>
     &#149; Engedélyezze a mezők jelentését és a fő ThingSpeak jelentést<br>
     &#149; Elkészült és hozzáférhet az értékekhez a világ bármely pontján (a ThingSpeak honlapon, a ThingSpeak alkalmazásban)]]></string>
     <string name="title_pref_alert_threshold">Riasztási intervallum</string>
-    <string name="summary_pref_database_for_device">Az eszköz adatbázisához kapcsolódó beállítások  (pl. eszköz törlése)</string>
+    <string name="summary_pref_database_for_device">A szenzor adatbázisához kapcsolódó beállítások  (pl. szenzor törlése)</string>
     <string name="title_pref_autostart">Automatikus indítás engedély</string>
     <string name="summary_pref_autostart">Gyártóval kapcsolatos beállítás</string>
     <string name="title_invitation">Meghívás küldése</string>
@@ -193,8 +193,8 @@
     <string name="thingspeak_devices">Android 5.0+ eszköz ezzel az alkalmazással</string>
     <string name="any_devices">Webböngészők, Android-alkalmazások, iOS-alkalmazások, stb.</string>
     <string name="msg_sure">Biztos?</string>
-    <string name="title_device_delete">Eszköz törlése</string>
-    <string name="summary_device_delete">Az eszköz és tárolt értékei törlődnek</string>
+    <string name="title_device_delete">Szenzor törlése</string>
+    <string name="summary_device_delete">A szenzor és tárolt értékei törlődnek</string>
     <string name="title_pref_truetime">Hálózati idő</string>
     <string name="summary_pref_truetime">Nagyobb pontosságú hálózati idő a helyi idő helyett</string>
     <string name="time">Idő</string>
@@ -210,7 +210,7 @@
     &#149; <a href=\"https://pushover.com/login\">Jelentkezzen be a Pushover-be</a><br>
     &#149; Hozzon létre egy alkalmazás-/API-tokent az API-token beszerzéséhez<br>
     &#149; Hozzon létre egy kézbesítési csoportot (feliratkozhatsz rá), hogy megkapja a csoportkulcsot<br>
-    &#149; Töltse ki az API token és a csoportkulcsot az eszközbeállítások menüben<br>
+    &#149; Töltse ki az API token és a csoportkulcsot az szenzorbeállítások menüben<br>
     &#149; Engedélyezze a mezők jelentését és a fő Pushover jelentést<br>
     &#149; Kész vagy, és értesítést kap a <a href=\"https://pushover.net/clients\"> hivatalos ügyfeleinél</a> a világ bármely pontján]]></string>
     <string name="title_pref_devicesettings_pushbullet_channel">Csatornacímke</string>
@@ -223,19 +223,19 @@
     &#149; <a href=\"https://www.pushbullet.com/signin?next=%2F\">Bejelentkezés a Pushbullet-be</a><br>
     &#149; API kulcs létrehozása<a href=\"https://www.pushbullet.com/#settings\">beállítások</a> menüben<br>
     &#149; <a href=\"https://www.pushbullet.com/my-channel\">Új csatorna létrehozása</a><br>
-    &#149; API kulcs és csatorna azonsoító kitöltése az eszközhöz tartozó beállításokban<br>
+    &#149; API kulcs és csatorna azonsoító kitöltése a szenzorhoz tartozó beállításokban<br>
     &#149; A mezőkhöz tartozó riportolás bekapcsolása és a Pushbullet riportolás bekapcsolása<br>
     &#149; Kész vagy, a küldött adatokat a <a href=\"https://www.pushbullet.com/apps\">hivatalos kliensekkel</a> bárhol elérheted a világon]]></string>
-    <string name="error_device_not_found">Az eszköz nem található az adatbázisban</string>
+    <string name="error_device_not_found">A szenzor nem található az adatbázisban</string>
     <string name="title_language">Nyelv</string>
     <string name="title_pref_filter">Szűrés</string>
-    <string name="summary_pref_filter">Csak az app által ismert eszközök (összeomlások, egyéb problémák esetén hasznos)</string>
+    <!--<string name="summary_pref_filter">Csak az app által ismert szenzorok (összeomlások, egyéb problémák esetén hasznos)</string>-->
     <string name="moisture">Nedvesség</string>
     <string name="illuminance">Fényerősség</string>
     <string name="conductivity">Termékenység</string>
-    <string name="title_pref_devicesettings_devinfo">Eszközinformáció</string>
+    <string name="title_pref_devicesettings_devinfo">Szenzorinformáció</string>
     <string name="loading">Töltés. Kérem várjon…</string>
-    <string name="summary_device_info">Részletes eszközadatok</string>
+    <string name="summary_device_info">Részletes információk a szenzorról</string>
     <string name="title_pref_devicesettings_devinfo_hwrev">Hardver revízió</string>
     <string name="title_pref_devicesettings_devinfo_swrev">Szoftver revízió</string>
     <string name="title_pref_devicesettings_devinfo_fwrev">Firmware revízió</string>
@@ -243,42 +243,41 @@
     <string name="title_pref_devicesettings_devinfo_model">Modellszám</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Gyártó</string>
     <string name="cap_default">Alapértelmezett</string>
-    <string name="info_visible_all">Csak az engedélyezett eszközök jelennek meg</string>
-    <string name="info_visible_notall">Csak az engedélyezett eszközök jelennek meg</string>
+    <string name="info_visible_all">Minden szenzor megjelenik</string>
+    <string name="info_visible_notall">Csak az engedélyezett szenzorok jelennek meg</string>
     <string name="opportunistic">Alkalmazkodó</string>
     <string name="low_power">Alacsony fogyasztás</string>
     <string name="low_latency">Alacsony késleltetés</string>
     <string name="balanced">Kiegyenlített</string>
     <string name="title_pref_devicesettings_clock">Időszinkronizálás</string>
     <string name="summary_pref_devicesettings_clock">Az Androidos eszköz idejével szinkronizál</string>
-    <string name="title_pref_appearance_mac">Eszközcím megjelenítés</string>
-    <string name="summary_pref_appearance_mac">Az eszköz címének megjelenítése a kezelt eszközök listájában</string>
+    <string name="title_pref_appearance_mac">Szenzor cím megjelenítés</string>
+    <string name="summary_pref_appearance_mac">A szenzor címének megjelenítése a kezelt szenzorok listájában</string>
     <string name="message_translate">A fordítás közösségi összefogással készül. Amennyiben bármiféle javítandót találsz, vedd fel a kapcsolatot velem vagy te is javíhatod a githubon amit megtalálsz a főmenüből.\nKöszönet a fordítóknak</string>
     <string name="summary_pref_default_chart_values">Kiválasztható mi jelenjen meg a diagramon alapértelmezettként</string>
     <string name="title_pref_custom_sync">Alternatív időszinkronizáló módszer</string>
     <string name="summary_pref_custom_sync">Ha az eredeti módszerrel beállított idő hibásnak bizonyul</string>
-    <string name="title_pref_background_new_device_detection">Új eszköz detektálás</string>
+    <string name="title_pref_background_new_device_detection">Új szenzor detektálás</string>
     <string name="snack_bar_undo">Visszavonás</string>
-    <string name="info_deleted">Eszköz törölve</string>
+    <string name="info_deleted">Szenzor törölve</string>
     <string name="data_sync">Adatszinkronizálás</string>
-    <string name="summary_pref_devicesettings_history">Hőmérséklet és páratartalom adatok letöltése az eszközről</string>
-    <string name="data_sync_mark">Szeretné hogy az eszköz megjegyezné hogy letöltötte az adatokat?\nEbben az esetben az adatok törlődnek az eszközről és más alkalmazás sem fogja elérni.</string>
-    <string name="clear_history">Adatok törlése az eszközről</string>
-    <string name="summary_clear_history">A mentett hőmérséklet és páratartalom adatok letörli az eszközről</string>
+    <string name="summary_pref_devicesettings_history">Hőmérséklet és páratartalom adatok letöltése a szenzorról</string>
+    <string name="data_sync_mark">Szeretné hogy a szenzor megjegyezné, hogy letöltötte az adatokat?\nEbben az esetben az adatok törlődnek a szenzorról és más alkalmazás sem fogja elérni.</string>
+    <string name="clear_history">Adatok kitörlése a szenzorról</string>
+    <string name="summary_clear_history">A mentett hőmérséklet és páratartalom adatok letörli a szenzorról</string>
     <string name="data_cleared">Adatok törölve</string>
     <string name="data">Adatok</string>
     <string name="search">Keresés</string>
     <string name="title_pref_devicesettings_advert_monitoring">Monitorozás a háttérben</string>
-    <string name="summary_pref_devicesettings_advert_monitoringy">Az alkalmazás folyamatosan figyeli a háttérben az eszköz által küldött adatokat</string>
+    <string name="summary_pref_devicesettings_advert_monitoringy">Az alkalmazás folyamatosan figyeli a háttérben a szenzor által küldött adatokat</string>
     <string name="title_pref_devicesettings_key">Titkosító kulcs</string>
-    <string name="summary_pref_devicesettings_key">A titkosított adatok dekódolásához szükséges (ha az eszköz a MiHome-al párosítva van)</string>
-    <string name="hint_key">kulcs</string>
-    <string name="warn_wrong_key">Hibás kulcs</string>
+    <string name="summary_pref_devicesettings_key">A titkosított adatok dekódolásához szükséges (ha a szenzor a MiHome-al párosítva van)</string>
+    <string name="warn_wrong">Hibás %1$s</string>
     <string name="open">Megnyitás</string>
     <string name="title_pref_devicesettings_clock_read">Dátum lekérdezése</string>
-    <string name="summary_pref_devicesettings_clock_read">Dátum kiolvasása az eszközből</string>
+    <string name="summary_pref_devicesettings_clock_read">Dátum kiolvasása a szenzorról</string>
     <string name="title_pref_devicesettings_battery_service">Akkumulátor kiolvasás</string>
-    <string name="summary_pref_devicesettings_battery_service">Érték kiolvasása periodikusan BT kapcsolaton keresztül (eszköz hiányosság pótlása)</string>
+    <string name="summary_pref_devicesettings_battery_service">Érték kiolvasása periodikusan BT kapcsolaton keresztül (szenzor hiányosság pótlása)</string>
     <string name="warn_autostart_permission">Speciális gyártói engedély megadására lehet még szükség</string>
     <string name="title_upgraded">Az app frissült</string>
     <string name="desc_upgraded">Nézd meg mi változott</string>
@@ -286,7 +285,6 @@
     <string name="warn_service_not_running">A szolgálatás nem fut</string>
     <string name="warn_location_permission">Helymeghatározás engedély szükséges a Bluetoot működéséhez. Helyadatokat az alkalmazás nem használ</string>
     <string name="warn_kwgt">A valós értékek kizárólag Pro verzióval lesznek elküldve</string>
-    <string name="thingspeak" translatable="false">Hőmérséklet láthatóság</string>
     <string name="testing">Tesztelés</string>
     <string name="warn_permission_problem">Engedély probléma</string>
     <string name="info_kwgt">_KWGT_ alkalmazás segítségével egyedi kinézetű Képernyő és Zárképernyő widget-eket készíthetsz.\n\n
@@ -308,7 +306,21 @@
         &#160;&#149; Termékenység érték:\n
         &#160;&#160;&#160;$br(_d_, con)$\n
         \n\n
-        * Természetesen nem minden érték elérhető ennek az eszköznek a használatával.\n\n
+        * Természetesen nem minden érték elérhető ennek a szenzornak a használatával.\n\n
         Példa widget:
     </string>
+
+    <string name="warning">Figyelem</string>
+    <string name="warn_lywsd02_fw">Úgy tűnik ez egy elavult firmware verzió.\nAz akkumulátor állapot küldése a 1.1.2_0085-tól működik ezért érdemes lenne frissíteni</string>
+    <string name="warn_new_firmware">Létezik ennél frissebb firmware verzió is</string>
+    <string name="warn_encrypred">A szórt adatok titkosítottakk (a szenzor az Mi Home apphoz titkos kulccsal hozzá van kötve)</string>
+    <string name="info_widget">A widget csak akkor működik ha a szenzorok bluetooth-al láthatóak és az alkalmazás a háttérben fut</string>
+    <string name="info_kwgt_create">KWGT widget készítés:\n - üres widget létrehozása a KWGT-ben\n - adj hozzá egy szöveget amit meg szeretnél jeleníteni\n - kattints az elemek alatt a szövegre és a szerkesztőben add meg kívánt formulát\n\nHa helyesen csinálod már a szerkesztőben behelyettesíti a megfelelő értéket, ahogy az alábbi példán is látható.</string>
+
+    <string name="error_background_service">Sikertlen háttérszolgáltatás indítás</string>
+    <string name="error_background_service_reason">A háttérszolgáltatás indítása sikertelen volt az alábbi hiba miatt: </string>
+    <string name="error_background_service_reason_truncated">A háttérszolgáltatás indítása sikertelen volt, mert…</string>
+    <string name="notification_channel_high_priority_name">Fontos értesítések</string>
+    <string name="msg_sensor_name">Adj nevet a %s szenzornak</string>
+    <string name="warn_empty_sensor_name">A szenzor neve nem lehet üres</string>
 </resources>

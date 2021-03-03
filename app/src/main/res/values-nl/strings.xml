@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Instellingen</string>
+    <string name="error_ble_not_supported">BLE is niet ondersteund</string>
+    <string name="error_bluetooth_not_supported">Bluetooth niet ondersteund</string>
+    <string name="request_location_enable">Locatie service is uitgeschakeld, schakel het alsjeblieft in</string>
+    <string name="request_location_permission">Locatie toestemming nodig</string>
+    <string name="running">Gestart</string>
+    <!--string name="turn_on">Aanzetten</string-->
+    <string name="request_bt_enable">Bluetooth is uitgeschakeld, zet alstublieft aan</string>
+    <string name="default_device_name">Xiaomi Mijia BT Temp apparaat</string>
+    <string name="action_save">Opslaan</string>
+    <string name="title_pref_db_save_period">Database update interval</string>
+    <string name="title_pref_start_on_boot">Start achtergrond proces na herstart</string>
+    <string name="title_pref_keep_service_alive">Actief blijven</string>
+    <string name="summary_pref_keep_service_alive">Houd de service actief</string>
+    <string name="title_pref_store">Temperatuur en vochtigheid</string>
+    <string name="summary_pref_store">Temperatuur en vochtigheid opslaan in database</string>
+    <string name="title_pref_store_batt">Batterij level</string>
+    <string name="summary_pref_store_batt">Dagelijkse batterij level saven naar database</string>
+    <string name="title_db_reset">Opschonen database</string>
+    <string name="summary_db_reset">Opgeslagen waarden worden verwijderd</string>
+    <string name="title_pref_battery">Batterij Optimalisatie</string>
+    <string name="summary_pref_battery_en">Ingeschakeld (Proces kan gestopt worden in achtergrond)</string>
+    <string name="summary_pref_battery_dis">Uitgeschakeld (app mag niet op de achtergrond worden gestopt)</string>
+    <string name="title_pref_background">Op de achtergrond uitgevoerd</string>
+    <string name="title_pref_service_notif_prio">Prioriteit van meldingen</string>
+    <string name="title_fahr">Fahrenheit</string>
+    <string name="notif_new_device">Nieuw apparaat gedetecteerd</string>
+    <string name="temperature">Temperatuur</string>
+    <string name="humidity">Vochtigheid</string>
+    <string name="double_press">Nog een keer terug klikken om te verlaten</string>
+    <string name="title_pref_working_background">Op de achtergrond uitgevoerd</string>
+    <string name="title_pref_widget_refresh_period">Widget ververs interval</string>
+    <string name="appwidget_configure_instructions">Selecteer welk apparaat je in de widget wil weergeven</string>
+    <string name="saved">Saved</string>
+
+    <!-- string name="hint_device_name">Device name</string -->
+    <!--<string name="short_batt">batt=</string>-->
+
+    <!-- string name="hint_device_name">Device name</string
+string name="short_batt">batt=</string -->
+    <string name="short_humidity">vocht=</string>
+    <string name="short_temperature">temp=</string>
+    <string name="title_pref_bt_scan_mode">Bluetooth scan mode</string>
+    <string name="device">Apparaat</string>
+    <string name="devices">Apparaten</string>
+    <string name="short_second">Sec</string>
+    <string name="short_minute">Min</string>
+    <string name="now">Nu</string>
+    <string name="action_date">Datum bereik</string>
+    <string name="reset">Reset</string>
+    <string name="title_range">Datum bereik selector</string>
+    <string name="no_range_selected">Er is geen datum bereik geselecteerd</string>
+    <string name="title_device_visibility">Apparaat zichtbaarheid &amp; verwerking</string>
+    <string name="summary_device_visibility">Zichtbaar in de lijst, verwerken</string>
+    <string name="warn_optimized">Momenteel wordt het achtergrondgebruik van de app geoptimaliseerd door het systeem. In deze toestand kan het werken op de achtergrond stoppen, maar u kunt de optimalisatie uitschakelen.</string>
+    <string name="cancel">Cancel</string>
+    <string name="period_all">Interval niet ingesteld</string>
+    <string name="hint_offset_temp">Temperatuu compensatie van echte waarder</string>
+    <string name="hint_offset_hum">Vochtigheid compensatie van echte waarde</string>
+    <string name="temp_offset" formatted="false">Temperatuur correctie compensatie (%+.1f%s)</string>
+    <string name="hum_offset" formatted="false">Vochtigheid correctie compensatie (%+.1f%%)</string>
+    <string name="realtime">Realtime</string>
+    <string name="history">Historie</string>
+    <string name="title_pref_appearance">Uiterlijk</string>
+    <string name="title_pref_database">Database</string>
+    <string name="summary_pref_appearance">App uiterlijk afhankelijke instellingen</string>
+    <string name="summary_pref_background">App Achtergrond werking afhankelijk van de instellingen</string>
+    <string name="summary_pref_database">Database gerelateerde instellingen</string>
+    <string name="thingspeak_channel">Kanaal-ID</string>
+    <string name="thingspeak_key">Kanaal Schrijf Sleutel</string>
+    <!--<string name="create">Maak</string>-->
+    <string name="no_internet_for">Internet connectie nodig voor %s</string>
+    <string name="error_thingspeak_key">Sleutel/kanaal-ID fout</string>
+    <string name="thingspeak_data_need">Stel de sleutel en de kanaal-ID in</string>
+    <string name="thingspeak_temp">Temperatuur veld id</string>
+    <string name="thingspeak_hum">Vochtigheid veld id</string>
+    <string name="thingspeak_bat">Batterij veld id</string>
+    <string name="enable">Ischakelen</string>
+    <string name="enabled">Ingeschakeld</string>
+    <string name="disable">Uitschakelen</string>
+    <string name="disabled">Uitgeschakeld</string>
+    <string name="test">Test</string>
+    <string name="this_function">deze functie</string>
+    <string name="test_needs_for_save">ThingSpeak gegevensbesparing vereist een succesvolle test</string>
+    <string name="test_needs_for_enable">Moet een succesvolle test doen</string>
+    <string name="thingspeak_update_interval_min">Update interval (minuut)</string>
+    <string name="thingspeak_update_interval_min_temp">Temperatuur update interval (minuut)</string>
+    <string name="thingspeak_update_interval_min_hum">Vochtigheid update interval (minuut)</string>
+    <string name="thingspeak_update_interval_min_bat">Batterij update interval (minuut)</string>
+    <string name="admob">U kunt de verdere ontwikkeling ondersteunen door de Pro-versie te kopen</string>
+    <string name="exit">Sluiten</string>
+    <string name="expired_please_refresh">Ververs de applicatie alstublieft</string>
+    <string name="share">Delen</string>
+    <string name="feedback">Terugkoppeling &amp; fout rapport</string>
+    <string name="help">Help</string>
+    <string name="purchase">Winkel</string>
+    <string name="send">Stuur…</string>
+    <string name="sku_title_pro">Pro versie</string>
+    <string name="sku_title_tingspeak">ThingSpeak</string>
+    <string name="desc_sku_pro">Advertentievrije app met extra functies</string>
+    <string name="buy">Koop</string>
+    <string name="desc_sku_thingspeak">ThingSpeak intergratie</string>
+    <string name="purchased_pre" formatted="false">Jou aankoop %s</string>
+    <string name="purchased_post" formatted="false">Als je er een probleem mee hebt, neem dan gerust contact met me op.\nDank je.</string>
+    <string name="purchased_pro">Pro versie\nApp is nu advertentieloos</string>
+    <string name="purchased_thingspeak">ThingSpeak integratie kenmerk</string>
+    <string name="activity_configure">Widget configuratie</string>
+    <string name="checkbox_name_visibility">Apparaat naam zichtbaarheid</string>
+    <string name="checkbox_temp_visibility">Temperatuur zichtbaarheid</string>
+    <string name="checkbox_hum_visibility">Vochtigheid zichtbaarheid</string>
+    <string name="checkbox_bat_visibility">Batterij zichtbaarheid</string>
+    <string name="title_widget_appearance">Widget uiterlijk instellingen</string>
+    <string name="text_size">Tekst grote</string>
+    <string name="sample_text">Voorbeeld tekst</string>
+    <string name="battery">Batterij</string>
+    <string name="widget_type">Widget type</string>
+    <string name="text_color">Tekst kleur</string>
+    <string name="background_color">Achtergrond kleur</string>
+    <string name="new_version_on_play">Nieuwe versie in Playstore</string>
+    <string name="refresh">Updaten aub!</string>
+    <string name="notif_period_expired">Proefperiode afgelopen</string>
+    <string name="unknown_error">Fout</string>
+    <string name="title_theme">Thema</string>
+    <string name="title_pref_color_temperatue">Temperatuur lijn kleur</string>
+    <string name="title_pref_color_humidity">Vochtigheid lijn kleur</string>
+    <string name="title_pref_color_battery">Batterij lijn kleur</string>
+    <string name="chart">Grafiek</string>
+    <string name="post_title_app">\u0020applicatie</string>
+    <string name="appintro_welcome_title">Welkom!</string>
+    <string name="appintro_welcome_desc">Onofficiële app for Xiaomi Mijia Bluetooth hygro-thermometers</string>
+    <string name="appintro_permission_title">Toestemming verzoek</string>
+    <string name="appintro_permission_desc">Om toegang te krijgen tot Bluetooth, moet u locatie toestemming geven</string>
+    <string name="appintro_how_it_works_title"> Hoe het werkt</string>
+    <string name="appintro_how_it_works_desc">Houd de thermometer dicht bij dit apparaat</string>
+    <string name="appintro_battery_optimazition_title">Batterij optimalisatie</string>
+    <string name="appintro_battery_optimazition_desc">Schakel batterij optimalisatie uit voor goede achtergrond werking</string>
+    <string name="appintro_finished_title">Basis instellingen zijn ingesteld</string>
+    <string name="appintro_finished_desc">Begin</string>
+    <string name="title_pref_save_button">Save knop</string>
+    <string name="summary_pref_save_button">Losse save knop i.p.v. werkbalk knop</string>
+    <string name="title_pref_backup_restore">Backup / herstellen</string>
+    <string name="title_pref_db_backup">Backup</string>
+    <string name="summary_pref_db_backup">Backup naar cloud database</string>
+    <string name="title_pref_db_restore">Herstellen</string>
+    <string name="summary_pref_db_restore">Herstellen van cloud database</string>
+    <string name="correction">Gerapporteerde temperatuur/vochtigheid waardes gecorrigeerd met afwijking</string>
+    <string name="error_iab_init">In-app facturering in niet beschikbaar</string>
+    <string name="title_pref_devicesettings_name">Apparaat naam</string>
+    <string name="title_pref_devicesettings_offsets">Correctie afwijking</string>
+    <string name="reporting">Rapporteren</string>
+    <string name="summary_device_name">Unieke naam van dit apparaat (nog niet ingesteld)</string>
+    <string name="summary_offset">Afwijking van de echte waarde (nog niet ingesteld)</string>
+    <string name="field_settings">Veld instellingen</string>
+    <string name="thingspeak_set">AUB stel API-sleutel en kanaal-id in</string>
+    <string name="default_field">Uniek ID (1–8) (nog niet ingesteld)</string>
+    <string name="alert">Alarm</string>
+    <string name="notification">Notificatie</string>
+    <string name="email">E-mail</string>
+    <string name="title_pref_devicesettings_alert_temp_enable">Temperatuur alarm</string>
+    <string name="title_pref_devicesettings_alert_hum_enable">Vochtigheid alarm</string>
+    <string name="title_pref_devicesettings_alert_bat_enable">Batterij alarm</string>
+    <string name="title_pref_devicesettings_alert_temp">Normaal temperatuur bereik</string>
+    <string name="title_pref_devicesettings_alert_hum">Normaal vochtigheid bereik</string>
+    <string name="title_pref_devicesettings_alert_bat">Batterij alarm limiet</string>
+    <string name="alertif">Waarschuwing als</string>
+    <string name="text_and">en</string>
+    <string name="notset">(nog niet ingesteld)</string>
+    <string name="title_pref_devicesettings_email_sender">E-mailadres van afzender</string>
+    <string name="title_pref_devicesettings_email_receiver">E-mailadres van ontvanger</string>
+    <string name="function_disbled">Deze functie is op het moment uitgeschakeld (in deze versie)</string>
+    <string name="needed" formatted="false">%s nodig</string>
+    <string name="too_much_alert" formatted="false">Te veel %s waarschuwing</string>
+    <string name="other">Andere</string>
+    <string name="summary_db_reset_for_device">Opgeslagen waardes van dit apparaat worden verwijderd</string>
+    <string name="title_pref_devicesettings_sms_receiver">Ontvanger SMS nummer</string>
+    <string name="sms">SMS</string>
+    <string name="title_pref_alert_threshold">Waarschuwingsinterval</string>
+    <string name="summary_pref_database_for_device">Database gerelateerde instellingen voor dit apparaat</string>
+    <string name="title_pref_autostart">Autostart toestemming</string>
+    <string name="summary_pref_autostart">Fabrikant gerelateerde instellingen</string>
+    <string name="title_invitation">Stuur uitnodinging</string>
+    <string name="invitation_cta">Installeren!</string>
+    <string name="invitation_message">Ik zou deze app graag voor je willen aanbevelen</string>
+    <string name="invite">nodig uit en beloon</string>
+    <string name="communication">Communicatie</string>
+    <string name="invitation_sent">Uitnodiging(en) verstuurd</string>
+    <string name="thingspeak_devices">Andriod 5.0+ apparaat mij deze app</string>
+    <string name="any_devices">Web browsers, Android apps, iOS apps, etc.</string>
+    <string name="msg_sure">Weet je het zeker?</string>
+    <string name="title_device_delete">Apparaat verwijderen</string>
+    <string name="summary_device_delete">Apparaat en opgeslagen waardes worden verwijderd</string>
+    <string name="title_pref_truetime">Netwerktijd</string>
+    <string name="summary_pref_truetime">Hogere nauwkeurigheid netwerktijd in plaats van lokale tijd</string>
+    <string name="time">Tijd</string>
+    <string name="translate">Vertaal</string>
+    <string name="title_pref_other">Andere</string>
+    <string name="summary_pref_other">Andere (experimentele) functies</string>
+    <string name="title_dontkill">Mijn app niet afsluiten!</string>
+    <string name="warn_pro">Alleen met de Pro versie</string>
+    <string name="title_pref_devicesettings_api_token">API Token</string>
+    <string name="title_pref_devicesettings_user_group_key">Gebruiker/Groep Sleutel</string>
+
+    <!-- You should deal with sentences between > and < chars.
+Don't touch the special tags and url-s -->
+    <string name="help_pushover"><![CDATA[
+    &#149; <a href=\"https://pushover.net/login\">aanmelden voor Pushover</a> als je nog geen account hebt<br>
+    &#149; <a href=\"https://pushover.com/login\">Log in bij Pushover</a><br>
+    &#149; Maak een applicatie/API Token om API Token te krijgen<br>
+    &#149; Maak een Bezorggroep (daar kun je je op abonneren) om groepsleutel te krijgen<br>
+    &#149; Vul het API Token en de groepssleutel in het menu met apparaatinstellingen<br>
+    &#149; Schakel de veldenrapportage en de belangrijkste Pushover-rapportage in<br>
+    &#149; U bent klaar en krijgt een melding in uw <a href=\"https://pushover.net/clients\">official clients</a> waar ook ter wereld]]></string>
+    <string name="title_pref_devicesettings_pushbullet_channel">Kanaal tag</string>
+    <string name="title_pref_devicesettings_apikey">API Sleutel</string>
+    <string name="help_email">U kunt een e-mail sturen vanaf een gekozen adres naar een ander opgegeven e-mailadres over de temperatuur / vochtigheid / batterijwisselingen</string>
+    <string name="help_sms">U kunt vanaf deze simkaart van dit apparaat een sms sturen naar een bepaald telefoonnummer over de temperatuur / vochtigheid / batterijwisselingen</string>
+    <string name="help_notif">U kunt op dit apparaat informeren over de temperatuur / vochtigheid / batterijwisselingen (op de statusbalk)</string>
+    <string name="help_pushbullet"><![CDATA[
+     &#149; <a href="https://pushbullet.com/">Meld je aan voor Pushbullet</a> als je nog geen account hebt<br>
+     &#149; <a href="https://www.pushbullet.com/signin?next=%2F">Aanmelden bij Pushbullet</a> <br>
+     &#149; Maak een API-sleutel in het menu <a href="https://www.pushbullet.com/#settings">instellingen</a> <br>
+     &#149; <a href="https://www.pushbullet.com/my-channel">Maak een nieuw kanaal</a> <br>
+     &#149; Vul de API-sleutel en kanaaltag in het menu met apparaatinstellingen<br>
+     &#149; Schakel de veldenrapportage en de belangrijkste Pushbullet-rapportage in<br>
+     &#149; U bent klaar en krijgt een melding in uw <a href="https://www.pushbullet.com/apps>official_clients</a> waar ook ter wereld]]></string>
+    <string name="error_device_not_found">Apparaat niet gevonden in database</string>
+    <string name="title_language">Taal</string>
+    <string name="title_pref_filter">Filteren</string>
+    <!--<string name="summary_pref_filter">Alleen bekende apparaten (in geval van problemen, crash, enz.)</string>-->
+    <string name="moisture">Vochtigheid</string>
+    <string name="illuminance">Lichtintensiteit</string>
+    <string name="conductivity">Vruchtbaarheid</string>
+    <string name="title_pref_devicesettings_devinfo">Apparaat informatie</string>
+    <string name="loading">Laden. Even wachten…</string>
+    <string name="summary_device_info">Info over dit apparaat</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Hardware revisie</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Software revisie</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Firmware revisie</string>
+    <string name="title_pref_devicesettings_devinfo_serial">Serienummer</string>
+    <string name="title_pref_devicesettings_devinfo_model">Modelnummer</string>
+    <string name="title_pref_devicesettings_devinfo_manufacturer">Fabrikant</string>
+    <string name="cap_default">Standaard</string>
+    <string name="info_visible_all">Alle apparaten zijn zichtbaar</string>
+    <string name="info_visible_notall">Geselecteerde apparaten zijn zichtbaar</string>
+    <string name="opportunistic">Opportunistisch</string>
+    <string name="low_power">Laag vermogen</string>
+    <string name="low_latency">Lage latentie</string>
+    <string name="balanced">Gebalanceerd</string>
+    <string name="title_pref_devicesettings_clock">Tijd synchronisatie</string>
+    <string name="summary_pref_devicesettings_clock">Synchroniseer de tijd met de tijd op het Android-apparaat</string>
+    <string name="title_pref_appearance_mac">Apparaat adres zichtbaarheid</string>
+    <string name="summary_pref_appearance_mac">Adres zichtbaar in de lijst van het hoofdscherm</string>
+    <string name="message_translate">De vertaling is gemaakt in samenwerking met de gemeenschap. Als u corrigeerbare tekst vindt, neem dan contact met mij op of repareer het eenvoudig op de github die beschikbaar is in het hoofdmenu.\nMet dank aan de vertalers</string>
+    <string name="summary_pref_default_chart_values">Selecteer wat standaard zichtbaar mag zijn</string>
+    <string name="help_thingspeak"><![CDATA[
+     &#149; <a href="https://thingspeak.com/users/sign_up">Meld je aan voor ThingSpeak</a>als je nog geen account hebt<br>
+     &#149; <a href="https://thingspeak.com/login">Aanmelden bij ThingSpeak</a> <br>
+     &#149; Maak een nieuw kanaal door Kanalen, Mijn kanalen en vervolgens Nieuw kanaal te selecteren<br>
+     &#149; Vul de kanaal ID en de schrijfsleutel in (uit het menu API-sleutels van het kanaal) in het menu met apparaatinstellingen<br>
+     &#149; Stel de veldnummers in de app in die u wilt (bijv. 1 voor temperatuur, 2 voor vochtigheid, 3 voor batterijwaarden)<br>
+     &#149; Schakel de veldenrapportage en de belangrijkste ThingSpeak-rapportage in<br>
+     &#149; Je bent klaar en hebt overal ter wereld toegang tot de waarden (op de ThingSpeak-startpagina, in ThingSpeak-apps)]]></string>
+    <string name="info_offset">Verschil tussen gemeten en echte waarde</string>
+
+    <!-- this looks like code? need to translate also? -->
+    <string name="title_pref_custom_sync">Aangepaste tijdsynchronisatiemethode</string>
+    <string name="summary_pref_custom_sync">Als de tijd niet klopt met de standaardmethode</string>
+    <string name="notif_new_device_saved">Automatisch opgeslagen (kan worden gewijzigd in instellingen)</string>
+    <string name="notif_new_device_skipped">Niet opgeslagen (kan worden gewijzigd in instellingen)</string>
+    <string name="title_pref_background_new_device_detection">Nieuwe apparaatdetectie</string>
+    <string name="snack_bar_undo">Ongedaan maken</string>
+    <string name="info_deleted">Apparaat verwijderd</string>
+    <string name="data_sync">Data synchronisatie</string>
+    <string name="summary_pref_devicesettings_history">Download de geschiedenis van temperatuur en vochtigheidsgegevens van het apparaat</string>
+    <string name="data_sync_mark">Wilt u dat het apparaat onthoudt dat u de gegevens heeft gedownload?\nIn dit geval worden de gegevens van het apparaat verwijderd en zijn ze niet toegankelijk voor andere toepassingen.</string>
+    <string name="clear_history">Wis geschiedenisgegevens op het apparaat</string>
+    <string name="summary_clear_history">Opgeslagen temperatuur en vochtigheidsgegevens worden van het apparaat verwijderd</string>
+    <string name="data_cleared">Data gewist</string>
+    <string name="data">Data</string>
+    <string name="search">Zoek</string>
+    <string name="title_pref_devicesettings_advert_monitoring">Monitoring op de achtergrond</string>
+    <string name="summary_pref_devicesettings_advert_monitoringy">App controleert constant de gegevens die van dit apparaat komen</string>
+    <string name="title_pref_devicesettings_key">Decoderingssleutel</string>
+    <string name="summary_pref_devicesettings_key">Sleutel voor het decoderen van de gecodeerde gegevens (als het apparaat is gekoppeld met MiHome)</string>
+    <string name="hint_key">Sleutel</string>
+    <!--<string name="warn_wrong_key">Verkeerde sleutel</string>-->
+    <string name="open">Open</string>
+    <string name="testing">Testen</string>
+    <string name="title_upgraded">De app is bijgewerkt</string>
+    <string name="desc_upgraded">Kijk wat er is veranderd</string>
+    <string name="channel_name_upgrade">Upgrade</string>
+    <string name="title_pref_devicesettings_clock_read">Lees datum</string>
+    <string name="summary_pref_devicesettings_clock_read">Lees datum van het apparaat</string>
+    <string name="title_pref_devicesettings_battery_service">Lees batterij waarde</string>
+    <string name="summary_pref_devicesettings_battery_service">De waarde periodiek aflezen met BT-verbinding (oplossing voor apparaatdefect)</string>
+    <string name="warn_autostart_permission">Mogelijk is speciale toestemming van de fabrikant vereist</string>
+    <string name="warn_location_permission">Locatietoestemming is vereist voor Bluetooth scan in Android.\nService die wordt uitgevoerd op Android 10 en hoger, kan geen Bluetooth-apparaten detecteren, tenzij ze toestemming hebben voor locatie op de achtergrond. Het is nodig om de gegevens van de bluetooth-apparaten op de achtergrond verzamelen.\nDe app verzamelt helemaal geen locatiegegevens, maar kan niet werken zonder deze machtigingen, geef ze alstublieft.</string>
+    <string name="warn_service_not_running">Service niet gestart</string>
+    <string name="warn_permission_problem">Permissie probleem</string>
+    <string name="warn_kwgt">Waarden zijn niet geldig zonder Pro versie</string>
+    <string name="info_kwgt">U kunt een uniek ogende Launcher- en vergrendelingscherm-widgets maken met de _KWGT_ app.\n\nDe applicatie biedt de volgende uitzendopties:\n
+        &#160;&#149; Onbewerkt temperatuurnummer:\n
+        &#160;&#160;&#160;$br(_d_, temp)$\n
+        &#160;&#149; Opgemaakte temperatuurtekst:\n
+        &#160;&#160;&#160;$br(_d_, tempt)$\n
+        &#160;&#149; Onbewerkt vochtigheidsgetal:\n
+        &#160;&#160;&#160;$br(_d_, hum)$\n
+        &#160;&#149; Opgemaakte vochtigheidstekst:\n
+        &#160;&#160;&#160;$br(_d_, humt)$\n
+        &#160;&#149; Onbewerkt batterijnummer:\n
+        &#160;&#160;&#160;$br(_d_, bat)$\n
+        &#160;&#149; Onbewerkt vochttekst:\n
+        &#160;&#160;&#160;$br(_d_, moi)$\n
+        &#160;&#149; Onbewerkt verlichtingssterkte tekst:\n
+        &#160;&#160;&#160;$br(_d_, ill)$\n
+        &#160;&#149; Onbewerkt geleidbaarheidstekst:\n
+        &#160;&#160;&#160;$br(_d_, con)$\n
+        \n\n
+        * Natuurlijk zijn niet alle bovenstaande waarden beschikbaar voor dit apparaat.\nVoorbeeld widget</string>
+</resources>

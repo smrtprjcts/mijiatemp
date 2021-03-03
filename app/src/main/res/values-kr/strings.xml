@@ -46,7 +46,7 @@
     <string name="appwidget_configure_instructions">위젯에 표시 할 장치를 선택하세요</string>
     <string name="saved">저장됨</string>
     <!--string name="hint_device_name">Device name</string-->
-    <string name="short_batt">배터리=</string>
+    <!--string name="short_batt">배터리=</string-->
     <string name="short_humidity">습도=</string>
     <string name="short_temperature">온도=</string>
     <string name="title_pref_bt_scan_mode">블루투스 동작 모드</string>
@@ -156,7 +156,6 @@
     <string name="error_iab_init">인앱 요금 청구 불가!</string>
     <string name="title_pref_devicesettings_name">장치 이름</string>
     <string name="title_pref_devicesettings_offsets">오차 보정</string>
-    <string name="reporting">Reporting</string>
     <string name="summary_device_name">이 장치의 고유 이름(아직 설정되지 않음)</string>
     <string name="summary_offset">실제 값으로부터의 오차(아직 설정되지 않음)</string>
     <string name="info_offset">측정값과 실제값의 차이</string>
@@ -247,7 +246,7 @@
     <string name="error_device_not_found">데이터베이스에서 장치를 찾을 수 없습니다</string>
     <string name="title_language">언어</string>
     <string name="title_pref_filter">필터링</string>
-    <string name="summary_pref_filter">알려진 장치 만 (충돌/문제가 있는경우)</string>
+    <!--<string name="summary_pref_filter">알려진 장치 만 (충돌/문제가 있는경우)</string>-->
     <string name="moisture">습고</string>
     <string name="illuminance">Light intensity</string>
     <string name="conductivity">Fertility</string>

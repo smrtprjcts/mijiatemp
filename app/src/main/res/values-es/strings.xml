@@ -7,7 +7,7 @@
     <string name="request_location_permission">"Permiso localización necesario"</string>
     <string name="running">"Ejecutando"</string>
     <string name="request_bt_enable">"Bluetooth está apagado, actívalo"</string>
-    <string name="default_device_name">"Temperatura Xiomi Mija BT"</string>
+    <string name="default_device_name">"Temperatura Mija BT"</string>
     <string name="action_save">"Guardar"</string>
     <string name="title_pref_db_save_period">"Intervalo de actualización de la base de datos"</string>
     <string name="title_pref_start_on_boot">"Comenzar a trabajar en segundo plano después de iniciar"</string>
@@ -33,9 +33,8 @@
     <string name="title_pref_widget_refresh_period">"Intervalo de actualización del widget"</string>
     <string name="appwidget_configure_instructions">"Seleccione el dispositivo que desea mostrar en el widget"</string>
     <string name="saved">"Guardado"</string>
-
     <!-- string name="hint_device_name">Device name</string -->
-    <string name="short_batt">"batería="</string>
+    <!--string name="short_batt">"batería="</string-->
     <string name="short_humidity">"humedad="</string>
     <string name="short_temperature">"temperatura="</string>
     <string name="title_pref_bt_scan_mode">"Escanear por bluetooth"</string>
@@ -225,7 +224,7 @@
     <string name="error_device_not_found">"Dispositivo no encontrado en la base de datos"</string>
     <string name="title_language">"Idioma"</string>
     <string name="title_pref_filter">"Filtrar"</string>
-    <string name="summary_pref_filter">"Solo dispositivos conocidos (en caso de problemas, bloqueo, etc.)"</string>
+    <!--<string name="summary_pref_filter">"Solo dispositivos conocidos (en caso de problemas, bloqueo, etc.)"</string>-->
     <string name="moisture">"Humedad"</string>
     <string name="illuminance">"Intensidad de luz"</string>
     <string name="conductivity">"Conductividad"</string>

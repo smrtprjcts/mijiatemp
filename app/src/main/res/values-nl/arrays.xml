@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_db_save_period_entries">
+        <item>1 minuut (standaard)</item>
+        <item>2 minuten</item>
+        <item>3 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>30 minuten</item>
+        <item>1 uur</item>
+    </string-array>
+
+    <string-array name="pref_service_notif_prio_entries">
+        <item>Min</item>
+        <item>Laag</item>
+        <item>@string/cap_default</item>
+        <item>Hoog</item>
+        <item>Max</item>
+    </string-array>
+
+    <string-array name="pref_widget_refresh_period_entries">
+        <item>Direct</item>
+        <item>1 minute (standaard)</item>
+        <item>2 minuten</item>
+        <item>3 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>30 minuten</item>
+        <item>1 uur</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>@string/cap_default</item>
+        <item>Uurgemiddelde</item>
+        <item>Daggemiddelde</item>
+        <item>Weekgemiddelde</item>
+        <item>Maandgemiddelde</item>
+        <item>Jaargemiddelde</item>
+    </string-array>
+
+    <string-array name="pref_themes_entries">
+        <item>Licht</item>
+        <item>Donker</item>
+        <item>Zwart</item>
+    </string-array>
+
+    <string-array name="pref_alert_threshold_entries">
+        <item>1 minute</item>
+        <item>2 minuten</item>
+        <item>3 minuten</item>
+        <item>5 minuten (standaard)</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>30 minuten</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string-array name="range">
+        <item>Aangepast bereik</item>
+        <item>Volledig assortiment</item>
+        <item>Afgelopen jaar</item>
+        <item>Afgelopen half jaar</item>
+        <item>Afgelopen drie maanden</item>
+        <item>Vorige maand</item>
+        <item>Vorige week</item>
+        <item>Laatste dag</item>
+        <item>Laatste uur</item>
+    </string-array>
+
+</resources>

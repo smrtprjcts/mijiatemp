@@ -7,7 +7,7 @@
     <string name="request_location_permission">Вимагається дозвіл на місцезнаходження</string>
     <string name="running">Працює</string>
     <string name="request_bt_enable">Bluetooth відключено, будь ласка увімкніть</string>
-    <string name="default_device_name">Xiaomi Mijia BT Temp Device</string>
+    <string name="default_device_name">Xiaomi BT Temp Device</string>
     <string name="action_save">Зберегти</string>
     <string name="title_pref_db_save_period">Інтервал оновлення датабази</string>
     <string name="title_pref_start_on_boot">Почати роботу у фоні після завантаження</string>
@@ -33,9 +33,8 @@
     <string name="title_pref_widget_refresh_period">Інтервал оновлення віджету</string>
     <string name="appwidget_configure_instructions">Виберіть пристрій, який ви хочете показати у віджеті</string>
     <string name="saved">Збережено</string>
-
     <!-- string name="hint_device_name">Device name</string -->
-    <string name="short_batt">бат=</string>
+    <!--string name="short_batt">бат=</string-->
     <string name="short_humidity">вол=</string>
     <string name="short_temperature">темп=</string>
     <string name="title_pref_bt_scan_mode">Режим сканування Bluetooth</string>
@@ -224,7 +223,7 @@
     <string name="error_device_not_found">Пристрій не знайдено в датабазі</string>
     <string name="title_language">Мова</string>
     <string name="title_pref_filter">Фільтрування</string>
-    <string name="summary_pref_filter">Тільки відомі пристрої (у разі проблем, збоїв тощо)</string>
+    <!--<string name="summary_pref_filter">Тільки відомі пристрої (у разі проблем, збоїв тощо)</string>-->
     <string name="moisture">Волога</string>
     <string name="illuminance">Інтенсивність світла</string>
     <string name="conductivity">Родючість</string>

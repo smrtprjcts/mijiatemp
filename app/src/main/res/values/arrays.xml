@@ -58,4 +58,16 @@
         <item>1 hour</item>
     </string-array>
 
+    <string-array name="range">
+        <item>Custom range</item>
+        <item>Full range</item>
+        <item>Last year</item>
+        <item>Last half year</item>
+        <item>Last three month</item>
+        <item>Last month</item>
+        <item>Last week</item>
+        <item>Last day</item>
+        <item>Last hour</item>
+    </string-array>
+
 </resources>

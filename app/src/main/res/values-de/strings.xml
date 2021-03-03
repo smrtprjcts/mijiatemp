@@ -8,7 +8,7 @@
     <string name="running">Gestartet</string>
 
     <string name="request_bt_enable">Bluetooth ist ausgeschaltet, bitte schalten Sie es ein</string>
-    <string name="default_device_name">Xiaomi Mijia BT Temp Gerät</string>
+    <string name="default_device_name">Xiaomi BT Temp Gerät</string>
     <string name="action_save">Speichern</string>
     <string name="title_pref_db_save_period">Datenbank Update Intervall</string>
     <string name="title_pref_start_on_boot">Nach Neustart im Hintergrund starten</string>
@@ -34,8 +34,7 @@
     <string name="title_pref_widget_refresh_period">Widget Aktualisierungsintervall</string>
     <string name="appwidget_configure_instructions">Bitte wählen Sie das Gerät, das Sie im Widget anzeigen möchten</string>
     <string name="saved">Gespeichert</string>
-
-    <string name="short_batt">batt=</string>
+    <!--string name="short_batt">batt=</string-->
     <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Bluetooth Scan Modus</string>
@@ -216,7 +215,7 @@
     <string name="error_device_not_found">Gerät in der Datenbank nicht gefunden</string>
     <string name="title_language">Sprache</string>
     <string name="title_pref_filter">Filter</string>
-    <string name="summary_pref_filter">Nur bekannte Geräte (im Falle von Problemen, Abstürzen, usw.)</string>
+    <!--<string name="summary_pref_filter">Nur bekannte Geräte (im Falle von Problemen, Abstürzen, usw.)</string>-->
     <string name="moisture">Feuchtigkeit</string>
     <string name="illuminance">Licht Helligkeit</string>
     <string name="conductivity">Leitfähigkeit</string>

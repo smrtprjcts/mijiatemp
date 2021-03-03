@@ -7,7 +7,7 @@
     <string name="request_location_permission">Необходимо разрешение на определение местоположения</string>
     <string name="running">Работает</string>
     <string name="request_bt_enable">Bluetooth выключен, пожалуйста, включите его</string>
-    <string name="default_device_name">Устройство Xiaomi Mijia BT</string>
+    <string name="default_device_name">Устройство Xiaomi BT</string>
     <string name="action_save">Сохранить</string>
     <string name="title_pref_db_save_period">Интервал обновления данных</string>
     <string name="title_pref_start_on_boot">Запускать в фоне при включении телефона</string>
@@ -33,9 +33,8 @@
     <string name="title_pref_widget_refresh_period">Интервал обновления виджета</string>
     <string name="appwidget_configure_instructions">Пожалуйста, выберите устройство для отображения в виджете</string>
     <string name="saved">Сохранено</string>
-
     <!-- string name="hint_device_name">Device name</string -->
-    <string name="short_batt">бат=</string>
+    <!--string name="short_batt">бат=</string-->
     <string name="short_humidity">влажн=</string>
     <string name="short_temperature">темп=</string>
     <string name="title_pref_bt_scan_mode">Режим сканирования Bluetooth</string>
@@ -233,7 +232,7 @@
     <string name="error_device_not_found">Устройство не найдено в базе</string>
     <string name="title_language">Язык</string>
     <string name="title_pref_filter">Фильтрация</string>
-    <string name="summary_pref_filter">Только известные устройства (в случае проблем, сбоев и пр.)</string>
+    <!--<string name="summary_pref_filter">Только известные устройства (в случае проблем, сбоев и пр.)</string>-->
     <string name="moisture">Влажность</string>
     <string name="illuminance">Интенсивность освещения</string>
 

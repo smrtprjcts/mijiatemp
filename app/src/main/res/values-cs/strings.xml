@@ -7,7 +7,7 @@
     <string name="request_location_permission">Je vyžadováno povolení polohy</string>
     <string name="running">Beží</string>
     <string name="request_bt_enable">Bluetooth je zakázán, prosím zapněte ho</string>
-    <string name="default_device_name">Xiaomi Mijia BT teploměr</string>
+    <string name="default_device_name">Xiaomi BT teploměr</string>
     <string name="action_save">Uložit</string>
     <string name="title_pref_db_save_period">Interval aktualizace databáze</string>
     <string name="title_pref_start_on_boot">Zapnout proces na pozadí po startu telefonu</string>
@@ -33,7 +33,7 @@
     <string name="title_pref_widget_refresh_period">Interval aktualizace widgetu</string>
     <string name="appwidget_configure_instructions">Vyberte prosím zařízení pro zobrazení ve widgetu</string>
     <string name="saved">Uložené</string>
-    <string name="short_batt">bat=</string>
+    <!--string name="short_batt">bat=</string-->
     <string name="short_humidity">vlh=</string>
     <string name="short_temperature">tep=</string>
     <string name="title_pref_bt_scan_mode">Režim skenování Bluetooth</string>
@@ -229,7 +229,7 @@
     <string name="error_device_not_found">Zařízení nebylo nalezeno v databázi</string>
     <string name="title_language">Jazyk</string>
     <string name="title_pref_filter">Filtrování</string>
-    <string name="summary_pref_filter">Pouze známá zařízení (v případě problémů, pádů, atd.)</string>
+    <!--<string name="summary_pref_filter">Pouze známá zařízení (v případě problémů, pádů, atd.)</string>-->
     <string name="moisture">Vlhkost</string>
     <string name="illuminance">Intenzita světla</string>
     <string name="conductivity">Vodivost</string>

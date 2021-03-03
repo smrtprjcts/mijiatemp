@@ -7,7 +7,7 @@
     <string name="request_location_permission">L\'autorisation de localisation est requise</string>
     <string name="running">En cours</string>
     <string name="request_bt_enable">Bluetooth désactivé, veuillez l\'activer</string>
-    <string name="default_device_name">Appareil Xiaomi Mijia BT Temp</string>
+    <string name="default_device_name">Appareil Xiaomi BT</string>
     <string name="action_save">Sauver</string>
     <string name="title_pref_db_save_period">Intervalle de mise à jour de la base de données</string>
     <string name="title_pref_start_on_boot">Lancer le fonctionnement en arrière-plan après le boot</string>
@@ -33,8 +33,7 @@
     <string name="title_pref_widget_refresh_period">Intervalle de rafraîchissement du widget</string>
     <string name="appwidget_configure_instructions">Veuillez sélectionner l\'appareil que vous souhaitez afficher dans le widget</string>
     <string name="saved">Enregistré</string>
-
-    <string name="short_batt">batterie=</string>
+    <!--string name="short_batt">batterie=</string-->
     <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Mode scanner Bluetooth</string>
@@ -222,7 +221,7 @@
     <string name="error_device_not_found">Equipement non trouvé dans la base de donnée</string>
     <string name="title_language">Langue</string>
     <string name="title_pref_filter">Filtrage</string>
-    <string name="summary_pref_filter">Uniquement les appareils connus (en cas de problèmes, de crash, etc.)</string>
+    <!--<string name="summary_pref_filter">Uniquement les appareils connus (en cas de problèmes, de crash, etc.)</string>-->
     <string name="moisture">Humidité</string>
     <string name="illuminance">Intensité Lumière</string>
     <string name="conductivity">Fertilité</string>

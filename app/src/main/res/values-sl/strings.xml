@@ -7,7 +7,7 @@
     <string name="request_location_permission">Potrebno je lokacijsko dovoljenje</string>
     <string name="running">Teče</string>
     <string name="request_bt_enable">Bluetooth je izklopljen, prosim vklopi ga</string>
-    <string name="default_device_name">Xiaomi Mijia BT Temp enota</string>
+    <string name="default_device_name">Xiaomi BT Temp enota</string>
     <string name="action_save">Shrani</string>
     <string name="title_pref_db_save_period">Interval posodobitve podatkovne baze</string>
     <string name="title_pref_start_on_boot">Zaženi delovanje v ozadju po resetu</string>
@@ -33,7 +33,7 @@
     <string name="title_pref_widget_refresh_period">Widget osvežitveni interval</string>
     <string name="appwidget_configure_instructions">Prosim izberi napravo, ki jo želiš prikazati v widget-u</string>
     <string name="saved">Shranjeno</string>
-    <string name="short_batt">bat=</string>
+    <!--string name="short_batt">bat=</string-->
     <string name="short_humidity">hum=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Način skeniranja Bluetooth</string>
@@ -226,7 +226,7 @@
     <string name="error_device_not_found">Naprave ni mogoče najti v bazi podatkov</string>
     <string name="title_language">Jezik</string>
     <string name="title_pref_filter">Filtriranje</string>
-    <string name="summary_pref_filter">Samo znane naprave (v primeru težav, zrušitve itd.)</string>
+    <!--<string name="summary_pref_filter">Samo znane naprave (v primeru težav, zrušitve itd.)</string>-->
     <string name="moisture">Vlaga</string>
     <string name="illuminance">Intenzivnost svetlobe</string>
     <string name="conductivity">Prevodnost</string>

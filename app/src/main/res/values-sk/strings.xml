@@ -7,7 +7,7 @@
     <string name="request_location_permission">Vyžaduje sa povolenie polohy</string>
     <string name="running">Spustený</string>
     <string name="request_bt_enable">Bluetooth je vypnutý, prosím zapnite ho</string>
-    <string name="default_device_name">Xiaomi Mijia BT Temp zariadenia</string>
+    <string name="default_device_name">Xiaomi BT Temp zariadenia</string>
     <string name="action_save">Uložiť</string>
     <string name="title_pref_db_save_period">Interval aktualizácie databázy</string>
     <string name="title_pref_start_on_boot">Po spustení systému začne bežať na pozadí</string>
@@ -215,7 +215,7 @@
     <string name="error_device_not_found">Zariadenie sa nenašlo v databáze</string>
     <string name="title_language">Jazyk</string>
     <string name="title_pref_filter">Filtrovanie</string>
-    <string name="summary_pref_filter">Iba známe zariadenia (v prípade problémov, zlyhanie, atď.)</string>
+    <!--<string name="summary_pref_filter">Iba známe zariadenia (v prípade problémov, zlyhanie, atď.)</string>-->
     <string name="moisture">Vlhkosť</string>
     <string name="illuminance">Ľahká intenzita</string>
     <string name="conductivity">Vodivosť</string>

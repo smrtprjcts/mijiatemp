@@ -7,7 +7,7 @@
     <string name="request_location_permission">Konum izni gerekmektedir</string>
     <string name="running">Çalışıyor</string>
     <string name="request_bt_enable">Bluetooth devre dışı, lütfen etkinleştirin</string>
-    <string name="default_device_name">Xiaomi Mijia BT Temp Cihazı</string>
+    <string name="default_device_name">Xiaomi BT Cihazı</string>
     <string name="action_save">Kaydet</string>
     <string name="title_pref_db_save_period">Veritabanı güncelleme aralığı</string>
     <string name="title_pref_start_on_boot">Yeniden başlatma sonrası arka planda çalıştır</string>
@@ -33,8 +33,7 @@
     <string name="title_pref_widget_refresh_period">Widget yenileme aralığı</string>
     <string name="appwidget_configure_instructions">Widgette göserimesi istenen cihazı seçiniz</string>
     <string name="saved">Kaydedildi</string>
-
-    <string name="short_batt">pil=</string>
+    <!--string name="short_batt">pil=</string-->
     <string name="short_humidity">nem=</string>
     <string name="short_temperature">scklk=</string>
     <string name="title_pref_bt_scan_mode">Bluetooth tarama modu</string>
@@ -203,7 +202,7 @@
     <string name="error_device_not_found">Cihaz veritabanında bulunamadı</string>
     <string name="title_language">Dil</string>
     <string name="title_pref_filter">Filtreleme</string>
-    <string name="summary_pref_filter">Sadece tanımlı cihazlar (sorun, çakışma vb. olması durumunda) </string>
+    <!--<string name="summary_pref_filter">Sadece tanımlı cihazlar (sorun, çakışma vb. olması durumunda) </string>-->
     <string name="moisture">Nem</string>
     <string name="illuminance">Işık gücü</string>
     <string name="conductivity">Verimlilik</string>

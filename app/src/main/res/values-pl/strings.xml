@@ -11,7 +11,7 @@
 
     <string name="request_bt_enable">Bluetooth jest wyłączony, proszę go włączyć</string>
 
-    <string name="default_device_name">Xiaomi Mijia BT Temp Device</string>
+    <!--<string name="default_device_name">Xiaomi BT </string>-->
     <string name="action_save">Zapisz</string>
     <string name="title_pref_db_save_period">Częstotliwość odświeżania bazy danych</string>
 
@@ -41,11 +41,10 @@
     <string name="double_press">Wciśnij wstecz ponownie by wyjść</string>
 
     <string name="title_pref_working_background">Działanie w tle</string>
-
     <string name="title_pref_widget_refresh_period">Częstotliwość odświeżania widżetu</string>
     <string name="appwidget_configure_instructions">Wybierz urządzenie, które ma wyświetlać widżet</string>
     <string name="saved">Zapisano</string>
-    <string name="short_batt">bat.=</string>
+    <!--string name="short_batt">bat.=</string-->
     <string name="short_humidity">wilg.=</string>
     <string name="short_temperature">temp=</string>
     <string name="title_pref_bt_scan_mode">Tryb skanowania bluetooth</string>
@@ -246,7 +245,7 @@
     <string name="error_device_not_found">Urządzneie nie znalezione w bazie danych</string>
     <string name="title_language">Język</string>
     <string name="title_pref_filter">Filtrowanie</string>
-    <string name="summary_pref_filter">Tylko znane urządzenia (w przypadku problemów, crashowania itp.)</string>
+    <!--<string name="summary_pref_filter">Tylko znane urządzenia (w przypadku problemów, crashowania itp.)</string>-->
     <string name="moisture">Wilgotność</string>
     <string name="illuminance">Natężenie światła</string>
     <string name="conductivity">Żyzność (przewodność)</string>
