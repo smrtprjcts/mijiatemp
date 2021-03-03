@@ -19,7 +19,9 @@ Steps:
 
 ## POEditor method
 POEditor has a 1000 strings limit. [Join to translate project.](https://poeditor.com/join/project/aBfzBj2DX6)
+The languages that the app already contains are always removed from POEditor because of the above limitation so the further translations/corrections must be done here, at github.
 
-P.S.: English strings are always up-to-date, that would be the better choice for translation. 
+P.S.: English strings are always up-to-date, that would be the better choice for translation base. 
+
 
 Thanks for helping!
