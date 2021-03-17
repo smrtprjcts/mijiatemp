@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Optimalizace baterie</string>
     <string name="summary_pref_battery_en">Zapnuto (aplikace může být vypnuta na pozadí)</string>
     <string name="summary_pref_battery_dis">Vypnuto (aplikace by neměla být vypnuta na pozadí)</string>
-    <string name="title_pref_background">Běh na pozadí</string>
+    <string name="title_pref_operation">Běh na pozadí</string>
     <string name="title_pref_service_notif_prio">Priorita oznámení</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Detekováno nové zařízení</string>
@@ -60,7 +60,7 @@
     <string name="title_pref_appearance">Vzhled</string>
     <string name="title_pref_database">Databáze</string>
     <string name="summary_pref_appearance">Nastavení vzhledu aplikace</string>
-    <string name="summary_pref_background">Nastavení běhu na pozadí</string>
+    <string name="summary_pref_operation">Nastavení běhu na pozadí</string>
     <string name="summary_pref_database">Nastavení související s databází</string>
     <string name="thingspeak_channel">ID kanálu</string>
     <string name="thingspeak_key">Klíč pro zápis do kanálu</string>
@@ -112,7 +112,7 @@
     <string name="text_color">Barva textu</string>
     <string name="background_color">Barva pozadí</string>
     <string name="new_version_on_play">Nová verze v Play</string>
-    <string name="refresh">Prosím obnovte!</string>
+    <string name="please_refresh">Prosím obnovte!</string>
     <string name="notif_period_expired">zkušební doba vypršela</string>
     <string name="unknown_error">Chyba</string>
     <string name="title_theme">Téma</string>

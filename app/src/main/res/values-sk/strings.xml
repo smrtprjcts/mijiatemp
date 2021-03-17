@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Optimalizácia batérie</string>
     <string name="summary_pref_battery_en">Povolené (beh možno zastaviť na pozadí)</string>
 
-    <string name="title_pref_background">Beh na pozadí</string>
+    <string name="title_pref_operation">Beh na pozadí</string>
     <string name="title_pref_service_notif_prio">Notifikácie priorita</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Bolo zistené nové zariadenie</string>
@@ -56,7 +56,7 @@
     <string name="title_pref_appearance">Vzhľad</string>
     <string name="title_pref_database">Databáza</string>
     <string name="summary_pref_appearance">Vzhľad aplikácie v závislosti od nastavení</string>
-    <string name="summary_pref_background">Pozadie aplikácie v závislosti od nastavení</string>
+    <string name="summary_pref_operation">Pozadie aplikácie v závislosti od nastavení</string>
     <string name="summary_pref_database">Nastavenia týkajúce sa databázy</string>
     <string name="thingspeak_channel">ID kanála</string>
     <string name="thingspeak_key">Channel Write Key</string>
@@ -109,7 +109,7 @@
     <string name="text_color">Farba textu</string>
     <string name="background_color">Farba pozadia</string>
     <string name="new_version_on_play">Nova verzia v obchod Play</string>
-    <string name="refresh">Prosím obnovte!</string>
+    <string name="please_refresh">Prosím obnovte!</string>
     <string name="notif_period_expired">trial verzia vypršala</string>
     <string name="unknown_error">Chyba</string>
     <string name="title_theme">Téma</string>

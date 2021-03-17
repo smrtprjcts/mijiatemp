@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Optimisation de batterie</string>
     <string name="summary_pref_battery_en">Activé (le fonctionnement en arrière-plan peut être arrêté)</string>
     <string name="summary_pref_battery_dis">Désactivé (l\'appli en arrière-plan peut être arrêtée)</string>
-    <string name="title_pref_background">Fonctionnement en arrière-plan</string>
+    <string name="title_pref_operation">Fonctionnement en arrière-plan</string>
     <string name="title_pref_service_notif_prio">Priorité de notification</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Nouvel appareil détecté</string>
@@ -60,7 +60,7 @@
     <string name="title_pref_appearance">Apparence</string>
     <string name="title_pref_database">Base de données</string>
     <string name="summary_pref_appearance">Paramètres de l\'apparence de l\'application</string>
-    <string name="summary_pref_background">Paramètres du fonctionnement en arrière plan de l\'application</string>
+    <string name="summary_pref_operation">Paramètres du fonctionnement en arrière plan de l\'application</string>
     <string name="summary_pref_database">Réglages Base de Données</string>
     <string name="thingspeak_channel">Identification du Canal</string>
     <string name="thingspeak_key">Clé D\'écriture du Canal</string>
@@ -112,8 +112,8 @@
     <string name="text_color">Coleur du texte</string>
     <string name="background_color">Couleur du fond</string>
     <string name="new_version_on_play">Nouvelle version sur Play</string>
-    <string name="refresh">Rafraichissez SVP !</string>
-    <string name="notif_period_expired">La période d\'essai est terminé</string>
+    <string name="please_refresh">Rafraichissez SVP !</string>
+    <string name="notif_period_expired">la période d\'essai est terminé</string>
     <string name="unknown_error">Erreur</string>
     <string name="title_theme">Thème</string>
     <string name="title_pref_color_temperatue">Couleur Ligne Température</string>

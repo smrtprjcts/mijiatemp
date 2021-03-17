@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Optimizacija baterije</string>
     <string name="summary_pref_battery_en">Omogočiti (delovanje se lahko ustavi v ozadju)</string>
     <string name="summary_pref_battery_dis">Onemogočeno (aplikacija ne sme biti ustavljena v ozadju)</string>
-    <string name="title_pref_background">Delo v ozadju</string>
+    <string name="title_pref_operation">Delo v ozadju</string>
     <string name="title_pref_service_notif_prio">Prednostna obvestila</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Nova naprava zaznana</string>
@@ -60,7 +60,7 @@
     <string name="title_pref_appearance">Videz</string>
     <string name="title_pref_database">Baza podatkov</string>
     <string name="summary_pref_appearance">Videz aplikacije glede na nastavitve</string>
-    <string name="summary_pref_background">Ozadje aplikacije deluje v odvisnosti od nastavitev</string>
+    <string name="summary_pref_operation">Ozadje aplikacije deluje v odvisnosti od nastavitev</string>
     <string name="summary_pref_database">Nastavitve, povezane z bazo podatkov</string>
     <string name="thingspeak_channel">ID kanala</string>
     <string name="thingspeak_key">Tipka za pisanje kanala</string>
@@ -112,7 +112,7 @@
     <string name="text_color">Tekstovna barva</string>
     <string name="background_color">Barva ozadja</string>
     <string name="new_version_on_play">Nova različica v Play</string>
-    <string name="refresh">Prosim osvežite!</string>
+    <string name="please_refresh">Prosim osvežite!</string>
     <string name="notif_period_expired">preizkusno obdobje se je izteklo</string>
     <string name="unknown_error">Napaka</string>
     <string name="title_theme">Tema</string>

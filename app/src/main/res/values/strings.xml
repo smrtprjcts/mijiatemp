@@ -32,7 +32,7 @@
     <string name="title_pref_battery">Battery optimization</string>
     <string name="summary_pref_battery_en">Enabled (working can be stopped in the background)</string>
     <string name="summary_pref_battery_dis">Disabled (app shouldn\'t be stopped in the background)</string>
-    <string name="title_pref_background">Background working</string>
+    <string name="title_pref_operation">Operating</string>
 
     <string name="title_pref_service_notif_prio">Notification priority</string>
     <string name="title_fahr">Fahrenheit</string>
@@ -74,7 +74,7 @@
     <string name="title_pref_appearance">Appearance</string>
     <string name="title_pref_database">Database</string>
     <string name="summary_pref_appearance">App appearance depending settings</string>
-    <string name="summary_pref_background">App background working depending settings</string>
+    <string name="summary_pref_operation">Operational (bluetooth, background, etc) settings</string>
     <string name="summary_pref_database">Database related settings</string>
     <string name="thingspeak_channel">Channel ID</string>
     <string name="thingspeak_key">Channel Write Key</string>
@@ -127,7 +127,8 @@
     <string name="text_color">Textcolor</string>
     <string name="background_color">Background color</string>
     <string name="new_version_on_play">New version at Play</string>
-    <string name="refresh">Please refresh!</string>
+    <string name="please_refresh">Please refresh!</string>
+    <string name="refresh">Refresh</string>
     <string name="notif_period_expired">trial period expired</string>
     <string name="unknown_error">Error</string>
     <string name="title_theme">Theme</string>
@@ -270,7 +271,7 @@
     <string name="balanced">Balanced</string>
     <string name="low_latency">Low latency</string>
     <string name="title_pref_devicesettings_clock">Time synchronization</string>
-    <string name="summary_pref_devicesettings_clock">Sync the time to its Android device time</string>
+    <string name="summary_pref_devicesettings_clock">Synchronize the sensor for this device time</string>
     <string name="title_pref_appearance_mac">Device address visibility</string>
     <string name="summary_pref_appearance_mac">Address visible in the list of the main screen</string>
     <string name="message_translate">The translation is made with community cooperation. If you find any correctable text please contact me or simply fix it on the github which is available from the main menu.\nThanks to the translators</string>
@@ -289,7 +290,7 @@
     <string name="data">Data</string>
     <string name="search">Search</string>
     <string name="title_pref_devicesettings_advert_monitoring">Monitoring in the background</string>
-    <string name="summary_pref_devicesettings_advert_monitoringy">App constantly monitors the data coming from this device</string>
+    <string name="summary_pref_devicesettings_advert_monitoring">App constantly monitors the data coming from this device</string>
     <string name="title_pref_devicesettings_key">Decryption key</string>
     <string name="summary_pref_devicesettings_key">Key for decoding the encrypted data (if device is paired with MiHome)</string>
     <string name="hint_key">key</string>
@@ -343,5 +344,8 @@
     <string name="notification_channel_high_priority_name">Important notifs</string>
     <string name="msg_sensor_name">Give the sensor name of %s</string>
     <string name="warn_empty_sensor_name">Sensor name cannot be empty</string>
+    <string name="title_pref_thb_gatt">Data fetch with connection</string>
+    <string name="summary_pref_thb_gatt">Temperature, humidity and battery data with connection to a device (eg. if has no encryption key)</string >
+    <string name="warn_conn_disabled">Fetching data via connection is disabled in the operation settings</string>
 
 </resources>

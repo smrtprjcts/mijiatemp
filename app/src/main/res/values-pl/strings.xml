@@ -31,7 +31,7 @@
     <string name="title_pref_battery">Optymalizacja baterii</string>
     <string name="summary_pref_battery_en">Aktywna (działanie może zostać zatrzymane w tle)</string>
     <string name="summary_pref_battery_dis">Nieaktywna (aplikacja nie powinna zostać zatrzymana w tle)</string>
-    <string name="title_pref_background">Działanie w tle</string>
+    <string name="title_pref_operation">Działanie w tle</string>
 
     <string name="title_pref_service_notif_prio">Priorytet powiadomień</string>
     <string name="title_fahr">Skala Fahrenheita</string>
@@ -71,7 +71,7 @@
     <string name="title_pref_appearance">Wygląd</string>
     <string name="title_pref_database">Baza danych</string>
     <string name="summary_pref_appearance">Ustawienia wyglądu aplikacji</string>
-    <string name="summary_pref_background">Ustawienia działania w tle</string>
+    <string name="summary_pref_operation">Ustawienia działania w tle</string>
     <string name="summary_pref_database">Ustawienia związane z bazą danych</string>
     <string name="thingspeak_channel">ID kanału</string>
     <string name="thingspeak_key">Klucz zapisu kanału</string>
@@ -123,7 +123,7 @@
     <string name="text_color">Kolor tekstu</string>
     <string name="background_color">Kolor tła</string>
     <string name="new_version_on_play">Nowa wersja w sklepie Play</string>
-    <string name="refresh">Proszę odświeżyć!</string>
+    <string name="please_refresh">Proszę odświeżyć!</string>
     <string name="notif_period_expired">okres próbny wygasł</string>
     <string name="unknown_error">Błąd</string>
     <string name="title_theme">Motyw</string>

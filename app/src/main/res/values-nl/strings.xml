@@ -8,7 +8,7 @@
     <string name="running">Gestart</string>
     <!--string name="turn_on">Aanzetten</string-->
     <string name="request_bt_enable">Bluetooth is uitgeschakeld, zet alstublieft aan</string>
-    <string name="default_device_name">Xiaomi Mijia BT Temp apparaat</string>
+    <string name="default_device_name">Xiaomi BT Temp apparaat</string>
     <string name="action_save">Opslaan</string>
     <string name="title_pref_db_save_period">Database update interval</string>
     <string name="title_pref_start_on_boot">Start achtergrond proces na herstart</string>
@@ -23,7 +23,7 @@
     <string name="title_pref_battery">Batterij Optimalisatie</string>
     <string name="summary_pref_battery_en">Ingeschakeld (Proces kan gestopt worden in achtergrond)</string>
     <string name="summary_pref_battery_dis">Uitgeschakeld (app mag niet op de achtergrond worden gestopt)</string>
-    <string name="title_pref_background">Op de achtergrond uitgevoerd</string>
+    <string name="title_pref_operation">Operatie</string>
     <string name="title_pref_service_notif_prio">Prioriteit van meldingen</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Nieuw apparaat gedetecteerd</string>
@@ -66,7 +66,7 @@ string name="short_batt">batt=</string -->
     <string name="title_pref_appearance">Uiterlijk</string>
     <string name="title_pref_database">Database</string>
     <string name="summary_pref_appearance">App uiterlijk afhankelijke instellingen</string>
-    <string name="summary_pref_background">App Achtergrond werking afhankelijk van de instellingen</string>
+    <string name="summary_pref_operation">Operationele (bluetooth, achtergrond) instellingen</string>
     <string name="summary_pref_database">Database gerelateerde instellingen</string>
     <string name="thingspeak_channel">Kanaal-ID</string>
     <string name="thingspeak_key">Kanaal Schrijf Sleutel</string>
@@ -119,8 +119,8 @@ string name="short_batt">batt=</string -->
     <string name="text_color">Tekst kleur</string>
     <string name="background_color">Achtergrond kleur</string>
     <string name="new_version_on_play">Nieuwe versie in Playstore</string>
-    <string name="refresh">Updaten aub!</string>
-    <string name="notif_period_expired">Proefperiode afgelopen</string>
+    <string name="refresh">Verversen</string>
+    <string name="notif_period_expired">proefperiode afgelopen</string>
     <string name="unknown_error">Fout</string>
     <string name="title_theme">Thema</string>
     <string name="title_pref_color_temperatue">Temperatuur lijn kleur</string>
@@ -281,7 +281,7 @@ Don't touch the special tags and url-s -->
     <string name="data">Data</string>
     <string name="search">Zoek</string>
     <string name="title_pref_devicesettings_advert_monitoring">Monitoring op de achtergrond</string>
-    <string name="summary_pref_devicesettings_advert_monitoringy">App controleert constant de gegevens die van dit apparaat komen</string>
+    <string name="summary_pref_devicesettings_advert_monitoring">App controleert constant de gegevens die van dit apparaat komen</string>
     <string name="title_pref_devicesettings_key">Decoderingssleutel</string>
     <string name="summary_pref_devicesettings_key">Sleutel voor het decoderen van de gecodeerde gegevens (als het apparaat is gekoppeld met MiHome)</string>
     <string name="hint_key">Sleutel</string>

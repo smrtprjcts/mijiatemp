@@ -3,9 +3,9 @@
     <string name="settings">Beállítások</string>
     <string name="error_ble_not_supported">BLE nem támogatott</string>
     <string name="error_bluetooth_not_supported">Bluetooth nem támogatott</string>
-    <string name="request_location_enable">A helymeghatározó szolgáltatás le van tiltva, kérem kapcsolja be</string>
+    <string name="request_location_enable">A helymeghatározó szolgáltatás le van tiltva, kérlek kapcsold be</string>
     <string name="request_location_permission">Engedély szükséges a tartózkodási helyéhez</string>
-    <string name="request_bt_enable">Bluetooth kikapcsolva, kérem kapcsolja be</string>
+    <string name="request_bt_enable">Bluetooth kikapcsolva, kérlek kapcsold be</string>
     <string name="default_device_name">Xiaomi BT szenzor</string>
     <string name="action_save">Mentés</string>
     <string name="running">Fut</string>
@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Akkumulátor optimalizálás</string>
     <string name="summary_pref_battery_en">Engedélyezve (a futtatást a rendszer leállíthatja a háttérben)</string>
     <string name="summary_pref_battery_dis">Letiltva (az alkalmazást a rendszer nem állíthatja le háttérben futtatáskor)</string>
-    <string name="title_pref_background">Háttérben futtatás</string>
+    <string name="title_pref_operation">Működés</string>
     <string name="title_pref_service_notif_prio">Értesítési prioritás</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Új szenzor észlelve</string>
@@ -62,7 +62,7 @@
     <string name="title_pref_appearance">Megjelenés</string>
     <string name="title_pref_database">Adatbázis</string>
     <string name="summary_pref_appearance">Megjelenésfüggő beállítások</string>
-    <string name="summary_pref_background">Háttérműködéssel kapcsolatos beállítások</string>
+    <string name="summary_pref_operation">Működéssel (háttérműködés, bluetooth, stb) kapcsolatos beállítások</string>
     <string name="summary_pref_database">Adatbázis beállítások</string>
     <string name="thingspeak_channel">Csatorna ID</string>
     <string name="thingspeak_key">Csatorna írási kulcs</string>
@@ -86,7 +86,7 @@
     <string name="thingspeak_update_interval_min_bat">Akkumulátor frissítési intervallum (perc)</string>
     <string name="admob">A további fejlesztést a Pro verzió megvásárlásával támogathatja</string>
     <string name="exit">Kilépés</string>
-    <string name="expired_please_refresh">Kérem frissítse az alkalmazást</string>
+    <string name="expired_please_refresh">Kérlek frissítsd az alkalmazást</string>
     <string name="share">Megosztás</string>
     <string name="feedback">Visszajelzés és hibajelentés</string>
     <string name="help">Segítség</string>
@@ -114,7 +114,7 @@
     <string name="text_color">Szöveg szín</string>
     <string name="background_color">Háttérszín</string>
     <string name="new_version_on_play">Új verzió a Play-en</string>
-    <string name="refresh">Kérlek, frissítsd!</string>
+    <string name="refresh">Frissítés</string>
     <string name="notif_period_expired">próbaidőszak lejárt</string>
     <string name="unknown_error">Hiba</string>
     <string name="title_theme">Téma</string>
@@ -234,11 +234,11 @@
     <string name="illuminance">Fényerősség</string>
     <string name="conductivity">Termékenység</string>
     <string name="title_pref_devicesettings_devinfo">Szenzorinformáció</string>
-    <string name="loading">Töltés. Kérem várjon…</string>
+    <string name="loading">Töltés. Kérlek várj…</string>
     <string name="summary_device_info">Részletes információk a szenzorról</string>
-    <string name="title_pref_devicesettings_devinfo_hwrev">Hardver revízió</string>
-    <string name="title_pref_devicesettings_devinfo_swrev">Szoftver revízió</string>
-    <string name="title_pref_devicesettings_devinfo_fwrev">Firmware revízió</string>
+    <string name="title_pref_devicesettings_devinfo_hwrev">Hardver verzió</string>
+    <string name="title_pref_devicesettings_devinfo_swrev">Szoftver verzió</string>
+    <string name="title_pref_devicesettings_devinfo_fwrev">Firmware verzió</string>
     <string name="title_pref_devicesettings_devinfo_serial">Sorozatszám</string>
     <string name="title_pref_devicesettings_devinfo_model">Modellszám</string>
     <string name="title_pref_devicesettings_devinfo_manufacturer">Gyártó</string>
@@ -250,7 +250,7 @@
     <string name="low_latency">Alacsony késleltetés</string>
     <string name="balanced">Kiegyenlített</string>
     <string name="title_pref_devicesettings_clock">Időszinkronizálás</string>
-    <string name="summary_pref_devicesettings_clock">Az Androidos eszköz idejével szinkronizál</string>
+    <string name="summary_pref_devicesettings_clock">A szenzort ehhez az eszköz idejéhez szinkronizálja</string>
     <string name="title_pref_appearance_mac">Szenzor cím megjelenítés</string>
     <string name="summary_pref_appearance_mac">A szenzor címének megjelenítése a kezelt szenzorok listájában</string>
     <string name="message_translate">A fordítás közösségi összefogással készül. Amennyiben bármiféle javítandót találsz, vedd fel a kapcsolatot velem vagy te is javíhatod a githubon amit megtalálsz a főmenüből.\nKöszönet a fordítóknak</string>
@@ -269,7 +269,7 @@
     <string name="data">Adatok</string>
     <string name="search">Keresés</string>
     <string name="title_pref_devicesettings_advert_monitoring">Monitorozás a háttérben</string>
-    <string name="summary_pref_devicesettings_advert_monitoringy">Az alkalmazás folyamatosan figyeli a háttérben a szenzor által küldött adatokat</string>
+    <string name="summary_pref_devicesettings_advert_monitoring">Az alkalmazás folyamatosan figyeli a háttérben a szenzor által küldött adatokat</string>
     <string name="title_pref_devicesettings_key">Titkosító kulcs</string>
     <string name="summary_pref_devicesettings_key">A titkosított adatok dekódolásához szükséges (ha a szenzor a MiHome-al párosítva van)</string>
     <string name="warn_wrong">Hibás %1$s</string>
@@ -316,11 +316,13 @@
     <string name="warn_encrypred">A szórt adatok titkosítottakk (a szenzor az Mi Home apphoz titkos kulccsal hozzá van kötve)</string>
     <string name="info_widget">A widget csak akkor működik ha a szenzorok bluetooth-al láthatóak és az alkalmazás a háttérben fut</string>
     <string name="info_kwgt_create">KWGT widget készítés:\n - üres widget létrehozása a KWGT-ben\n - adj hozzá egy szöveget amit meg szeretnél jeleníteni\n - kattints az elemek alatt a szövegre és a szerkesztőben add meg kívánt formulát\n\nHa helyesen csinálod már a szerkesztőben behelyettesíti a megfelelő értéket, ahogy az alábbi példán is látható.</string>
-
     <string name="error_background_service">Sikertlen háttérszolgáltatás indítás</string>
     <string name="error_background_service_reason">A háttérszolgáltatás indítása sikertelen volt az alábbi hiba miatt: </string>
     <string name="error_background_service_reason_truncated">A háttérszolgáltatás indítása sikertelen volt, mert…</string>
     <string name="notification_channel_high_priority_name">Fontos értesítések</string>
     <string name="msg_sensor_name">Adj nevet a %s szenzornak</string>
     <string name="warn_empty_sensor_name">A szenzor neve nem lehet üres</string>
+    <string name="title_pref_thb_gatt">Adat lekérdezés kapcsolódással</string>
+    <string name="summary_pref_thb_gatt">A hőmérséklet, páratartalom és akkumulátor adatok lekérdezése eszközhöz kapcsolódással (pl. ha nincs meg a titkosító kulcs)</string>
+    <string name="warn_conn_disabled">Kapcsolódással történő (aktív) adatlekérdezés a működési menüben le van tiltva</string>
 </resources>

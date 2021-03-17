@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Экономия заряда батареи телефона</string>
     <string name="summary_pref_battery_en">Включена (приложение может быть остановлено в фоне)</string>
     <string name="summary_pref_battery_dis">Выключена (приложение не должно останавливаться в фоне)</string>
-    <string name="title_pref_background">Работа в фоне</string>
+    <string name="title_pref_operation">Работа в фоне</string>
     <string name="title_pref_service_notif_prio">Приоритет уведомлений</string>
     <string name="title_fahr">В градусах Фаренгейта</string>
     <string name="notif_new_device">Найдено новое устройство</string>
@@ -61,7 +61,7 @@
     <string name="title_pref_appearance">Оформление</string>
     <string name="title_pref_database">База данных</string>
     <string name="summary_pref_appearance">Настройки внешнего вида приложения</string>
-    <string name="summary_pref_background">Настройки работы приложения в фоне</string>
+    <string name="summary_pref_operation">Настройки работы приложения в фоне</string>
     <string name="summary_pref_database">Настройки базы данных</string>
     <string name="thingspeak_channel">ID канала</string>
     <string name="thingspeak_key">Write-ключ канала</string>
@@ -113,8 +113,8 @@
     <string name="text_color">Цвет текста</string>
     <string name="background_color">Цвет фона</string>
     <string name="new_version_on_play">Новая версия в Play Маркет</string>
-    <string name="refresh">Пожалуйста, обновите!</string>
-    <string name="notif_period_expired">Пробный период истек</string>
+    <string name="please_refresh">Пожалуйста, обновите!</string>
+    <string name="notif_period_expired">пробный период истек</string>
     <string name="unknown_error">Ошибка</string>
     <string name="title_theme">Тема</string>
     <string name="title_pref_color_temperatue">Цвет линии температуры</string>

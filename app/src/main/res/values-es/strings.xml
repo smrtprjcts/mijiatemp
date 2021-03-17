@@ -7,7 +7,7 @@
     <string name="request_location_permission">"Permiso localización necesario"</string>
     <string name="running">"Ejecutando"</string>
     <string name="request_bt_enable">"Bluetooth está apagado, actívalo"</string>
-    <string name="default_device_name">"Temperatura Mija BT"</string>
+    <string name="default_device_name">"Temperatura Xiaomi BT"</string>
     <string name="action_save">"Guardar"</string>
     <string name="title_pref_db_save_period">"Intervalo de actualización de la base de datos"</string>
     <string name="title_pref_start_on_boot">"Comenzar a trabajar en segundo plano después de iniciar"</string>
@@ -22,7 +22,7 @@
     <string name="title_pref_battery">"Optimización batería"</string>
     <string name="summary_pref_battery_en">"Activado (la aplicación puede ser desactivada en segundo plano)"</string>
     <string name="summary_pref_battery_dis">"Desactivado (la aplicación no puede ser desactivada en segundo plano)"</string>
-    <string name="title_pref_background">"Trabajando en segundo plano"</string>
+    <string name="title_pref_operation">"Trabajando en segundo plano"</string>
     <string name="title_pref_service_notif_prio">"Notificación prioritaria"</string>
     <string name="title_fahr">"Grados Fahrenheit"</string>
     <string name="notif_new_device">"Detectado nuevo dispositivo"</string>
@@ -61,7 +61,7 @@
     <string name="title_pref_appearance">"Apariencia"</string>
     <string name="title_pref_database">"Base de datos"</string>
     <string name="summary_pref_appearance">"Configuración diseño de app"</string>
-    <string name="summary_pref_background">"Configuración de fondo de la app"</string>
+    <string name="summary_pref_operation">"Configuración de fondo de la app"</string>
     <string name="summary_pref_database">"Configuración de base de datos"</string>
     <string name="thingspeak_channel">"ID de canal"</string>
     <string name="thingspeak_key">"Clave de escritura de canal"</string>
@@ -113,8 +113,8 @@
     <string name="text_color">"Color de texto"</string>
     <string name="background_color">"Color de fondo"</string>
     <string name="new_version_on_play">"Nueva versión en Play"</string>
-    <string name="refresh">"¡Actualiza por favor!"</string>
-    <string name="notif_period_expired">"periodo de prueba expirado"</string>
+    <string name="please_refresh">"¡Actualiza por favor!"</string>
+    <string name="notif_period_expired">periodo de prueba expirado</string>
     <string name="unknown_error">"Error"</string>
     <string name="title_theme">"Tema"</string>
     <string name="title_pref_color_temperatue">"Color de la línea de temperatura"</string>

@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Pil optimizasyonu</string>
     <string name="summary_pref_battery_en">Etinleştirildi (çalışma arka planda durdurulabilir)</string>
     <string name="summary_pref_battery_dis">Devre dışı (uygulama arka planda durdurulmamalıdır)</string>
-    <string name="title_pref_background">Arka plan çalışması</string>
+    <string name="title_pref_operation">Arka plan çalışması</string>
     <string name="title_pref_service_notif_prio">Bildirim önceliği</string>
     <string name="title_fahr">Fahrenayt</string>
     <string name="notif_new_device">Yeni cihaz bulundu</string>
@@ -60,7 +60,7 @@
     <string name="title_pref_appearance">Görünüm</string>
     <string name="title_pref_database">Veri tabanı</string>
     <string name="summary_pref_appearance">Uygulama görünümüne bağlı ayarlar</string>
-    <string name="summary_pref_background">Uygulama arka planı çalışmasına bağlı ayarlar</string>
+    <string name="summary_pref_operation">Uygulama arka planı çalışmasına bağlı ayarlar</string>
     <string name="summary_pref_database">Veri tabanıyla ilgili ayarlar</string>
     <string name="thingspeak_channel">Kanal kimliği</string>
     <string name="thingspeak_key">Kanal Yazma Anahtarı</string>
@@ -112,7 +112,7 @@
     <string name="text_color">Yazı rengi</string>
     <string name="background_color">Arka plan rengi</string>
     <string name="new_version_on_play">Yeni sürüm Play\'de</string>
-    <string name="refresh">Lütfen yenileyin! </string>
+    <string name="please_refresh">Lütfen yenileyin! </string>
     <string name="notif_period_expired">deneme süresi sona erdi</string>
     <string name="unknown_error">Hata</string>
     <string name="title_theme">Tema</string>

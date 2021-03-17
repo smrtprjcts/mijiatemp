@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Optimização de bateria</string>
     <string name="summary_pref_battery_en">Ativado (funcionamento pode ser parado em segundo plano)</string>
     <string name="summary_pref_battery_dis">Desativado (A aplicação não deve ser parada em segundo plano)</string>
-    <string name="title_pref_background">Funcionamento em segundo plano</string>
+    <string name="title_pref_operation">Funcionamento em segundo plano</string>
     <string name="title_pref_service_notif_prio">Prioridade da notificação</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Novo dispositivo detetado</string>
@@ -60,7 +60,7 @@
     <string name="title_pref_appearance">Aspecto</string>
     <string name="title_pref_database">Base de dados</string>
     <string name="summary_pref_appearance">Aparência da aplicação depende das definições</string>
-    <string name="summary_pref_background">O funcionamento da aplicação em segundo plano depende das definições</string>
+    <string name="summary_pref_operation">O funcionamento da aplicação em segundo plano depende das definições</string>
     <string name="summary_pref_database">Definições relacionadas com a base de dados</string>
     <string name="thingspeak_channel">ID do canal</string>
     <string name="thingspeak_key">Chave de escrita do canal</string>
@@ -112,8 +112,8 @@
     <string name="text_color">Cor de texto</string>
     <string name="background_color">Cor de fundo</string>
     <string name="new_version_on_play">Nova versão na Play</string>
-    <string name="refresh">Por favor atualize!</string>
-    <string name="notif_period_expired">Período de teste expirado</string>
+    <string name="please_refresh">Por favor atualize!</string>
+    <string name="notif_period_expired">período de teste expirado</string>
     <string name="unknown_error">Erro</string>
     <string name="title_theme">Tema</string>
     <string name="title_pref_color_temperatue">Cor da linha da temperatura</string>

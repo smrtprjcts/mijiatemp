@@ -23,7 +23,7 @@
     <string name="title_pref_battery">Batterieoptimierung</string>
     <string name="summary_pref_battery_en">Eingeschaltet (die App kann im Hintergrund gestoppt werden)</string>
     <string name="summary_pref_battery_dis">Ausgeschaltet (die App sollte im Hintergrund nicht gestoppt werden)</string>
-    <string name="title_pref_background">Läuft im Hintergrund</string>
+    <string name="title_pref_operation">Läuft im Hintergrund</string>
     <string name="title_pref_service_notif_prio">Benachrichtigungspriorität</string>
     <string name="title_fahr">Fahrenheit</string>
     <string name="notif_new_device">Neues Gerät erkannt</string>
@@ -61,7 +61,7 @@
     <string name="title_pref_appearance">Erscheinungsbild</string>
     <string name="title_pref_database">Datenbank</string>
     <string name="summary_pref_appearance">Einstellungen zum Erscheinungsbild der App</string>
-    <string name="summary_pref_background">Einstellungen zum Hintergrundbetrieb der App</string>
+    <string name="summary_pref_operation">Einstellungen zum Hintergrundbetrieb der App</string>
     <string name="summary_pref_database">Einstellungen zur Datenbank</string>
     <string name="thingspeak_channel">Kanal ID</string>
     <string name="thingspeak_key">Kanal Kanal</string>
@@ -113,8 +113,8 @@
     <string name="text_color">Textfarbe</string>
     <string name="background_color">Hintergrundfarbe</string>
     <string name="new_version_on_play">Neue Version im Play-Store</string>
-    <string name="refresh">Bitte aktualisieren!</string>
-    <string name="notif_period_expired">Testzeitraum abgelaufen</string>
+    <string name="please_refresh">Bitte aktualisieren!</string>
+    <string name="notif_period_expired">testzeitraum abgelaufen</string>
     <string name="unknown_error">Fehler</string>
     <string name="title_theme">Thema</string>
     <string name="title_pref_color_temperatue">Farbe Temperatur</string>

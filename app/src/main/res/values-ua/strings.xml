@@ -22,7 +22,7 @@
     <string name="title_pref_battery">Оптимізація використання батарейки</string>
     <string name="summary_pref_battery_en">Дозволено (робота може бути припинена у фоні)</string>
     <string name="summary_pref_battery_dis">Заборонено (додаток не може бути припинений у фоні)</string>
-    <string name="title_pref_background">Робота у фоні</string>
+    <string name="title_pref_operation">Робота у фоні</string>
     <string name="title_pref_service_notif_prio">Пріоритет сповіщення</string>
     <string name="title_fahr">Фаренгейт</string>
     <string name="notif_new_device">Виявлено новий пристрій</string>
@@ -61,7 +61,7 @@
     <string name="title_pref_appearance">Вигляд</string>
     <string name="title_pref_database">Датабаза</string>
     <string name="summary_pref_appearance">Налаштування залежності зовнішнього вигляду додатка</string>
-    <string name="summary_pref_background">Фон програми працює залежно від налаштувань</string>
+    <string name="summary_pref_operation">Фон програми працює залежно від налаштувань</string>
     <string name="summary_pref_database">Налаштування датабази</string>
     <string name="thingspeak_channel">Ідентифікатор каналу</string>
     <string name="thingspeak_key">Ключ Запису Каналу</string>
@@ -115,7 +115,7 @@
     <string name="text_color">Коліртексту</string>
     <string name="background_color">Колір фону</string>
     <string name="new_version_on_play">Нова версія в Play</string>
-    <string name="refresh">Будь ласка, оновіть!</string>
+    <string name="please_refresh">Будь ласка, оновіть!</string>
     <string name="notif_period_expired">випробувальний термін закінчився</string>
     <string name="unknown_error">Помилка</string>
     <string name="title_theme">Тема</string>
