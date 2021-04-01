@@ -292,7 +292,7 @@
     <string name="title_pref_devicesettings_advert_monitoring">Monitoring in the background</string>
     <string name="summary_pref_devicesettings_advert_monitoring">App constantly monitors the data coming from this device</string>
     <string name="title_pref_devicesettings_key">Decryption key</string>
-    <string name="summary_pref_devicesettings_key">Key for decoding the encrypted data (if device is paired with MiHome)</string>
+    <string name="summary_pref_devicesettings_key">Key for decoding the encrypted advertised data (if device is bound with MiHome)</string>
     <string name="hint_key">key</string>
     <string name="warn_wrong">Wrong %1$s</string>
     <string name="open">Open</string>
@@ -347,5 +347,24 @@
     <string name="title_pref_thb_gatt">Data fetch with connection</string>
     <string name="summary_pref_thb_gatt">Temperature, humidity and battery data with connection to a device (eg. if has no encryption key)</string >
     <string name="warn_conn_disabled">Fetching data via connection is disabled in the operation settings</string>
+    <string name="title_flash">Firmware update</string>
+    <string name="summary_flash">Sensor firmware update to a new / old / custom version</string>
+    <string name="load_from_storage">Load from storage</string>
+    <string name="file">file</string>
+    <string name="warn_flashing">Firmware flashing can brick your sensor.\n\nAdvice: please be close to the sensor for the best speed and to avoid data transfer problems.</string>
+    <string name="fetch">Fetch</string>
+    <string name="hint_user">e-mail or xiaomi account id</string>
+    <string name="password">password</string>
+    <string name="info_save">Would you like to save the credentials?</string>
+    <string name="info_fetch">You can set it manually or fetch from xiaomi server with your credetials</string>
+    <string name="server">Xiaomi server country code</string>
+    <string name="warn_vpn">Please disable the VPN</string>
 
+    <string name="about">About</string>
+    <string name="app">Application</string>
+    <string name="version">Version</string>
+    <string name="developer">Developer</string>
+    <string name="unlock">Unlock</string>
+    <string name="play_store">Play Store</string>
+    <string name="wiki">Wiki page</string>
 </resources>

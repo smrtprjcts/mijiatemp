@@ -271,7 +271,7 @@
     <string name="title_pref_devicesettings_advert_monitoring">Monitorozás a háttérben</string>
     <string name="summary_pref_devicesettings_advert_monitoring">Az alkalmazás folyamatosan figyeli a háttérben a szenzor által küldött adatokat</string>
     <string name="title_pref_devicesettings_key">Titkosító kulcs</string>
-    <string name="summary_pref_devicesettings_key">A titkosított adatok dekódolásához szükséges (ha a szenzor a MiHome-al párosítva van)</string>
+    <string name="summary_pref_devicesettings_key">A titkosított adatszórás dekódolásához szükséges (ha a szenzor a MiHome-al párosítva van)</string>
     <string name="warn_wrong">Hibás %1$s</string>
     <string name="open">Megnyitás</string>
     <string name="title_pref_devicesettings_clock_read">Dátum lekérdezése</string>
@@ -325,4 +325,23 @@
     <string name="title_pref_thb_gatt">Adat lekérdezés kapcsolódással</string>
     <string name="summary_pref_thb_gatt">A hőmérséklet, páratartalom és akkumulátor adatok lekérdezése eszközhöz kapcsolódással (pl. ha nincs meg a titkosító kulcs)</string>
     <string name="warn_conn_disabled">Kapcsolódással történő (aktív) adatlekérdezés a működési menüben le van tiltva</string>
+    <string name="title_flash">Firmware frissítés</string>
+    <string name="summary_flash">Szenzor firmware frissítés új vagy akár régebbi, esetleg nem hivatalos verzióra</string>
+    <string name="load_from_storage">Betöltés tárhelyről</string>
+    <string name="file">fájl</string>
+    <string name="warn_flashing">A firmware frissítés tönkreteheti a szenzort.\n\nTanács: tartsd közel a szenzort a sebesség maximalizálás és az adatátviteli problémák elkerülésének céljából.</string>
+    <string name="fetch">Lekérés</string>
+    <string name="hint_user">e-mail vagy xiaomi fiók azonosító</string>
+    <string name="password">jelszó</string>
+    <string name="info_save">Szeretnéd menteni a bejelentkezési adatokat?</string>
+    <string name="info_fetch">Manuálisan is megadhatod, vagy lekérdezheted a megfelelő xiaomi szerverről.</string>
+    <string name="server">Xiaomi szerver országkódja</string>
+    <string name="warn_vpn">A VPN-t ki kell kapcsoni</string>
+    <string name="about">Az alkalmazásról</string>
+    <string name="app">Alkalmazás</string>
+    <string name="version">Verzió</string>
+    <string name="developer">Fejlesztő</string>
+    <string name="unlock">Feloldás</string>
+    <string name="play_store">Play Áruház</string>
+    <string name="wiki">Wiki oldal</string>
 </resources>
