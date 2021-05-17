@@ -272,6 +272,7 @@
     <string name="summary_pref_devicesettings_advert_monitoring">Az alkalmazás folyamatosan figyeli a háttérben a szenzor által küldött adatokat</string>
     <string name="title_pref_devicesettings_key">Titkosító kulcs</string>
     <string name="summary_pref_devicesettings_key">A titkosított adatszórás dekódolásához szükséges (ha a szenzor a MiHome-al párosítva van)</string>
+    <!--string name="summary_pref_devicesettings_key">Az adatok periodikus \'szórása\' titkosított. Kulcs nélkül a mért értékek lekérdezéséhez csatlakozni szükéséges a szenzorhoz, kulccsal nincs csatlakozásra szükség</string-->
     <string name="warn_wrong">Hibás %1$s</string>
     <string name="open">Megnyitás</string>
     <string name="title_pref_devicesettings_clock_read">Dátum lekérdezése</string>
@@ -329,7 +330,7 @@
     <string name="summary_flash">Szenzor firmware frissítés új vagy akár régebbi, esetleg nem hivatalos verzióra</string>
     <string name="load_from_storage">Betöltés tárhelyről</string>
     <string name="file">fájl</string>
-    <string name="warn_flashing">A firmware frissítés tönkreteheti a szenzort.\n\nTanács: tartsd közel a szenzort a sebesség maximalizálás és az adatátviteli problémák elkerülésének céljából.</string>
+    <string name="warn_flashing">Hibás firmware frissítés tönkreteheti a szenzort!\n\nTanács: a szenzor minél közelebb legyen a sebesség maximalizálás és az adatátviteli problémák minimalizálásához.</string>
     <string name="fetch">Lekérés</string>
     <string name="hint_user">e-mail vagy xiaomi fiók azonosító</string>
     <string name="password">jelszó</string>

@@ -293,6 +293,7 @@
     <string name="summary_pref_devicesettings_advert_monitoring">App constantly monitors the data coming from this device</string>
     <string name="title_pref_devicesettings_key">Decryption key</string>
     <string name="summary_pref_devicesettings_key">Key for decoding the encrypted advertised data (if device is bound with MiHome)</string>
+    <!--string name="summary_pref_devicesettings_key">Periodic data advertising is encrypted if the sensor is bound to the xiomi server. App must connect to the sensor without the key to obtain data but no connection is required with the key</string-->
     <string name="hint_key">key</string>
     <string name="warn_wrong">Wrong %1$s</string>
     <string name="open">Open</string>
@@ -351,7 +352,7 @@
     <string name="summary_flash">Sensor firmware update to a new / old / custom version</string>
     <string name="load_from_storage">Load from storage</string>
     <string name="file">file</string>
-    <string name="warn_flashing">Firmware flashing can brick your sensor.\n\nAdvice: please be close to the sensor for the best speed and to avoid data transfer problems.</string>
+    <string name="warn_flashing">Faulty firmware flashing could brick your sensor.\n\nAdvice: be close to the sensor for the best speed and to avoid data transfer problems.</string>
     <string name="fetch">Fetch</string>
     <string name="hint_user">e-mail or xiaomi account id</string>
     <string name="password">password</string>
