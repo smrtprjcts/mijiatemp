@@ -96,7 +96,9 @@
     <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Reklámmentes app extra funkciókkal</string>
     <string name="buy">Vásárlás</string>
-    <string name="desc_sku_thingspeak">ThinkSpeak integráció</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Szenzor adatok elérése távolról ingyenes <a href=\"https://thingspeak.com\">ThingSpeak</a> fiókon keresztül]]>
+    </string>
     <string name="purchased_pre" formatted="false">Megvásárolta a(z) %s</string>
     <string name="purchased_post" formatted="false">Ha bármilyen problémát talál, ne habozzon kapcsolatba lépni velem.\nKöszönöm.</string>
     <string name="purchased_pro">Pro verzió.\nAz alkalmazás mostantól hirdetésmentes.</string>
@@ -149,7 +151,7 @@
     <string name="summary_offset">Eltolás értéke a valós értéktől (nincs beállítva)</string>
     <string name="info_offset">Különbség értékek a mért és a valós közt</string>
     <string name="field_settings">Mező beállítás</string>
-    <string name="thingspeak_set">Kérjem állítsa be az api kulcs és csatorna azonosítóját</string>
+    <string name="thingspeak_set">Kérem állítsa be az api kulcs és csatorna azonosítóját</string>
     <string name="default_field">Egyedi azonosító (1–8) (még nincs beállítva)</string>
     <string name="alert">Riasztás</string>
     <string name="notification">Értesítés</string>
@@ -345,4 +347,7 @@
     <string name="unlock">Feloldás</string>
     <string name="play_store">Play Áruház</string>
     <string name="wiki">Wiki oldal</string>
+    <string name="dewpoint">Harmatpont</string>
+    <string name="title_devicesettings_dewpoint">Harmatpont megjelenítés</string>
+    <string name="summary_devicesettings_dewpoint">Hőmérsékletből és páratartalomból számolt harmatpont</string>
 </resources>

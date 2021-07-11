@@ -109,7 +109,9 @@
     <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Advert free app with extra functions</string>
     <string name="buy">Buy</string>
-    <string name="desc_sku_thingspeak">ThingSpeak integration</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
     <string name="purchased_pre" formatted="false">You purchased %s</string>
     <string name="purchased_post" formatted="false">\nIf you have any problem with it, don\'t hesitate to contact me.\nThank you.</string>
     <string name="purchased_pro">Pro version.\nApp is ad-free now.</string>
@@ -368,4 +370,7 @@
     <string name="unlock">Unlock</string>
     <string name="play_store">Play Store</string>
     <string name="wiki">Wiki page</string>
+    <string name="dewpoint">Dew point</string>
+    <string name="title_devicesettings_dewpoint">Dew point visibility</string>
+    <string name="summary_devicesettings_dewpoint">Calculated dew point from temperature and humidity</string>
 </resources>
