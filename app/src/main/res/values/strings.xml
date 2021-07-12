@@ -355,6 +355,7 @@
     <string name="load_from_storage">Load from storage</string>
     <string name="file">file</string>
     <string name="warn_flashing">Faulty firmware flashing could brick your sensor.\n\nAdvice: be close to the sensor for the best speed and to avoid data transfer problems.</string>
+    <string name="warn_flashing_not_tested">Firmware update was tested with CGG1, LYWSD03 and MHO-C401 but this sensor seems to be different.\nIf you know this sensor should be supported without warning, please drop a mail\n\nWould you like to continue?</string>
     <string name="fetch">Fetch</string>
     <string name="hint_user">e-mail or xiaomi account id</string>
     <string name="password">password</string>
@@ -373,4 +374,5 @@
     <string name="dewpoint">Dew point</string>
     <string name="title_devicesettings_dewpoint">Dew point visibility</string>
     <string name="summary_devicesettings_dewpoint">Calculated dew point from temperature and humidity</string>
+    <string name="warn_mi_key">Seems to be this sensor does not need the key</string>
 </resources>

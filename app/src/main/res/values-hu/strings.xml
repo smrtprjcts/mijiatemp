@@ -333,6 +333,7 @@
     <string name="load_from_storage">Betöltés tárhelyről</string>
     <string name="file">fájl</string>
     <string name="warn_flashing">Hibás firmware frissítés tönkreteheti a szenzort!\n\nTanács: a szenzor minél közelebb legyen a sebesség maximalizálás és az adatátviteli problémák minimalizálásához.</string>
+    <string name="warn_flashing_not_tested">A firmware frissítés CGG1, LYWSD03 és MHO-C401 lett tesztelve.\nÚgy tűnik ez a szenzor nem támogatott. Amennyiben szerinted ennek a figyelmeztetésnek nem kellene megjelennie, dobj egy e-mailt.\n\nFolytatod?</string>
     <string name="fetch">Lekérés</string>
     <string name="hint_user">e-mail vagy xiaomi fiók azonosító</string>
     <string name="password">jelszó</string>
@@ -350,4 +351,5 @@
     <string name="dewpoint">Harmatpont</string>
     <string name="title_devicesettings_dewpoint">Harmatpont megjelenítés</string>
     <string name="summary_devicesettings_dewpoint">Hőmérsékletből és páratartalomból számolt harmatpont</string>
+    <string name="warn_mi_key">Úgy tűnik ennek a szenzornak nincs szüksége a titkosító kulcsra</string>
 </resources>
