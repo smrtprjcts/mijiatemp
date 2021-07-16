@@ -64,7 +64,7 @@
     <string name="summary_pref_operation">Einstellungen zum Hintergrundbetrieb der App</string>
     <string name="summary_pref_database">Einstellungen zur Datenbank</string>
     <string name="thingspeak_channel">Kanal ID</string>
-    <string name="thingspeak_key">Kanal Kanal</string>
+    <string name="thingspeak_key">Kanal Key</string>
     <string name="no_internet_for">Internetverbindung benötigt für %s</string>
     <string name="error_thingspeak_key">Key/kanal ID Fehler</string>
     <string name="thingspeak_data_need">Key und kanal ID setzen</string>
