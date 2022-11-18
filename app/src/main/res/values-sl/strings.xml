@@ -91,10 +91,11 @@
     <string name="purchase">Trgovina</string>
     <string name="send">Pošlji…</string>
     <string name="sku_title_pro">Pro različica</string>
-    <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Oglašuj brezplačno aplikacijo z dodatnimi funkcijami</string>
     <string name="buy">Kupiti</string>
-    <string name="desc_sku_thingspeak">Integracija ThingSpeak</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
     <string name="purchased_pre" formatted="false">Kupili ste %s</string>
     <string name="purchased_post" formatted="false">Če imate težave s tem, se obrnite na mene.\nHvala vam.</string>
     <string name="purchased_pro">Pro različica.\nAplikacija je zdaj brez oglasov.</string>

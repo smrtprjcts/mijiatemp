@@ -105,10 +105,11 @@
     <string name="purchase">스토어</string>
     <string name="send">보내기…</string>
     <string name="sku_title_pro">Pro version</string>
-    <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Pro 기능을 사용할 수 있으며 광고가 제거됩니다</string>
     <string name="buy">구매하기</string>
-    <string name="desc_sku_thingspeak">ThingSpeak 통합</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
     <string name="purchased_pre" formatted="false">You purchased %s</string>
     <string name="purchased_post" formatted="false">\nIf you have any problem with it, don\'t hesitate to contact me.\nThank you</string>
     <string name="purchased_pro">Pro version.\n이제 광고가 표시되지 않습니다</string>

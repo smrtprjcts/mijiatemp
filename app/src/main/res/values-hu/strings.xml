@@ -5,6 +5,8 @@
     <string name="error_bluetooth_not_supported">Bluetooth nem támogatott</string>
     <string name="request_location_enable">A helymeghatározó szolgáltatás le van tiltva, kérlek kapcsold be</string>
     <string name="request_location_permission">Engedély szükséges a tartózkodási helyéhez</string>
+    <string name="request_bt_connect_permission">Engedély szükséges a Bluetooth csatlakozáshoz</string>
+    <string name="request_bt_scan_permission">Engedély szükséges a Bluetooth keresés</string>
     <string name="request_bt_enable">Bluetooth kikapcsolva, kérlek kapcsold be</string>
     <string name="default_device_name">Xiaomi BT szenzor</string>
     <string name="action_save">Mentés</string>
@@ -93,7 +95,6 @@
     <string name="purchase">Áruház</string>
     <string name="send">Küldés…</string>
     <string name="sku_title_pro">Pro verzió</string>
-    <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Reklámmentes app extra funkciókkal</string>
     <string name="buy">Vásárlás</string>
     <string name="desc_sku_thingspeak"><![CDATA[
@@ -255,7 +256,7 @@
     <string name="summary_pref_devicesettings_clock">A szenzort ehhez az eszköz idejéhez szinkronizálja</string>
     <string name="title_pref_appearance_mac">Szenzor cím megjelenítés</string>
     <string name="summary_pref_appearance_mac">A szenzor címének megjelenítése a kezelt szenzorok listájában</string>
-    <string name="message_translate">A fordítás közösségi összefogással készül. Amennyiben bármiféle javítandót találsz, vedd fel a kapcsolatot velem vagy te is javíhatod a githubon amit megtalálsz a főmenüből.\nKöszönet a fordítóknak</string>
+    <string name="message_translate">A fordítás közösségi összefogással készül. Amennyiben bármiféle javítandót találsz, vedd fel a kapcsolatot velem vagy te is javíhatod a githubon amit elérsz a főmenüből.\nKöszönet a fordítóknak</string>
     <string name="summary_pref_default_chart_values">Kiválasztható mi jelenjen meg a diagramon alapértelmezettként</string>
     <string name="title_pref_custom_sync">Alternatív időszinkronizáló módszer</string>
     <string name="summary_pref_custom_sync">Ha az eredeti módszerrel beállított idő hibásnak bizonyul</string>
@@ -286,7 +287,7 @@
     <string name="desc_upgraded">Nézd meg mi változott</string>
     <string name="channel_name_upgrade">Frissítés</string>
     <string name="warn_service_not_running">A szolgálatás nem fut</string>
-    <string name="warn_location_permission">Helymeghatározás engedély szükséges a Bluetoot működéséhez. Helyadatokat az alkalmazás nem használ</string>
+    <string name="warn_location_permission">Helymeghatározás engedély szükséges a Bluetooth működéséhez. Helyadatokat az alkalmazás nem használ</string>
     <string name="warn_kwgt">A valós értékek kizárólag Pro verzióval lesznek elküldve</string>
     <string name="testing">Tesztelés</string>
     <string name="warn_permission_problem">Engedély probléma</string>
@@ -332,7 +333,7 @@
     <string name="summary_flash">Szenzor firmware frissítés új vagy akár régebbi, esetleg nem hivatalos verzióra</string>
     <string name="load_from_storage">Betöltés tárhelyről</string>
     <string name="file">fájl</string>
-    <string name="warn_flashing">Hibás firmware frissítés tönkreteheti a szenzort!\n\nTanács: a szenzor minél közelebb legyen a sebesség maximalizálás és az adatátviteli problémák minimalizálásához.</string>
+    <string name="warn_flashing">A firmware frissítés kockázatos, akár tönkre is teheti a szenzort!\n\nTanács: a szenzor minél közelebb legyen a sebesség maximalizálás és az adatátviteli problémák minimalizálásához.</string>
     <string name="warn_flashing_not_tested">A firmware frissítés CGG1, LYWSD03 és MHO-C401 lett tesztelve.\nÚgy tűnik ez a szenzor nem támogatott. Amennyiben szerinted ennek a figyelmeztetésnek nem kellene megjelennie, dobj egy e-mailt.\n\nFolytatod?</string>
     <string name="fetch">Lekérés</string>
     <string name="hint_user">e-mail vagy xiaomi fiók azonosító</string>
@@ -351,5 +352,9 @@
     <string name="dewpoint">Harmatpont</string>
     <string name="title_devicesettings_dewpoint">Harmatpont megjelenítés</string>
     <string name="summary_devicesettings_dewpoint">Hőmérsékletből és páratartalomból számolt harmatpont</string>
-    <string name="warn_mi_key">Úgy tűnik ennek a szenzornak nincs szüksége a titkosító kulcsra</string>
+    <string name="info_do_a_sync">A szinkornizációs módszer megváltozott, most már az új módszerrel tudsz dátumot frissíteni</string>
+    <string name="my_apps">Alkalmazásaim</string>
+    <string name="title_new">Új</string>
+    <string name="appintro_schedule_title">Pontos időzítés</string>
+    <string name="appintro_schedule_desc">Pontos időzítéshez Android 12-től engedély megadása szükséges</string>
 </resources>

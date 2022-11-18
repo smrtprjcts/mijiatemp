@@ -92,10 +92,11 @@
     <string name="purchase">"Tienda"</string>
     <string name="send">"Enviar…"</string>
     <string name="sku_title_pro">"Versión Pro"</string>
-    <string name="sku_title_tingspeak">"ThingSpeak"</string>
     <string name="desc_sku_pro">"Aplicación sin anuncios con funciones adicionales"</string>
     <string name="buy">"Comprar"</string>
-    <string name="desc_sku_thingspeak">"Integración de ThingSpeak"</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
     <string name="purchased_pre" formatted="false">Has comprado %s</string>
     <string name="purchased_post" formatted="false">"Si tiene algún problema, no dude en ponerse en contacto conmigo. Gracias."</string>
     <string name="purchased_pro">"Versión Pro. La aplicación no contiene anuncios."</string>

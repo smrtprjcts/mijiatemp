@@ -92,15 +92,14 @@
     <string name="purchase">Магазин</string>
     <string name="send">Надіслати…</string>
     <string name="sku_title_pro">Про версія</string>
-    <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Рекламуйте безкоштовний додаток з додатковими функціями</string>
     <string name="buy">Купити</string>
-    <string name="desc_sku_thingspeak">Інтеграція ThingSpeak</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
     <string name="purchased_pre" formatted="false">Ви придбали %s</string>
-    <string name="purchased_post" formatted="false">Якщо у вас є якісь проблеми з цим, не соромтеся зв\'язатися зі мною.
-Дякую.</string>
-    <string name="purchased_pro">Про версія.
-Додаток зараз без реклами.</string>
+    <string name="purchased_post" formatted="false">Якщо у вас є якісь проблеми з цим, не соромтеся зв\'язатися зі мною.\nДякую.</string>
+    <string name="purchased_pro">Про версія.\nДодаток зараз без реклами.</string>
     <string name="purchased_thingspeak">Функція інтеграції ThingSpeak.</string>
     <string name="activity_configure">Налаштування віджета</string>
     <string name="checkbox_name_visibility">Видимість назви пристрою</string>
@@ -247,8 +246,7 @@
     <string name="summary_pref_devicesettings_clock">Синхронізуйте час із часом його пристрою Android</string>
     <string name="title_pref_appearance_mac">Видимість адреси пристрою</string>
     <string name="summary_pref_appearance_mac">Адреса, видима у списку головного екрана</string>
-    <string name="message_translate">Переклад зроблений у співпраці з громадою. Якщо ви знайдете будь-який виправлений текст, будь ласка, зв\'яжіться зі мною або просто зафіксуйте його на github, який доступний у головному меню.
-Дякую перекладачам</string>
+    <string name="message_translate">Переклад зроблений у співпраці з громадою. Якщо ви знайдете будь-який виправлений текст, будь ласка, зв\'яжіться зі мною або просто зафіксуйте його на github, який доступний у головному меню.\nДякую перекладачам</string>
     <string name="summary_pref_default_chart_values">Виберіть те, що може бути видимим за замовчуванням</string>
     <string name="help_thingspeak"><![CDATA[
     &#149; <a href=\"https://thingspeak.com/users/sign_up\">Зареєструйтесь на ThingSpeak</a> якщо у вас ще немає облікового запису<br>

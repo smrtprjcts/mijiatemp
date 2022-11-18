@@ -91,10 +91,11 @@
     <string name="purchase">Mağaza</string>
     <string name="send">Gönder…</string>
     <string name="sku_title_pro">Pro sürümü</string>
-    <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Ekstra fonksiyonlarıyla bedava uygulamayı yay</string>
     <string name="buy">Satın al</string>
-    <string name="desc_sku_thingspeak">ThingSpeak entegrasyonu</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
     <string name="purchased_pre" formatted="false">%s satın aldınız</string>
     <string name="purchased_post" formatted="false">\nBir sorun olduğunda benimle iletişime geçmekten çekinmeyiniz.\nTeşekkürler.</string>
     <string name="purchased_pro">Pro sürümü.\nUygulama artık reklamsız.</string>

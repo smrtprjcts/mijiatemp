@@ -92,10 +92,11 @@
     <string name="purchase">Store</string>
     <string name="send">Senden…</string>
     <string name="sku_title_pro">Pro Version</string>
-    <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Werbefreie App mit Extrafunktionen</string>
     <string name="buy">Kaufen</string>
-    <string name="desc_sku_thingspeak">ThingSpeak integration</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
     <string name="purchased_pre" formatted="false">Sie haben %s gekauft</string>
     <string name="purchased_post" formatted="false">\nFalls Sie Probleme mit der App haben, zögern Sie nicht mich zu kontaktieren.\nVielen Dank</string>
     <string name="purchased_pro">Pro version.\nDie app ist jetzt werbefrei.</string>
@@ -237,5 +238,36 @@
     <string name="balanced">Ausgewogen</string>
     <string name="title_pref_devicesettings_clock">Zeitsynchronisation</string>
     <string name="summary_pref_devicesettings_clock">Zeitsynchronisation zur Gerätezeit</string>
+    <string name="password">passwort</string>
+    <string name="desc_upgraded">Änderungen</string>
+    <string name="warn_vpn">Bitte VPN ausschalten</string>
+    <string name="warn_permission_problem">Zugriffsrechteproblem</string>
+    <string name="app">App</string>
+    <string name="title_pref_devicesettings_advert_monitoring">Überwachung im hintergrund</string>
+    <string name="version">Version</string>
+    <string name="title_pref_appearance_mac">Sichtbarkeit der geräteadresse</string>
+    <string name="data_sync">Datensynchronisation</string>
+    <string name="search">Suche</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="open">Öffnen</string>
+    <string name="hint_key">Schlüssel</string>
+    <string name="summary_pref_devicesettings_battery_service">Periodisch mit BT Verbindung auslesen (Umgeht Gerätefehler)</string>
+    <string name="summary_pref_devicesettings_clock_read">Datum vom gerät lesen</string>
+    <string name="title_pref_devicesettings_key">Schlüssel zum Entschlüsseln</string>
+    <string name="warn_empty_sensor_name">Name des sensors darf nicht leer sein</string>
+    <string name="warn_wrong">Falsch(e) %1$s</string>
+    <string name="warning">Warnung</string>
+    <string name="unlock">Entsperren</string>
+    <string name="info_do_a_sync">Einstellungen wurden geändert, Sie können nun erneut synchronisieren</string>
+    <string name="info_offset">Abweichung zwischen gemessenen und echten Werten</string>
+    <string name="title_pref_devicesettings_clock_read">Gelesene daten</string>
+    <string name="summary_flash">Update der sensor firmware</string>
+    <string name="load_from_storage">Aus dem Speicher laden</string>
+    <string name="warn_kwgt">Die Werte werden one die Pro Version nicht korrekt sein</string>
+    <string name="warn_service_not_running">Dienst wird nicht ausgeführt</string>
+    <string name="summary_pref_default_chart_values">Auswählen was im Default sichtbar ist</string>
+    <string name="summary_pref_custom_sync">Falls die Zeit mit der Defaultmethode nicht korrekt ist</string>
+    <string name="play_store">Play Store</string>
+    <string name="title_pref_devicesettings_battery_service">Batteriestand auslesen</string>
 
 </resources>

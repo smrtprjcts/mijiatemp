@@ -98,10 +98,11 @@ string name="short_batt">batt=</string -->
     <string name="purchase">Winkel</string>
     <string name="send">Stuur…</string>
     <string name="sku_title_pro">Pro versie</string>
-    <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Advertentievrije app met extra functies</string>
     <string name="buy">Koop</string>
-    <string name="desc_sku_thingspeak">ThingSpeak intergratie</string>
+    <string name="desc_sku_thingspeak"><![CDATA[
+        Sensor data remote access with free <a href=\"https://thingspeak.com\">ThingSpeak</a> account]]>
+    </string>
     <string name="purchased_pre" formatted="false">Jou aankoop %s</string>
     <string name="purchased_post" formatted="false">Als je er een probleem mee hebt, neem dan gerust contact met me op.\nDank je.</string>
     <string name="purchased_pro">Pro versie\nApp is nu advertentieloos</string>

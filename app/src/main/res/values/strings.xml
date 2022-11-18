@@ -7,6 +7,8 @@
 
     <string name="request_location_enable">Location service is disabled, please turn it on</string>
     <string name="request_location_permission">Location permission is needed</string>
+    <string name="request_bt_connect_permission">Bluetooth connection permission is needed</string>
+    <string name="request_bt_scan_permission">Bluetooth scan permission is needed</string>
 
     <string name="running">Running</string>
     <string name="request_bt_enable">Bluetooth is disabled, please turn it on</string>
@@ -30,8 +32,9 @@
     <string name="summary_db_reset">Stored values will be deleted</string>
 
     <string name="title_pref_battery">Battery optimization</string>
-    <string name="summary_pref_battery_en">Enabled (working can be stopped in the background)</string>
-    <string name="summary_pref_battery_dis">Disabled (app shouldn\'t be stopped in the background)</string>
+    <string name="summary_pref_battery_en">Enabled (proper operation in the background is not guaranteed, e.g notifications may be lost)</string>
+    <string name="summary_pref_battery_dis">Disabled (app should also work properly in the background)</string>
+
     <string name="title_pref_operation">Operating</string>
 
     <string name="title_pref_service_notif_prio">Notification priority</string>
@@ -106,7 +109,6 @@
     <string name="purchase">Store</string>
     <string name="send">Send…</string>
     <string name="sku_title_pro">Pro version</string>
-    <string name="sku_title_tingspeak">ThingSpeak</string>
     <string name="desc_sku_pro">Advert free app with extra functions</string>
     <string name="buy">Buy</string>
     <string name="desc_sku_thingspeak"><![CDATA[
@@ -280,7 +282,7 @@
     <string name="summary_pref_default_chart_values">Select what can be visible by default</string>
     <string name="title_pref_custom_sync">Custom time sync method</string>
     <string name="summary_pref_custom_sync">If the time is incorrect with the default method</string>
-    <string name="title_pref_background_new_device_detection">New device detection</string>
+    <string name="title_pref_background_new_device_detection">New sensor detection</string>
     <string name="snack_bar_undo">Undo</string>
     <string name="info_deleted">Device deleted</string>
     <string name="data_sync">Data synchronization</string>
@@ -354,7 +356,7 @@
     <string name="summary_flash">Sensor firmware update to a new / old / custom version</string>
     <string name="load_from_storage">Load from storage</string>
     <string name="file">file</string>
-    <string name="warn_flashing">Faulty firmware flashing could brick your sensor.\n\nAdvice: be close to the sensor for the best speed and to avoid data transfer problems.</string>
+    <string name="warn_flashing">Firmware flashing is risky and could brick your sensor.\n\nAdvice: be close to the sensor for the best speed and to avoid data transfer problems.</string>
     <string name="warn_flashing_not_tested">Firmware update was tested with CGG1, LYWSD03 and MHO-C401 but this sensor seems to be different.\nIf you know this sensor should be supported without warning, please drop a mail\n\nWould you like to continue?</string>
     <string name="fetch">Fetch</string>
     <string name="hint_user">e-mail or xiaomi account id</string>
@@ -374,5 +376,9 @@
     <string name="dewpoint">Dew point</string>
     <string name="title_devicesettings_dewpoint">Dew point visibility</string>
     <string name="summary_devicesettings_dewpoint">Calculated dew point from temperature and humidity</string>
-    <string name="warn_mi_key">Seems to be this sensor does not need the key</string>
+    <string name="info_do_a_sync">Method has changed, you can now sync the date with the new method</string>
+    <string name="my_apps">My apps</string>
+    <string name="title_new">New</string>
+    <string name="appintro_schedule_title">Schedule in exact time</string>
+    <string name="appintro_schedule_desc">Need a permission for scheduling in exact time from Android 12</string>
 </resources>
